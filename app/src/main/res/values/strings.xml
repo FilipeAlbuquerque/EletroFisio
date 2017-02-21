@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Teste11</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="botao_logar">Logar</string>
+    <string name="crie_conta">Crie uma conta!</string>
+    <string name="botao_cadastro">Cadastrar</string>
+    <string name="fazer_login">Faça login!</string>
+</resources>
