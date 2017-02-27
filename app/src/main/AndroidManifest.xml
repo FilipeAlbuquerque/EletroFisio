@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".activity.LoginActivity"
+            android:name=".activity.MainActivity"
             android:label="EletroFisio"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -25,7 +25,7 @@
         </activity>
         <activity android:name=".activity.TensActivity" />
         <activity android:name=".activity.TensConvActivity" />
-        <activity android:name=".activity.MainActivity" />
+        <activity android:name=".activity.LoginActivity" />
         <activity android:name=".activity.CadastroActivity"></activity>
     </application>
 
