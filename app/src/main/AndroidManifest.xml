@@ -23,10 +23,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.TensActivity" />
-        <activity android:name=".activity.TensConvActivity" />
+        <activity android:name=".activity.TENS.TensActivity" />
+        <activity android:name=".activity.TENS.TensConvActivity" />
         <activity android:name=".activity.LoginActivity" />
-        <activity android:name=".activity.CadastroActivity"></activity>
+        <activity android:name=".activity.CadastroActivity" />
+        <activity android:name=".activity.Fes.FesActivity" />
+        <activity android:name=".activity.UltraSom.UltraSomActivity" />
+        <activity android:name=".activity.Laser.LaserActivity" />
+        <activity android:name=".activity.Russa.RussaActivity" />
+        <activity android:name=".activity.OndasCurtas.OndasCurtasActivity" />
+        <activity android:name=".activity.Interferencial.InterferencialActivity" />
+        <activity android:name=".activity.TENS.BreveIntensaActivity" />
+        <activity android:name=".activity.TENS.BurstActivity" />
+        <activity android:name=".activity.TENS.AcupunturalActivity" />
+        <activity android:name=".activity.TENS.IndicacoesTensActivity" />
+        <activity android:name=".activity.TENS.ContraTensActivity"></activity>
     </application>
 
 </manifest>

@@ -12,7 +12,7 @@
 
 
     <TextView
-        android:text="TENS Convencional"
+        android:text="TENS Burst"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/id_tensConv"
@@ -26,7 +26,7 @@
         android:textColor="@android:color/background_dark" />
 
     <TextView
-        android:text="- 40us a 80us"
+        android:text="- 100us a 200us"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView9"
@@ -40,21 +40,7 @@
         android:layout_marginStart="16dp" />
 
     <TextView
-        android:text="Fase Aguda"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView12"
-        android:textSize="24sp"
-        android:textStyle="normal|bold"
-        android:layout_marginTop="35dp"
-        tools:ignore="HardcodedText"
-        android:layout_below="@+id/id_tensConv"
-        android:layout_alignLeft="@+id/textView4"
-        android:layout_alignStart="@+id/textView4"
-        android:textColor="@android:color/background_dark" />
-
-    <TextView
-        android:text="Analgesia pela Teoria das Comportas da dor"
+        android:text="Analgesia pela liberação de beta- endorfinas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView11"
@@ -68,7 +54,7 @@
         android:textStyle="normal|bold" />
 
     <TextView
-        android:text="Frequencia Otimizada"
+        android:text="Tempo Aplicação"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView8"
@@ -81,7 +67,7 @@
         tools:ignore="HardcodedText" />
 
     <TextView
-        android:text="- 80Hz"
+        android:text="- 30 a 40min"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView14"
@@ -93,18 +79,6 @@
         android:layout_marginLeft="12dp"
         android:layout_marginStart="12dp"
         tools:ignore="HardcodedText" />
-
-    <TextView
-        android:text="- 50Hz  a 100Hz"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView4"
-        android:textSize="18sp"
-        tools:ignore="HardcodedText"
-        android:layout_below="@+id/textView11"
-        android:layout_alignRight="@+id/textView14"
-        android:layout_alignEnd="@+id/textView14"
-        android:layout_marginTop="27dp" />
 
     <TextView
         android:text="Frequencia"
@@ -133,7 +107,7 @@
         android:layout_marginTop="17dp" />
 
     <TextView
-        android:text="Tempo Analgesia"
+        android:text="Inicio Analgesia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView13"
@@ -143,18 +117,6 @@
         android:id="@+id/textView15"
         android:textSize="18sp"
         android:textStyle="normal|bold"
-        tools:ignore="HardcodedText" />
-
-    <TextView
-        android:text="- 20min a 2h"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView16"
-        android:textSize="18sp"
-        android:layout_alignBaseline="@+id/textView15"
-        android:layout_alignBottom="@+id/textView15"
-        android:layout_alignRight="@+id/textView9"
-        android:layout_alignEnd="@+id/textView9"
         tools:ignore="HardcodedText" />
 
     <Button
@@ -180,6 +142,44 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:text="- 1 a 2Hz / 2 a 5Hz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/textView11"
+        android:layout_alignRight="@+id/textView9"
+        android:layout_alignEnd="@+id/textView9" />
+
+    <TextView
+        android:text="- 10 a 30min"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView16"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText"
+        android:layout_alignBaseline="@+id/textView15"
+        android:layout_alignBottom="@+id/textView15"
+        android:layout_toRightOf="@+id/textView13"
+        android:layout_toEndOf="@+id/textView13" />
+
+    <TextView
+        android:text="Fase Crônica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView12"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        android:layout_marginTop="35dp"
+        tools:ignore="HardcodedText"
+        android:textColor="@android:color/background_dark"
+        android:layout_below="@+id/id_tensConv"
+        android:layout_toRightOf="@+id/textView3"
+        android:layout_toEndOf="@+id/textView3" />
 
 
 </RelativeLayout>

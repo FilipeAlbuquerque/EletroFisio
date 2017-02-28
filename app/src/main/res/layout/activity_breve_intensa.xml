@@ -12,7 +12,7 @@
 
 
     <TextView
-        android:text="TENS Convencional"
+        android:text="TENS Breve/Intensa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/id_tensConv"
@@ -26,7 +26,7 @@
         android:textColor="@android:color/background_dark" />
 
     <TextView
-        android:text="- 40us a 80us"
+        android:text="- 150us a 250us"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView9"
@@ -54,7 +54,7 @@
         android:textColor="@android:color/background_dark" />
 
     <TextView
-        android:text="Analgesia pela Teoria das Comportas da dor"
+        android:text="Analgesia pela ativação de aferentes cutâneos A-delta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView11"
@@ -68,7 +68,7 @@
         android:textStyle="normal|bold" />
 
     <TextView
-        android:text="Frequencia Otimizada"
+        android:text="Tempo de Aplicação"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView8"
@@ -81,7 +81,7 @@
         tools:ignore="HardcodedText" />
 
     <TextView
-        android:text="- 80Hz"
+        android:text="- 15min"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView14"
@@ -95,7 +95,7 @@
         tools:ignore="HardcodedText" />
 
     <TextView
-        android:text="- 50Hz  a 100Hz"
+        android:text="- 50Hz  a 150Hz"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView4"
@@ -145,18 +145,6 @@
         android:textStyle="normal|bold"
         tools:ignore="HardcodedText" />
 
-    <TextView
-        android:text="- 20min a 2h"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView16"
-        android:textSize="18sp"
-        android:layout_alignBaseline="@+id/textView15"
-        android:layout_alignBottom="@+id/textView15"
-        android:layout_alignRight="@+id/textView9"
-        android:layout_alignEnd="@+id/textView9"
-        tools:ignore="HardcodedText" />
-
     <Button
         android:text="Voltar para Inicio"
         android:layout_width="match_parent"
@@ -180,6 +168,18 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:text="- Durante aplicação"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView16"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText"
+        android:layout_alignBaseline="@+id/textView15"
+        android:layout_alignBottom="@+id/textView15"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_alignStart="@+id/textView9" />
 
 
 </RelativeLayout>

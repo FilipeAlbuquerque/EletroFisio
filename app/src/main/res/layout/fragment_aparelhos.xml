@@ -5,19 +5,136 @@
     tools:context="eletrofisio.com.teste11.fragments.AparelhosFragment">
 
 
-    <TextView
+
+    <Button
+        android:text="FES"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fundo_botao"
+        android:id="@+id/botao_fes"
+        android:textSize="24sp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_alignBaseline="@+id/botao_tens"
+        android:layout_alignBottom="@+id/botao_tens"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp"
+        tools:ignore="HardcodedText"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:text="ULTRA SOM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fundo_botao"
+        android:layout_below="@+id/botao_tens"
+        android:layout_alignLeft="@+id/botao_tens"
+        android:layout_alignStart="@+id/botao_tens"
+        android:layout_marginTop="58dp"
+        android:id="@+id/botao_ultra_som"
+        android:textSize="24sp"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp"
+        tools:ignore="HardcodedText"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:text="LASER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/botaoLaser"
+        android:background="@drawable/fundo_botao"
+        android:layout_alignBaseline="@+id/botao_ultra_som"
+        android:layout_alignBottom="@+id/botao_ultra_som"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_alignLeft="@+id/botao_fes"
+        android:layout_alignStart="@+id/botao_fes"
+        android:textSize="24sp"
+        tools:ignore="HardcodedText"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:text="RUSSA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fundo_botao"
+        android:layout_below="@+id/botao_ultra_som"
+        android:layout_alignLeft="@+id/botao_ultra_som"
+        android:layout_alignStart="@+id/botao_ultra_som"
+        android:layout_marginTop="49dp"
+        android:id="@+id/botaoRussa"
+        android:textSize="24sp"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:text="ONDAS CURTAS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fundo_botao"
+        android:layout_alignBottom="@+id/botaoRussa"
+        android:layout_alignLeft="@+id/botaoLaser"
+        android:layout_alignStart="@+id/botaoLaser"
+        android:id="@+id/botaoOndasCurtas"
+        android:textSize="18sp"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:text="INTERFERENCIAL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/fundo_botao"
+        android:id="@+id/botaoInterferencial"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/botaoRussa"
+        android:layout_alignLeft="@+id/botaoRussa"
+        android:layout_alignStart="@+id/botaoRussa" />
+
+    <Button
         android:text="TENS"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/fundo_botao"
+        android:id="@+id/botao_tens"
+        tools:ignore="HardcodedText"
+        android:textSize="24sp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="73dp"
+        android:textStyle="normal|bold"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="149dp"
-        android:layout_marginStart="149dp"
-        android:layout_marginTop="185dp"
-        android:id="@+id/text_tens"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Voltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/botaoInterferencial"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:id="@+id/botaoVoltar"
+        android:background="@drawable/fundo_botao"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="APARELHOS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView23"
+        android:textSize="24sp"
+        android:layout_marginTop="12dp"
         android:textStyle="normal|bold"
-        android:textSize="30sp"
-        tools:ignore="HardcodedText"
-        android:onClick="chamadaTens" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
 </RelativeLayout>
+

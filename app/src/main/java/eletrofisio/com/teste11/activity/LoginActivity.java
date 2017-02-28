@@ -12,7 +12,7 @@ import com.parse.LogInCallback;
 import com.parse.ParseException;
 import com.parse.ParseUser;
 
-import eletrofisio.com.teste11.ParseErros;
+import eletrofisio.com.teste11.util.ParseErros;
 import eletrofisio.com.teste11.R;
 
 

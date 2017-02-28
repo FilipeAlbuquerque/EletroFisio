@@ -2,18 +2,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="eletrofisio.com.teste11.fragments.ContraIndicacaoFragment">
+    tools:context="eletrofisio.com.teste11.fragments.IndicacoesFragment">
 
 
     <TextView
-        android:text="CONTRA-INDICAÇÃO"
+        android:text="INDICAÇÕES"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="218dp"
-        android:id="@+id/textView2"
-        android:textSize="18sp"
-        android:textStyle="normal|bold"
-        tools:ignore="HardcodedText" />
+        android:layout_marginTop="242dp"
+        android:id="@+id/textView6"
+        android:textSize="24sp"
+        android:textStyle="normal|bold" />
 </RelativeLayout>

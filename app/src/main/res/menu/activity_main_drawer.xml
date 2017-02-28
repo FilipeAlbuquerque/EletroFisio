@@ -3,18 +3,28 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/ic_home"
+            android:id="@+id/ic_inicio"
             android:icon="@drawable/ic_home"
             android:title="Início" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:id="@+id/nav_aparelhos"
+            android:icon="@drawable/ic_business_center"
+            android:title="Aparelhos" />
+
+        <item
+            android:id="@+id/ic_indicacoes"
+            android:icon="@drawable/ic_action_like"
+            android:title="Indicações Gerais" />
+
+        <item
+            android:id="@+id/ic_contra"
+            android:icon="@drawable/ic_thumb_down"
+            android:title="Contra-indicações" />
 
 
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Extras">
         <menu>
             <item
                 android:id="@+id/nav_share"
@@ -24,14 +34,6 @@
         </menu>
     </item>
 
-    <item android:title="Contra-indicações">
-        <menu>
-            <item
-                android:id="@+id/ic_contra"
-                android:icon="@drawable/ic_thumb_down"
-                android:title="Share" />
 
-        </menu>
-    </item>
 
 </menu>

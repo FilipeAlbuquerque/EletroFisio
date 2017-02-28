@@ -10,12 +10,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Toast;
 
 import eletrofisio.com.teste11.R;
 import eletrofisio.com.teste11.fragments.AparelhosFragment;
-import eletrofisio.com.teste11.fragments.CameraFragment;
-import eletrofisio.com.teste11.fragments.GalleryFragment;
+import eletrofisio.com.teste11.fragments.ContraIndicacaoFragment;
+import eletrofisio.com.teste11.fragments.IndicacoesFragment;
+import eletrofisio.com.teste11.fragments.InicioFragment;
 import eletrofisio.com.teste11.fragments.ShareFragment;
 
 public class MainActivity extends AppCompatActivity
@@ -42,14 +42,14 @@ public class MainActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
 
-        AparelhosFragment aparelhosFragment = AparelhosFragment.newInstance("some1", "some2");
+        //Chamando a tela Inicio
+        InicioFragment inicioFragment = new InicioFragment();
         FragmentManager manager = getSupportFragmentManager();
-        manager.beginTransaction().replace(R.id.relativelayout_for_fragment, aparelhosFragment,
-                aparelhosFragment.getTag())
+        manager.beginTransaction().replace(R.id.relativelayout_for_fragment, inicioFragment,
+                inicioFragment.getTag())
                 .commit();
 
     }
-
 
     @Override
     public void onBackPressed() {
@@ -73,12 +73,14 @@ public class MainActivity extends AppCompatActivity
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
+
+
+       /* int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
-        }
+        }*/
 
         return super.onOptionsItemSelected(item);
     }
@@ -89,31 +91,49 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.ic_home) {
-            // Handle the camera action
-            CameraFragment cameraFragment = new CameraFragment();
+        if (id == R.id.ic_inicio) {
+            // Chamando a home
+            InicioFragment inicioFragment = new InicioFragment();
             FragmentManager manager = getSupportFragmentManager();
-            manager.beginTransaction().replace(R.id.relativelayout_for_fragment, cameraFragment,
-                    cameraFragment.getTag())
+            manager.beginTransaction().replace(R.id.relativelayout_for_fragment, inicioFragment,
+                    inicioFragment.getTag())
                     .commit();
 
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.nav_aparelhos) {
 
-            Toast.makeText(this, "Gallery",Toast.LENGTH_LONG ).show();
-            GalleryFragment galleryFragment = GalleryFragment.newInstance("some1", "some2");
+            //Toast.makeText(this, "Gallery",Toast.LENGTH_LONG ).show();
+            AparelhosFragment aparelhosFragment = AparelhosFragment.newInstance("some1", "some2");
             FragmentManager manager = getSupportFragmentManager();
-            manager.beginTransaction().replace(R.id.relativelayout_for_fragment, galleryFragment,
-                    galleryFragment.getTag())
+            manager.beginTransaction().replace(R.id.relativelayout_for_fragment, aparelhosFragment,
+                    aparelhosFragment.getTag())
                     .commit();
 
 
         } else if (id == R.id.nav_share) {
 
-            Toast.makeText(this, "Share", Toast.LENGTH_LONG).show();
+            //Toast.makeText(this, "Share", Toast.LENGTH_LONG).show();
             ShareFragment shareFragment = ShareFragment.newInstance("some1", "some2");
             FragmentManager manager = getSupportFragmentManager();
             manager.beginTransaction().replace(R.id.relativelayout_for_fragment, shareFragment,
                     shareFragment.getTag())
+                    .commit();
+
+        } else if (id == R.id.ic_contra) {
+
+            //Toast.makeText(this, "Contra-Indicações", Toast.LENGTH_LONG).show();
+            ContraIndicacaoFragment contraIndicacaoFragment = ContraIndicacaoFragment.newInstance("some1", "some2");
+            FragmentManager manager = getSupportFragmentManager();
+            manager.beginTransaction().replace(R.id.relativelayout_for_fragment, contraIndicacaoFragment,
+                    contraIndicacaoFragment.getTag())
+                    .commit();
+
+        }else if (id == R.id.ic_indicacoes) {
+
+            //Toast.makeText(this, "Contra-Indicações", Toast.LENGTH_LONG).show();
+            IndicacoesFragment indicacoesFragment = IndicacoesFragment.newInstance("some1", "some2");
+            FragmentManager manager = getSupportFragmentManager();
+            manager.beginTransaction().replace(R.id.relativelayout_for_fragment, indicacoesFragment,
+                    indicacoesFragment.getTag())
                     .commit();
         }
 

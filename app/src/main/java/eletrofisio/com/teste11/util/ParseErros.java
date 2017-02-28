@@ -1,4 +1,4 @@
-package eletrofisio.com.teste11;
+package eletrofisio.com.teste11.util;
 
 import java.util.HashMap;
 
@@ -16,11 +16,9 @@ public class ParseErros {
         this.erros.put(203, "Email já existe, utilize outro!");
         this.erros.put(204, "Email não preenchido!");
 
-
     }
 
     public String getErro(int codErro){
         return this.erros.get( codErro );
     }
-
 }
