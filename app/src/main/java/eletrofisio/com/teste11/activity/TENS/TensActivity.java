@@ -105,14 +105,13 @@ public class TensActivity extends AppCompatActivity {
                 manager.beginTransaction().replace(R.id.relativelayout_for_fragment, inicioFragment,
                         inicioFragment.getTag())
                         .commit();*/
-                Intent intent = new Intent(TensActivity.this, MainActivity.class);
+
+               Intent intent = new Intent(TensActivity.this, MainActivity.class);
                 startActivity( intent );
                 finish();
 
             }
         });
-
-
 
     }
 

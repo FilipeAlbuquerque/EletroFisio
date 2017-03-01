@@ -10,6 +10,12 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".activity.TENS.TensActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/container"
+        android:orientation="vertical"></LinearLayout>
+    
     <TextView
         android:text="TENS"
         android:layout_width="wrap_content"
@@ -23,6 +29,7 @@
         android:text="Convencional"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/fundo_caixa_texto"
         android:id="@+id/botaoConvencional"
         android:layout_alignBaseline="@+id/botaoBreveIntensa"
         android:layout_alignBottom="@+id/botaoBreveIntensa"
@@ -33,6 +40,7 @@
         android:text="Breve/Intensa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/fundo_caixa_texto"
         android:id="@+id/botaoBreveIntensa"
         android:layout_below="@+id/textView22"
         android:layout_alignParentRight="true"
@@ -43,6 +51,7 @@
         android:text="BURST"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/fundo_caixa_texto"
         android:id="@+id/botaoBurst"
         android:layout_below="@+id/botaoConvencional"
         android:layout_alignParentLeft="true"
@@ -54,26 +63,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/botaoAcupuntural"
+        android:background="@drawable/fundo_caixa_texto"
         android:layout_alignBaseline="@+id/botaoBurst"
         android:layout_alignBottom="@+id/botaoBurst"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
-    <Button
-        android:text="Voltar para Inicio"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="26dp"
-        android:id="@+id/id_botaoVoltar"
-        tools:ignore="HardcodedText"
-        android:layout_alignParentBottom="true"
-        android:layout_toRightOf="@+id/botaoBurst"
-        android:layout_toEndOf="@+id/botaoBurst" />
 
     <Button
         android:text="Indicações"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/fundo_caixa_texto"
         android:id="@+id/botaoIndicacoes"
         android:layout_above="@+id/id_botaoVoltar"
         android:layout_alignParentLeft="true"
@@ -84,8 +85,23 @@
         android:text="Contra-Indicações"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/fundo_caixa_texto"
         android:layout_alignTop="@+id/botaoIndicacoes"
         android:id="@+id/botaoContraIndicacoes"
         android:layout_toEndOf="@+id/textView22"
-        android:textSize="14sp" />
+        android:textSize="14sp"
+        android:layout_toRightOf="@+id/textView22" />
+
+    <Button
+        android:text="Voltar para Inicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fundo_caixa_texto"
+        android:layout_marginBottom="23dp"
+        android:id="@+id/id_botaoVoltar"
+        tools:ignore="HardcodedText"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/botaoConvencional"
+        android:layout_toEndOf="@+id/botaoConvencional" />
+
 </RelativeLayout>

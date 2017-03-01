@@ -8,20 +8,69 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="eletrofisio.com.teste11.activity.Fes.FesActivity">
+    tools:context="eletrofisio.com.teste11.activity.Fes.FesActivity"
+    >
 
+
+    <Button
+        android:text="Parâmetros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fundo_caixa_texto"
+        android:id="@+id/botao_parametros_fes"
+        android:textSize="18sp"
+        android:layout_above="@+id/botao_indicacoes_fes"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="47dp"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:text="Indicações"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/botao_indicacoes_fes"
+        android:background="@drawable/fundo_caixa_texto"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:text="Contra-indicações"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/botao_contra_fes"
+        android:background="@drawable/fundo_caixa_texto"
+        android:layout_alignTop="@+id/botao_indicacoes_fes"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="13dp"
+        android:layout_marginEnd="13dp"
+        android:textStyle="normal|bold" />
 
     <TextView
         android:text="FES"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="135dp"
-        android:layout_marginStart="135dp"
-        android:layout_marginTop="185dp"
-        android:id="@+id/textView10"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:id="@+id/textView34"
         android:textSize="30sp"
         android:textStyle="normal|bold" />
+
+    <Button
+        android:text="Voltar para Inicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_botaoVoltar"
+        android:background="@drawable/fundo_caixa_texto"
+        tools:ignore="HardcodedText"
+        android:textStyle="normal|bold"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="63dp" />
+
 </RelativeLayout>

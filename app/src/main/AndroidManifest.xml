@@ -37,7 +37,10 @@
         <activity android:name=".activity.TENS.BurstActivity" />
         <activity android:name=".activity.TENS.AcupunturalActivity" />
         <activity android:name=".activity.TENS.IndicacoesTensActivity" />
-        <activity android:name=".activity.TENS.ContraTensActivity"></activity>
+        <activity android:name=".activity.TENS.ContraTensActivity" />
+        <activity android:name=".activity.Fes.ParametrosFESActivity" />
+        <activity android:name=".activity.Fes.IndicacoesFESActivity" />
+        <activity android:name=".activity.Fes.ContraFESActivity"></activity>
     </application>
 
 </manifest>

@@ -11,11 +11,7 @@
     android:gravity="center_vertical|center_horizontal"
     tools:context="eletrofisio.com.teste11.activity.LoginActivity">
 
-    <RelativeLayout
 
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:ignore="UselessParent">
 
         <ImageView
             android:layout_width="140dp"
@@ -37,7 +33,9 @@
             android:id="@+id/edit_login_usuario"
             android:layout_below="@+id/imageView"
             android:layout_marginTop="10dp"
-            tools:ignore="HardcodedText" />
+            tools:ignore="HardcodedText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
 
         <EditText
             android:layout_width="match_parent"
@@ -51,8 +49,6 @@
             android:ems="10"
             android:id="@+id/edit_login_senha"
             android:layout_below="@+id/edit_login_usuario"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
             android:layout_marginTop="10dp"
             tools:ignore="HardcodedText" />
 
@@ -83,7 +79,7 @@
 
 
 
-    </RelativeLayout>
+
 
 
 
