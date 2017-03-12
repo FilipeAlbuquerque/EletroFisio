@@ -14,14 +14,202 @@
         android:text="Ultra Som"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="97dp"
-        android:layout_marginStart="97dp"
-        android:layout_marginTop="210dp"
         android:id="@+id/textView17"
         android:textStyle="normal|bold"
-        android:textSize="30sp"
+        android:textSize="24sp"
+        tools:ignore="HardcodedText"
         android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Modo Pulsado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView17"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        tools:ignore="HardcodedText" />
+        android:layout_marginTop="49dp"
+        android:id="@+id/textView53"
+        android:textSize="16sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="- Fase Aguda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView53"
+        android:layout_toRightOf="@+id/textView53"
+        android:layout_toEndOf="@+id/textView53"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:id="@+id/textView54"
+        android:textSize="16sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="Modo Contínuo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView53"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView55"
+        android:textStyle="normal|bold"
+        android:textSize="16sp" />
+
+    <TextView
+        android:text="- Fase Crônica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView55"
+        android:layout_alignLeft="@+id/textView54"
+        android:layout_alignStart="@+id/textView54"
+        android:id="@+id/textView57"
+        android:textStyle="normal|bold"
+        android:textSize="16sp" />
+
+    <TextView
+        android:text="- Efeito Mecânico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView54"
+        android:layout_toRightOf="@+id/textView57"
+        android:layout_toEndOf="@+id/textView57"
+        android:id="@+id/textView58"
+        android:textSize="16sp"
+        android:textStyle="normal|bold"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:text="- Efeito Térmico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView57"
+        android:layout_toRightOf="@+id/textView17"
+        android:layout_toEndOf="@+id/textView17"
+        android:id="@+id/textView59"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:textColor="#6f0000" />
+
+    <TextView
+        android:text="1MHz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView55"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="44dp"
+        android:id="@+id/textView60"
+        android:textSize="16sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="- 3cm a 4cm de profundidade da onda."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView61"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:layout_alignBaseline="@+id/textView60"
+        android:layout_alignBottom="@+id/textView60"
+        android:layout_toRightOf="@+id/textView60"
+        android:layout_toEndOf="@+id/textView60"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:text="3MHz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView60"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="22dp"
+        android:id="@+id/textView62"
+        android:textSize="16sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="- 1cm a 2cm de profundidade da onda."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView62"
+        android:layout_alignLeft="@+id/textView61"
+        android:layout_alignStart="@+id/textView61"
+        android:id="@+id/textView63"
+        android:textSize="16sp"
+        android:textStyle="normal|bold"
+        android:textColor="#630101" />
+
+    <Button
+        android:text="Efeitos Terapêuticos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt_efeitos_ultrasom"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/fundo_caixa_texto"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="27dp"
+        android:id="@+id/bt_terapeutica_ultrasom"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:text="Téc. Aplicação"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fundo_caixa_texto"
+        android:layout_alignTop="@+id/bt_terapeutica_ultrasom"
+        android:id="@+id/bt_tecnica_ultrassom"
+        android:textStyle="normal|bold"
+        android:layout_toRightOf="@+id/textView54"
+        android:layout_toEndOf="@+id/textView54" />
+
+    <Button
+        android:text="Efeitos Fisiológicos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fundo_caixa_texto"
+        android:layout_marginTop="20dp"
+        android:id="@+id/bt_efeitos_ultrasom"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/textView63"
+        android:layout_alignRight="@+id/textView63"
+        android:layout_alignEnd="@+id/textView63" />
+
+    <Button
+        android:text="Voltar para Início"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/fundo_caixa_texto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="13dp"
+        android:id="@+id/botaoVoltarUltrassom"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:text="Exemplo Prático"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt_terapeutica_ultrasom"
+        android:background="@drawable/fundo_caixa_texto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:id="@+id/bt_exemplo_ultrassom"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:text="Dosimetria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fundo_caixa_texto"
+        android:id="@+id/bt_dosimetria_ultrasom"
+        android:textStyle="normal|bold"
+        android:layout_above="@+id/bt_terapeutica_ultrasom"
+        android:layout_toLeftOf="@+id/botaoVoltarUltrassom"
+        android:layout_toStartOf="@+id/botaoVoltarUltrassom" />
+
 </RelativeLayout>

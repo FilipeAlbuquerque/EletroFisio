@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="eletrofisio.com.teste11.activity.UltraSom.EfeitosTerapeuticosUSActivity">
+
+    <TextView
+        android:id="@+id/textView69"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:text="Efeitos Terapêuticos do Ultra-som"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView69"
+        android:layout_alignStart="@+id/textView69"
+        android:layout_below="@+id/textView69"
+        android:layout_marginTop="79dp"
+        android:text="- Anti-inflamatório;"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView78"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView70"
+        android:layout_alignStart="@+id/textView70"
+        android:layout_below="@+id/textView70"
+        android:layout_marginTop="38dp"
+        android:text="- Analgésico;"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView79"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:text="- Regeneração tissular e reparo de tecidos;"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView78"
+        android:layout_alignLeft="@+id/textView78"
+        android:layout_alignStart="@+id/textView78" />
+
+    <TextView
+        android:id="@+id/textView80"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView79"
+        android:layout_alignStart="@+id/textView79"
+        android:layout_below="@+id/textView79"
+        android:layout_marginTop="43dp"
+        android:text="- Relaxamento muscular;"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView81"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView80"
+        android:layout_alignStart="@+id/textView80"
+        android:layout_below="@+id/textView80"
+        android:layout_marginTop="43dp"
+        android:text="- Regeneração Óssea."
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/botaoVoltarUS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:text="voltar"
+        android:background="@drawable/fundo_caixa_texto"
+        android:layout_below="@+id/textView81"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

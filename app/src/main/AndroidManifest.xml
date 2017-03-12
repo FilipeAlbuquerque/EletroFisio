@@ -40,7 +40,12 @@
         <activity android:name=".activity.TENS.ContraTensActivity" />
         <activity android:name=".activity.Fes.ParametrosFESActivity" />
         <activity android:name=".activity.Fes.IndicacoesFESActivity" />
-        <activity android:name=".activity.Fes.ContraFESActivity"></activity>
+        <activity android:name=".activity.Fes.ContraFESActivity" />
+        <activity android:name=".activity.UltraSom.EfeitosUltrassomActivity" />
+        <activity android:name=".activity.UltraSom.DosimetriaActivity" />
+        <activity android:name=".activity.UltraSom.EfeitosTerapeuticosUSActivity" />
+        <activity android:name=".activity.UltraSom.TecnicaAplicaUSActivity" />
+        <activity android:name=".activity.UltraSom.ExemploEraActivity"></activity>
     </application>
 
 </manifest>

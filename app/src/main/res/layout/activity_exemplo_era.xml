@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="eletrofisio.com.teste11.activity.UltraSom.ExemploEraActivity">
+
+
+    <TextView
+        android:id="@+id/textView88"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:text="Exemplo de utilização do cálculo da ERA"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView89"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView88"
+        android:layout_marginTop="67dp"
+        android:text="Ex.:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignLeft="@+id/textView88"
+        android:layout_alignStart="@+id/textView88" />
+
+    <TextView
+        android:id="@+id/textView90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Área a ser tratada:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView89"
+        android:layout_alignLeft="@+id/textView89"
+        android:layout_alignStart="@+id/textView89" />
+
+    <TextView
+        android:id="@+id/textView91"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10cm de comprimento e 4cm de largura."
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/textView90"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView92"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView90"
+        android:layout_alignStart="@+id/textView90"
+        android:layout_centerVertical="true"
+        android:text="Tamanho da ERA do Ultra-som:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView94"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView92"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="5cm²"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView95"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:text="Então     -> "
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView94"
+        android:layout_toLeftOf="@+id/textView96"
+        android:layout_toStartOf="@+id/textView96"
+        android:layout_marginRight="11dp"
+        android:layout_marginEnd="11dp" />
+
+    <TextView
+        android:id="@+id/textView96"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Área / ERA  = 40cm² / 5cm²"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_alignBottom="@+id/textView95"
+        android:layout_alignRight="@+id/textView91"
+        android:layout_alignEnd="@+id/textView91" />
+
+    <TextView
+        android:id="@+id/textView97"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:text="8 minutos de aplicação"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView95"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/botaoVoltarUS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView97"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="voltar" />
+
+</RelativeLayout>

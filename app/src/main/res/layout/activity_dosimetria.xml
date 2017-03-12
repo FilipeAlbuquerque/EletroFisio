@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="eletrofisio.com.teste11.activity.UltraSom.DosimetriaActivity">
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="Dosimetria do Ultra-som"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView72"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView71"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="98dp"
+        android:text="Modo Contínuo"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView73"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- 0,3W/cm² a 0,7W/cm²"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/textView72"
+        android:layout_alignBottom="@+id/textView72"
+        android:layout_toRightOf="@+id/textView72"
+        android:layout_toEndOf="@+id/textView72" />
+
+    <TextView
+        android:id="@+id/textView74"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="41dp"
+        android:text="Modo Pulsado"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView72"
+        android:layout_alignLeft="@+id/textView72"
+        android:layout_alignStart="@+id/textView72" />
+
+    <TextView
+        android:id="@+id/textView75"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- 0,7W/cm² a  1,2W/cm²"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/textView74"
+        android:layout_alignBottom="@+id/textView74"
+        android:layout_toRightOf="@+id/textView74"
+        android:layout_toEndOf="@+id/textView74" />
+
+    <TextView
+        android:id="@+id/textView76"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Tempo mínimo de 3 minutos."
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView74"
+        android:layout_alignLeft="@+id/textView74"
+        android:layout_alignStart="@+id/textView74" />
+
+    <TextView
+        android:id="@+id/textView77"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView76"
+        android:layout_alignStart="@+id/textView76"
+        android:layout_below="@+id/textView76"
+        android:layout_marginTop="32dp"
+        android:text="Tempo máximo de 15 minutos."
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/botaoVoltarUS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView76"
+        android:layout_alignRight="@+id/textView76"
+        android:layout_below="@+id/textView77"
+        android:layout_marginTop="89dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="voltar"
+
+        />
+</RelativeLayout>

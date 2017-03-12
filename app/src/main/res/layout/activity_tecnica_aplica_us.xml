@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="eletrofisio.com.teste11.activity.UltraSom.TecnicaAplicaUSActivity">
+
+    <TextView
+        android:id="@+id/textView82"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Técnicas de aplicação do Ultra-som"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView83"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView82"
+        android:layout_alignStart="@+id/textView82"
+        android:layout_below="@+id/textView82"
+        android:layout_marginTop="58dp"
+        android:text="- Contato direto do cabeçote com a pele do paciente;"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView84"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView83"
+        android:layout_alignStart="@+id/textView83"
+        android:layout_below="@+id/textView83"
+        android:layout_marginTop="40dp"
+        android:text="- Subaquática;"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView85"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView84"
+        android:layout_alignStart="@+id/textView84"
+        android:layout_below="@+id/textView84"
+        android:layout_marginTop="40dp"
+        android:text="- Com bolsas de água;"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView86"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView85"
+        android:layout_alignStart="@+id/textView85"
+        android:layout_below="@+id/textView85"
+        android:layout_marginTop="46dp"
+        android:text="- Fonoforese;"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView87"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView86"
+        android:layout_alignStart="@+id/textView86"
+        android:layout_below="@+id/textView86"
+        android:layout_marginTop="38dp"
+        android:text="- Reflexo segmentar."
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/botaoVoltarUS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView87"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="voltar" />
+</RelativeLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="64dp"
+    android:paddingRight="64dp"
+    android:paddingTop="16dp"
+    android:background="@drawable/fundo_degradee"
+    android:gravity="center_vertical|center_horizontal"
+    tools:context="eletrofisio.com.teste11.activity.LoginActivity"
+    android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:background="@drawable/logo"
+            tools:ignore="ContentDescription"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/edit_login_senha"
+            android:layout_toStartOf="@+id/edit_login_senha"
+            android:layout_marginRight="38dp"
+            android:layout_marginEnd="38dp"
+            android:layout_marginTop="11dp" />
+
+        <EditText
+            android:id="@+id/edit_login_usuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fundo_caixa_texto"
+            android:hint="Digite seu usuário"
+            android:padding="16dp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            tools:ignore="HardcodedText"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/edit_login_senha"
+            android:layout_alignStart="@+id/edit_login_senha"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fundo_caixa_texto"
+            android:padding="16dp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:hint="Digite sua senha"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/edit_login_senha"
+            tools:ignore="HardcodedText"
+            android:layout_marginRight="59dp"
+            android:layout_marginEnd="59dp"
+            android:layout_alignBottom="@+id/imageView"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fundo_botao"
+            android:text="@string/botao_logar"
+            android:id="@+id/button_logar"
+
+
+            android:layout_marginRight="17dp"
+            android:layout_marginEnd="17dp"
+            android:layout_marginBottom="25dp"
+            android:layout_alignBottom="@+id/textView"
+            android:layout_alignRight="@+id/edit_login_usuario"
+            android:layout_alignEnd="@+id/edit_login_usuario" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/crie_conta"
+            android:id="@+id/textView"
+            android:onClick="abrirCadastroUsuario"
+            android:textSize="18sp"
+            android:textStyle="normal|bold"
+
+            android:layout_marginBottom="72dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/edit_login_usuario"
+            android:layout_toStartOf="@+id/edit_login_usuario" />
+
+
+</RelativeLayout>
