@@ -11,13 +11,97 @@
     tools:context="eletrofisio.com.teste11.activity.OndasCurtas.OndasCurtasActivity">
 
     <TextView
-        android:text="Ondas Curtas"
+        android:id="@+id/textView20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="207dp"
-        android:id="@+id/textView20"
-        android:textSize="30sp"
+        android:text="Ondas Curtas"
+        android:textSize="24sp"
         android:textStyle="normal|bold" />
+
+    <Button
+        android:id="@+id/btIndicacoes_OndasCurtas"
+        android:background="@drawable/fundo_caixa_texto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:text="Indicações"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView20"
+        android:layout_alignRight="@+id/bt_Aplicacao_OndasCurtas"
+        android:layout_alignEnd="@+id/bt_Aplicacao_OndasCurtas" />
+
+    <Button
+        android:id="@+id/bt_Contra_OndasCurtas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bt_Aplicacao_OndasCurtas"
+        android:layout_alignBottom="@+id/bt_Aplicacao_OndasCurtas"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="Contra-Indicações"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btPrecaucoes_OndasCurtas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/btIndicacoes_OndasCurtas"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="Precauções"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bt_Aplicacao_OndasCurtas"
+        android:background="@drawable/fundo_caixa_texto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btIndicacoes_OndasCurtas"
+        android:layout_marginLeft="7dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="21dp"
+        android:text="Téc. Aplicação"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bt_Tempo_OndasCurtas"
+        android:background="@drawable/fundo_caixa_texto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tempo Tratamento"
+        android:textStyle="bold"
+        android:layout_below="@+id/bt_Aplicacao_OndasCurtas"
+        android:layout_alignLeft="@+id/textView20"
+        android:layout_alignStart="@+id/textView20"
+        android:layout_marginTop="26dp" />
+
+    <Button
+        android:id="@+id/bt_Efeitos_OndasCurtas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/bt_Tempo_OndasCurtas"
+        android:layout_alignRight="@+id/bt_Tempo_OndasCurtas"
+        android:layout_below="@+id/bt_Tempo_OndasCurtas"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="Efeitos Fisiológicos"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btVoltar_OndasCurtas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="voltar para início"
+        android:textStyle="bold" />
 </RelativeLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="eletrofisio.com.teste11.activity.OndasCurtas.AplicacaoOndasCurtasActivity">
+
+
+    <TextView
+        android:id="@+id/textView138"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="Técnicas de Aplicação do Ondas Curtas"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView139"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="80dp"
+        android:text="- Transversal"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView138"
+        android:layout_alignLeft="@+id/textView138"
+        android:layout_alignStart="@+id/textView138" />
+
+    <TextView
+        android:id="@+id/textView140"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView139"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:text="Eletrodos entre articulação ou membro."
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView141"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView139"
+        android:layout_alignStart="@+id/textView139"
+        android:layout_below="@+id/textView140"
+        android:layout_marginTop="36dp"
+        android:text="- Longitudinal"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView142"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView140"
+        android:layout_alignStart="@+id/textView140"
+        android:layout_below="@+id/textView141"
+        android:layout_marginTop="21dp"
+        android:text="Eletrodo em origem e inserção de um membro ou segmento do corpo."
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView143"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView141"
+        android:layout_alignStart="@+id/textView141"
+        android:layout_below="@+id/textView142"
+        android:layout_marginTop="42dp"
+        android:text="- Co-Planar"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView144"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Eletrodos posicionados no mesmo plano no corpo"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView143"
+        android:layout_alignRight="@+id/textView138"
+        android:layout_alignEnd="@+id/textView138" />
+
+    <Button
+        android:id="@+id/botaoVoltar_ondas_Curtas_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_toEndOf="@+id/textView139"
+        android:layout_toRightOf="@+id/textView139"
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="voltar" />
+</RelativeLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="eletrofisio.com.teste11.activity.OndasCurtas.IndicacoesOndasCurtasActivity">
+
+
+    <TextView
+        android:id="@+id/textView119"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="Indicações da Ondas Curtas"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView125"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView119"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="95dp"
+        android:text="- Afcções Traumáticas;"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView126"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView125"
+        android:layout_alignStart="@+id/textView125"
+        android:layout_below="@+id/textView125"
+        android:layout_marginTop="34dp"
+        android:text="- Afcções musculares;"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView127"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView126"
+        android:layout_alignStart="@+id/textView126"
+        android:layout_below="@+id/textView126"
+        android:layout_marginTop="40dp"
+        android:text="- Afcções Reumatológicas;"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView128"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView127"
+        android:layout_alignStart="@+id/textView127"
+        android:layout_below="@+id/textView127"
+        android:layout_marginTop="32dp"
+        android:text="- Afcções otorrinolaringológicas;"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView130"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView128"
+        android:layout_alignStart="@+id/textView128"
+        android:layout_below="@+id/textView128"
+        android:layout_marginTop="40dp"
+        android:text="- Afcções Ginecológicas;"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/botaoVoltar_OndasCurtas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView130"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView130"
+        android:layout_marginBottom="27dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="voltar" />
+
+</RelativeLayout>

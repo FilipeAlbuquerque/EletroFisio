@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="eletrofisio.com.teste11.activity.OndasCurtas.PrecaucoesOndasCurtasActivity">
+
+    <TextView
+        android:id="@+id/textView129"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Precauções em Ondas Curtas"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView131"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView129"
+        android:layout_alignStart="@+id/textView129"
+        android:layout_below="@+id/textView129"
+        android:layout_marginTop="50dp"
+        android:text="- Evitar macas ou cadeiras metálicas;"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView132"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView131"
+        android:layout_alignStart="@+id/textView131"
+        android:layout_below="@+id/textView131"
+        android:layout_marginTop="32dp"
+        android:text="- Entre cabos e pacientes deve-se colocar uma toalha;"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView133"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView132"
+        android:layout_alignStart="@+id/textView132"
+        android:layout_below="@+id/textView132"
+        android:layout_marginTop="27dp"
+        android:text="- Remover objetos metálicos próximos;"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView134"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView133"
+        android:layout_alignStart="@+id/textView133"
+        android:layout_below="@+id/textView133"
+        android:layout_marginTop="25dp"
+        android:text="- Períodos menstruais (Em casos de Hemorragias);"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView135"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView134"
+        android:layout_alignStart="@+id/textView134"
+        android:layout_below="@+id/textView134"
+        android:layout_marginTop="30dp"
+        android:text="- Paciente não deve se movimentar durante tratamento;"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView136"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView135"
+        android:layout_alignStart="@+id/textView135"
+        android:layout_below="@+id/textView135"
+        android:layout_marginTop="30dp"
+        android:text="- Transtornos cardíacos;"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/botaoVoltarOndasCurtas_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="voltar" />
+</RelativeLayout>

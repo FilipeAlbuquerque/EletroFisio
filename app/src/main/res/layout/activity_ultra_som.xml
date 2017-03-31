@@ -34,16 +34,16 @@
         android:textStyle="normal|bold" />
 
     <TextView
-        android:text="- Fase Aguda"
+        android:id="@+id/textView54"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/textView53"
-        android:layout_toRightOf="@+id/textView53"
-        android:layout_toEndOf="@+id/textView53"
         android:layout_marginLeft="14dp"
         android:layout_marginStart="14dp"
-        android:id="@+id/textView54"
-        android:textSize="16sp"
+        android:layout_toEndOf="@+id/textView53"
+        android:layout_toRightOf="@+id/textView53"
+        android:text="- Fase Aguda"
+        android:textSize="14sp"
         android:textStyle="normal|bold" />
 
     <TextView
@@ -59,15 +59,15 @@
         android:textStyle="normal|bold" />
 
     <TextView
-        android:text="- Fase Crônica"
+        android:id="@+id/textView57"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/textView55"
         android:layout_alignLeft="@+id/textView54"
         android:layout_alignStart="@+id/textView54"
-        android:id="@+id/textView57"
-        android:textStyle="normal|bold"
-        android:textSize="16sp" />
+        android:text="- Fase Crônica"
+        android:textSize="14sp"
+        android:textStyle="normal|bold" />
 
     <TextView
         android:id="@+id/textView58"
@@ -89,9 +89,10 @@
         android:textColor="#6f0000"
         android:textSize="14sp"
         android:textStyle="normal|bold"
+        android:layout_alignBaseline="@+id/textView57"
         android:layout_alignBottom="@+id/textView57"
-        android:layout_toRightOf="@+id/textView57"
-        android:layout_toEndOf="@+id/textView57" />
+        android:layout_alignRight="@+id/textView58"
+        android:layout_alignEnd="@+id/textView58" />
 
     <TextView
         android:text="1MHz"

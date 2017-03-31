@@ -75,6 +75,16 @@ public class LaserActivity extends AppCompatActivity {
             }
         });
 
+        cuidadosLaser.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(LaserActivity.this, CuidadosLaserActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
         botaoVoltar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

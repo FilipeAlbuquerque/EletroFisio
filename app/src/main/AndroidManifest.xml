@@ -50,7 +50,14 @@
         <activity android:name=".activity.Laser.TiposLaserActivity" />
         <activity android:name=".activity.Laser.DosimetriaLaserActivity" />
         <activity android:name=".activity.Laser.IndicacoesLaserActivity" />
-        <activity android:name=".activity.Laser.ContraIndLaserActivity"></activity>
+        <activity android:name=".activity.Laser.ContraIndLaserActivity" />
+        <activity android:name=".activity.Laser.CuidadosLaserActivity" />
+        <activity android:name=".activity.OndasCurtas.IndicacoesOndasCurtasActivity" />
+        <activity android:name=".activity.OndasCurtas.PrecaucoesOndasCurtasActivity" />
+        <activity android:name=".activity.OndasCurtas.AplicacaoOndasCurtasActivity" />
+        <activity android:name=".activity.OndasCurtas.ContraOndasCurtasActivity" />
+        <activity android:name=".activity.OndasCurtas.TempoOndasCurtasActivity" />
+        <activity android:name=".activity.OndasCurtas.EfeitosOndasCurtasActivity"></activity>
     </application>
 
 </manifest>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="eletrofisio.com.teste11.activity.Laser.CuidadosLaserActivity">
+
+
+    <TextView
+        android:id="@+id/textView120"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Cuidados e precauções do Laser"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView121"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView120"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="80dp"
+        android:text="- A irradiação sobre glândulas;"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView122"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView121"
+        android:layout_alignStart="@+id/textView121"
+        android:layout_below="@+id/textView121"
+        android:layout_marginTop="46dp"
+        android:text="- Paciente fazendo uso de corticoesteróides;"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView123"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView122"
+        android:layout_alignStart="@+id/textView122"
+        android:layout_below="@+id/textView122"
+        android:layout_marginTop="50dp"
+        android:text="- Nas aplicações em mamas (Observar nódulos);"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView124"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView123"
+        android:layout_alignStart="@+id/textView123"
+        android:layout_below="@+id/textView123"
+        android:layout_marginTop="42dp"
+        android:text="- Paciente e terapeuta protegidos com óculos de proteção visual; "
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/botaoVoltar_laser"
+        android:background="@drawable/fundo_caixa_texto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp"
+        android:text="voltar" />
+</RelativeLayout>

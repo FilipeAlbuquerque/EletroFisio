@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="eletrofisio.com.teste11.activity.OndasCurtas.TempoOndasCurtasActivity">
+
+
+    <TextView
+        android:id="@+id/textView154"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Tempo de aplicação do Ondas Curtas"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView155"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView154"
+        android:layout_alignStart="@+id/textView154"
+        android:layout_below="@+id/textView154"
+        android:layout_marginTop="80dp"
+        android:text="FASE AGUDA:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView156"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView155"
+        android:layout_centerHorizontal="true"
+        android:text="10 a 15min"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView157"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView155"
+        android:layout_alignStart="@+id/textView155"
+        android:layout_below="@+id/textView155"
+        android:layout_marginTop="66dp"
+        android:text="FASE SUB-AGUDA:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView158"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView157"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/textView157"
+        android:layout_toRightOf="@+id/textView157"
+        android:text="15 a 20min"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView159"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView157"
+        android:layout_alignStart="@+id/textView157"
+        android:layout_below="@+id/textView157"
+        android:layout_marginTop="71dp"
+        android:text="FASE CRÔNICA:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView160"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20 a 30min"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/textView159"
+        android:layout_alignBottom="@+id/textView159"
+        android:layout_toRightOf="@+id/textView159"
+        android:layout_toEndOf="@+id/textView159"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp" />
+
+    <Button
+        android:id="@+id/botao_voltar_OC_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView156"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView156"
+        android:layout_marginBottom="37dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="voltar" />
+</RelativeLayout>

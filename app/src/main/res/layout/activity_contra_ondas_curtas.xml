@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="eletrofisio.com.teste11.activity.OndasCurtas.ContraOndasCurtasActivity">
+
+
+    <TextView
+        android:id="@+id/textView137"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="Contra-indicações da Ondas Curtas"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView145"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView137"
+        android:layout_alignStart="@+id/textView137"
+        android:layout_below="@+id/textView137"
+        android:layout_marginTop="49dp"
+        android:text="- Gestantes;"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView146"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView145"
+        android:layout_alignStart="@+id/textView145"
+        android:layout_below="@+id/textView145"
+        android:layout_marginTop="18dp"
+        android:text="- Marca-passo;"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView147"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView146"
+        android:layout_alignStart="@+id/textView146"
+        android:layout_below="@+id/textView146"
+        android:layout_marginTop="19dp"
+        android:text="- Paciente febril;"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView148"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView147"
+        android:layout_alignStart="@+id/textView147"
+        android:layout_below="@+id/textView147"
+        android:layout_marginTop="22dp"
+        android:text="- Tumores malignos;"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView149"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView148"
+        android:layout_alignStart="@+id/textView148"
+        android:layout_below="@+id/textView148"
+        android:layout_marginTop="22dp"
+        android:text="- Tuberculose;"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView150"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView149"
+        android:layout_alignStart="@+id/textView149"
+        android:layout_below="@+id/textView149"
+        android:layout_marginTop="23dp"
+        android:text="- Insuficiência cardíaca;"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView151"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView150"
+        android:layout_alignStart="@+id/textView150"
+        android:layout_below="@+id/textView150"
+        android:layout_marginTop="21dp"
+        android:text="- Tromboses/Aterosclerose;"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView152"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView151"
+        android:layout_alignStart="@+id/textView151"
+        android:layout_below="@+id/textView151"
+        android:layout_marginTop="19dp"
+        android:text="- Doenças infecciosas;"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView153"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView152"
+        android:layout_alignStart="@+id/textView152"
+        android:layout_below="@+id/textView152"
+        android:layout_marginTop="17dp"
+        android:text="- Implantes metálicos; *"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/botao_VoltarOndasCurtas_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="voltar" />
+</RelativeLayout>

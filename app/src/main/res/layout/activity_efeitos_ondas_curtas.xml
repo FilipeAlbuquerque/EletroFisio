@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="eletrofisio.com.teste11.activity.OndasCurtas.EfeitosOndasCurtasActivity">
+
+    <TextView
+        android:id="@+id/textView161"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Efeitos Fisiológicos da Ondas Curtas"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView162"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView161"
+        android:layout_alignStart="@+id/textView161"
+        android:layout_below="@+id/textView161"
+        android:layout_marginTop="89dp"
+        android:text="- Acelera reabsorção de edema/hematoma;"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView163"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="- Acelera consolidação de fratura;"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView162"
+        android:layout_alignLeft="@+id/textView162"
+        android:layout_alignStart="@+id/textView162" />
+
+    <TextView
+        android:id="@+id/textView164"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView163"
+        android:layout_alignStart="@+id/textView163"
+        android:layout_below="@+id/textView163"
+        android:layout_marginTop="21dp"
+        android:text="- Estimula circulação periférica;"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView165"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView164"
+        android:layout_alignStart="@+id/textView164"
+        android:layout_below="@+id/textView164"
+        android:layout_marginTop="19dp"
+        android:text="- Alívio da dor aguda;"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView166"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView165"
+        android:layout_alignStart="@+id/textView165"
+        android:layout_below="@+id/textView165"
+        android:layout_marginTop="22dp"
+        android:text="- Antiinflamatório;"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView167"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView166"
+        android:layout_alignStart="@+id/textView166"
+        android:layout_below="@+id/textView166"
+        android:layout_marginTop="21dp"
+        android:text="- Aumenta regeneração nervosa;"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView168"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView167"
+        android:layout_alignStart="@+id/textView167"
+        android:layout_below="@+id/textView167"
+        android:layout_marginTop="24dp"
+        android:text="- Acelera cura de feridas (regeneração tecidual)."
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btVoltar_OC_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="voltar" />
+</RelativeLayout>
