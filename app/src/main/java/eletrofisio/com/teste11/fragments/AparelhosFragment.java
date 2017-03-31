@@ -41,6 +41,7 @@ public class AparelhosFragment extends Fragment {
     private Button botaoRussa;
     private Button botaoOndasCurtas;
     private Button botaoInterferencial;
+    private Button botaoAussie;
     private Button botaoVoltar;
 
     public AparelhosFragment() {
@@ -90,6 +91,8 @@ public class AparelhosFragment extends Fragment {
         botaoOndasCurtas = (Button) view.findViewById(R.id.botaoOndasCurtas);
         botaoInterferencial = (Button) view.findViewById(R.id.botaoInterferencial);
         botaoVoltar = (Button) view.findViewById(R.id.botaoVoltar);
+        botaoAussie = (Button) view.findViewById(R.id.botao_aussie);
+
 
 
         botaoTens.setOnClickListener(new View.OnClickListener() {

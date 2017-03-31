@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="eletrofisio.com.teste11.activity.Laser.IndicacoesLaserActivity">
+
+
+    <TextView
+        android:id="@+id/textView108"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Indicações do Laser"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView109"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Em Traumato-Ortopedia: Afecções na ATM; Torcicolo; Cervicalgia; Lombalgia; Lombocialtagia; Luxações; Subluxações; Tendinite supraespinhoso etc."
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingLeft="10sp"
+        android:layout_below="@+id/textView108"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textView110"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:paddingLeft="10sp"
+        android:text="Traumas Musculares: Rupturas parciais ou totais de fibras"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView109"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView110"
+        android:layout_alignStart="@+id/textView110"
+        android:layout_centerVertical="true"
+        android:paddingLeft="10sp"
+        android:text="Traumas com Fraturas: Consolidação óssea; Redução de aderências."
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/botaoVoltarLaser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+
+        android:text="voltar"
+        android:background="@drawable/fundo_caixa_texto"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView112"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10sp"
+        android:layout_alignLeft="@+id/textView111"
+        android:layout_alignStart="@+id/textView111"
+        android:layout_below="@+id/textView111"
+        android:layout_marginTop="33dp"
+        android:text="Bursite; Artrose do ombro; Cervicoartrose; Lupus Eritematoso; Herpes-Zoster; Hemorródias."
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView113"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView112"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="36dp"
+        android:text="Erosões benignas do colo do útero; Otites (Com fibra ótica); Afecções na próstata; Neuralgia do trigêmeo; Úlceras de decúbito; Estética (Estrias, celulite e acne)."
+        android:textSize="16sp"
+        android:textStyle="bold" />
+</RelativeLayout>

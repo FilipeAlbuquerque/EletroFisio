@@ -11,26 +11,26 @@
     tools:context="eletrofisio.com.teste11.activity.UltraSom.UltraSomActivity">
 
     <TextView
-        android:text="Ultra Som"
+        android:id="@+id/textView17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView17"
-        android:textStyle="normal|bold"
-        android:textSize="24sp"
-        tools:ignore="HardcodedText"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:text="Ultra-som"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        tools:ignore="HardcodedText" />
 
     <TextView
-        android:text="Modo Pulsado"
+        android:id="@+id/textView53"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView17"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView17"
         android:layout_marginTop="49dp"
-        android:id="@+id/textView53"
-        android:textSize="16sp"
+        android:text="Modo Pulsado"
+        android:textSize="14sp"
         android:textStyle="normal|bold" />
 
     <TextView
@@ -47,16 +47,16 @@
         android:textStyle="normal|bold" />
 
     <TextView
-        android:text="Modo Contínuo"
+        android:id="@+id/textView55"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView53"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView53"
         android:layout_marginTop="20dp"
-        android:id="@+id/textView55"
-        android:textStyle="normal|bold"
-        android:textSize="16sp" />
+        android:text="Modo Contínuo"
+        android:textSize="14sp"
+        android:textStyle="normal|bold" />
 
     <TextView
         android:text="- Fase Crônica"
@@ -70,28 +70,28 @@
         android:textSize="16sp" />
 
     <TextView
-        android:text="- Efeito Mecânico"
+        android:id="@+id/textView58"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="- Efeito Mecânico"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="14sp"
+        android:textStyle="normal|bold"
         android:layout_alignBottom="@+id/textView54"
         android:layout_toRightOf="@+id/textView57"
-        android:layout_toEndOf="@+id/textView57"
-        android:id="@+id/textView58"
-        android:textSize="16sp"
-        android:textStyle="normal|bold"
-        android:textColor="@color/colorPrimaryDark" />
+        android:layout_toEndOf="@+id/textView57" />
 
     <TextView
-        android:text="- Efeito Térmico"
+        android:id="@+id/textView59"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/textView57"
-        android:layout_toRightOf="@+id/textView17"
-        android:layout_toEndOf="@+id/textView17"
-        android:id="@+id/textView59"
+        android:text="- Efeito Térmico"
+        android:textColor="#6f0000"
+        android:textSize="14sp"
         android:textStyle="normal|bold"
-        android:textSize="16sp"
-        android:textColor="#6f0000" />
+        android:layout_alignBottom="@+id/textView57"
+        android:layout_toRightOf="@+id/textView57"
+        android:layout_toEndOf="@+id/textView57" />
 
     <TextView
         android:text="1MHz"
@@ -106,19 +106,19 @@
         android:textStyle="normal|bold" />
 
     <TextView
-        android:text="- 3cm a 4cm de profundidade da onda."
+        android:id="@+id/textView61"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView61"
-        android:textStyle="normal|bold"
-        android:textSize="16sp"
         android:layout_alignBaseline="@+id/textView60"
         android:layout_alignBottom="@+id/textView60"
-        android:layout_toRightOf="@+id/textView60"
-        android:layout_toEndOf="@+id/textView60"
         android:layout_marginLeft="12dp"
         android:layout_marginStart="12dp"
-        android:textColor="@color/colorPrimaryDark" />
+        android:layout_toEndOf="@+id/textView60"
+        android:layout_toRightOf="@+id/textView60"
+        android:text="- 3cm a 4cm de profundidade da onda."
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="14sp"
+        android:textStyle="normal|bold" />
 
     <TextView
         android:text="3MHz"
@@ -133,16 +133,16 @@
         android:textStyle="normal|bold" />
 
     <TextView
-        android:text="- 1cm a 2cm de profundidade da onda."
+        android:id="@+id/textView63"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/textView62"
         android:layout_alignLeft="@+id/textView61"
         android:layout_alignStart="@+id/textView61"
-        android:id="@+id/textView63"
-        android:textSize="16sp"
-        android:textStyle="normal|bold"
-        android:textColor="#630101" />
+        android:layout_alignTop="@+id/textView62"
+        android:text="- 1cm a 2cm de profundidade da onda."
+        android:textColor="#630101"
+        android:textSize="14sp"
+        android:textStyle="normal|bold" />
 
     <Button
         android:text="Efeitos Terapêuticos"

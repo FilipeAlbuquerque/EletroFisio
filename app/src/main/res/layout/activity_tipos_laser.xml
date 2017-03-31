@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="eletrofisio.com.teste11.activity.Laser.TiposLaserActivity">
+
+
+    <TextView
+        android:id="@+id/textView98"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="Tipos de Laser"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="77dp"
+        android:text="- Laser de Hélio-Neônio (HeNe);"
+        android:paddingLeft="10dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView98"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="41dp"
+        android:text="- Laser de Arsenieto de Gálio (AsGa);"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/textView99"
+        android:layout_alignLeft="@+id/textView99"
+        android:layout_alignStart="@+id/textView99" />
+
+    <TextView
+        android:id="@+id/textView101"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Laser Arsenieto de Gálio-Aluminio (AsGaAl);"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView100"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="37dp" />
+
+    <TextView
+        android:id="@+id/textView102"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView101"
+        android:layout_alignStart="@+id/textView101"
+        android:layout_below="@+id/textView101"
+        android:layout_marginTop="42dp"
+        android:text="- Laser Índio Gálio Alumínio Fósforo (InGaAlP)."
+        android:textSize="18sp"
+        android:paddingLeft="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView103"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Obs: Atualmente estão sendo usados aparelhos que emitem radiação luminoso com o uso de LEDS "
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/textView102"
+        android:layout_alignLeft="@+id/textView102"
+        android:layout_alignStart="@+id/textView102" />
+
+    <Button
+        android:id="@+id/botaoVoltarLaser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="voltar"
+        android:textStyle="bold" />
+</RelativeLayout>

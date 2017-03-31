@@ -45,7 +45,12 @@
         <activity android:name=".activity.UltraSom.DosimetriaActivity" />
         <activity android:name=".activity.UltraSom.EfeitosTerapeuticosUSActivity" />
         <activity android:name=".activity.UltraSom.TecnicaAplicaUSActivity" />
-        <activity android:name=".activity.UltraSom.ExemploEraActivity"></activity>
+        <activity android:name=".activity.UltraSom.ExemploEraActivity" />
+        <activity android:name=".activity.Aussie.AussieActivity" />
+        <activity android:name=".activity.Laser.TiposLaserActivity" />
+        <activity android:name=".activity.Laser.DosimetriaLaserActivity" />
+        <activity android:name=".activity.Laser.IndicacoesLaserActivity" />
+        <activity android:name=".activity.Laser.ContraIndLaserActivity"></activity>
     </application>
 
 </manifest>

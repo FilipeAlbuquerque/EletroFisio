@@ -12,4 +12,5 @@
     <string name="crie_conta">Crie uma conta!</string>
     <string name="botao_cadastro">Cadastrar</string>
     <string name="fazer_login">Faça login!</string>
+    <string name="title_activity_contra_ind_laser">ContraIndLaserActivity</string>
 </resources>

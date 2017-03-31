@@ -15,7 +15,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="37dp"
         android:text="Exemplo de utilização do cálculo da ERA"
-        android:textSize="20sp"
+        android:textSize="18sp"
         android:textStyle="bold" />
 
     <TextView
@@ -25,6 +25,7 @@
         android:layout_below="@+id/textView88"
         android:layout_marginTop="67dp"
         android:text="Ex.:"
+        android:paddingLeft="10dp"
         android:textSize="18sp"
         android:textStyle="bold"
         android:layout_alignLeft="@+id/textView88"
@@ -37,6 +38,7 @@
         android:layout_marginTop="30dp"
         android:text="Área a ser tratada:"
         android:textSize="18sp"
+        android:paddingLeft="10dp"
         android:textStyle="bold"
         android:layout_below="@+id/textView89"
         android:layout_alignLeft="@+id/textView89"
@@ -62,6 +64,7 @@
         android:layout_centerVertical="true"
         android:text="Tamanho da ERA do Ultra-som:"
         android:textSize="18sp"
+        android:paddingLeft="10dp"
         android:textStyle="bold" />
 
     <TextView
