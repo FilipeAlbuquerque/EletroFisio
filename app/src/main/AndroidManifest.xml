@@ -62,7 +62,9 @@
         <activity android:name=".activity.Russa.ParamRussaActivity" />
         <activity android:name=".activity.Russa.ContraRussaActivity" />
         <activity android:name=".activity.Russa.TiposRussaActivity" />
-        <activity android:name=".activity.Russa.ModosRussaActivity"></activity>
+        <activity android:name=".activity.Russa.ModosRussaActivity" />
+        <activity android:name=".activity.Aussie.IndicAussieActivity" />
+        <activity android:name=".activity.Aussie.ContraAussieActivity"></activity>
     </application>
 
 </manifest>

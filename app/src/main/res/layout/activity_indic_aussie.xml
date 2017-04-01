@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="eletrofisio.com.teste11.activity.Aussie.IndicAussieActivity">
+
+
+
+    <TextView
+        android:id="@+id/textView169"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Indicações da Corrente Aussie"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView170"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView169"
+        android:layout_alignStart="@+id/textView169"
+        android:layout_below="@+id/textView169"
+        android:layout_marginTop="69dp"
+        android:text="- Fortalecimento muscular;"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView171"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView170"
+        android:layout_alignStart="@+id/textView170"
+        android:layout_below="@+id/textView170"
+        android:layout_marginTop="35dp"
+        android:text="- Relaxamento muscular;"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView172"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView171"
+        android:layout_alignStart="@+id/textView171"
+        android:layout_below="@+id/textView171"
+        android:layout_marginTop="30dp"
+        android:text="- Drenagem de edemas;"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView173"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView172"
+        android:layout_alignStart="@+id/textView172"
+        android:layout_centerVertical="true"
+        android:text="- Controle da dor aguda e crônica; *"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView174"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="- Recuperação de tônus muscular;"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView173"
+        android:layout_alignLeft="@+id/textView173"
+        android:layout_alignStart="@+id/textView173" />
+
+    <TextView
+        android:id="@+id/textView175"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView174"
+        android:layout_alignStart="@+id/textView174"
+        android:layout_below="@+id/textView174"
+        android:layout_marginTop="30dp"
+        android:text="- Fortalecimento de esfincter externo;"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btVoltarAussie_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="voltar" />
+
+
+</RelativeLayout>
