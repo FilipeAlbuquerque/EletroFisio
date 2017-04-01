@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="eletrofisio.com.teste11.activity.Russa.ModosRussaActivity">
+
+    <TextView
+        android:id="@+id/textView201"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:text="Emissão da corrente"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView202"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView201"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="62dp"
+        android:text="- Modo sincronizado:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView204"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView201"
+        android:layout_alignRight="@+id/textView201"
+        android:layout_below="@+id/textView202"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginTop="12dp"
+        android:text="Todos os canais ao mesmo tempo"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView205"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:text="- Modo recíproco:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView204"
+        android:layout_alignLeft="@+id/textView202"
+        android:layout_alignStart="@+id/textView202" />
+
+    <TextView
+        android:id="@+id/textView206"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView204"
+        android:layout_alignStart="@+id/textView204"
+        android:layout_below="@+id/textView205"
+        android:layout_marginTop="17dp"
+        android:text="Lado agonista e depois antagonista"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView207"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="- Modo sequêncial:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView206"
+        android:layout_alignLeft="@+id/textView205"
+        android:layout_alignStart="@+id/textView205" />
+
+    <TextView
+        android:id="@+id/textView208"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView206"
+        android:layout_alignStart="@+id/textView206"
+        android:layout_below="@+id/textView207"
+        android:layout_marginTop="20dp"
+        android:text="Corrente sequencialmente com objetivo de drenagem"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView209"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView207"
+        android:layout_alignStart="@+id/textView207"
+        android:layout_below="@+id/textView208"
+        android:layout_marginTop="26dp"
+        android:text="- Modo contínuo:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView210"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView208"
+        android:layout_alignStart="@+id/textView208"
+        android:layout_below="@+id/textView209"
+        android:layout_marginTop="20dp"
+        android:text="Todos canais de forma ininterrupta"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/botaoVoltarRussa_6"
+        android:background="@drawable/fundo_caixa_texto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="voltar"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

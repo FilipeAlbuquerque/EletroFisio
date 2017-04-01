@@ -48,38 +48,38 @@ public class CadastroActivity extends AppCompatActivity {
             }
         });
     }
-    private void cadastrarUsuario(){
+
+    private void cadastrarUsuario() {
 
         //Cria objeto usuario
         ParseUser usuario = new ParseUser();
-        usuario.setUsername( textoUsuario.getText().toString() );
-        usuario.setEmail( textoEmail.getText().toString() );
-        usuario.setPassword( textoSenha.getText().toString() );
+        usuario.setUsername(textoUsuario.getText().toString());
+        usuario.setEmail(textoEmail.getText().toString());
+        usuario.setPassword(textoSenha.getText().toString());
 
         //salva dados do usuario
         usuario.signUpInBackground(new SignUpCallback() {
             @Override
             public void done(ParseException e) {
-                if( e==null ){//sucesso ao salvar
+                if (e == null) {//sucesso ao salvar
                     Toast.makeText(CadastroActivity.this, "Cadastro feito com sucesso!",
                             Toast.LENGTH_LONG).show();
                     abrirLoginUsuario();
-                }else{//erro ao salvar
+                } else {//erro ao salvar
                     ParseErros parseErros = new ParseErros();
-                    String erro = parseErros.getErro( e.getCode() );
-                    Toast.makeText(CadastroActivity.this, erro , Toast.LENGTH_LONG).show();
+                    String erro = parseErros.getErro(e.getCode());
+                    Toast.makeText(CadastroActivity.this, erro, Toast.LENGTH_LONG).show();
                 }
             }
         });
 
     }
 
-    private void abrirLoginUsuario(){
+    private void abrirLoginUsuario() {
 
         Intent intent = new Intent(CadastroActivity.this, LoginActivity.class);
         startActivity(intent);
         finish();
     }
-
 
 }

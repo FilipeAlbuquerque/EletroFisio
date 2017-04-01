@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="eletrofisio.com.teste11.activity.Russa.TiposRussaActivity">
+
+    <TextView
+        android:id="@+id/textView194"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="Fibras musculares e como estimular"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView195"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView194"
+        android:layout_alignStart="@+id/textView194"
+        android:layout_below="@+id/textView194"
+        android:layout_marginTop="59dp"
+        android:text="- Tônicas, Intermediárias e Fásicas"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView196"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView195"
+        android:layout_alignStart="@+id/textView195"
+        android:layout_below="@+id/textView195"
+        android:layout_marginTop="33dp"
+        android:text="- Tipo I, tipo IIa e tipo IIb"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView193"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView196"
+        android:layout_alignStart="@+id/textView196"
+        android:layout_below="@+id/textView196"
+        android:layout_marginTop="37dp"
+        android:text="- Vermelhas e Brancas"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView197"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fibras Tônicas"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/textView199"
+        android:layout_alignEnd="@+id/textView199" />
+
+    <TextView
+        android:id="@+id/textView198"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView197"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="9dp"
+        android:text="20Hz a 30Hz"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView199"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView198"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:text="Fibras Fásicas"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView200"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView199"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="50Hz a 150Hz"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/botaoVoltarRussa_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView200"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView200"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="voltar" />
+
+</RelativeLayout>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="eletrofisio.com.teste11.activity.Russa.ParamRussaActivity">
+
+
+    <TextView
+        android:id="@+id/textView176"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:text="Parâmetros da Corrente Russa"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView177"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="91dp"
+        android:text="- Frequência portadora:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView176"
+        android:layout_alignLeft="@+id/textView176"
+        android:layout_alignStart="@+id/textView176" />
+
+    <TextView
+        android:id="@+id/textView178"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView177"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/textView177"
+        android:layout_toRightOf="@+id/textView177"
+        android:text="2500Hz"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView179"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:text="- Frequência de modulação:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView177"
+        android:layout_alignLeft="@+id/textView177"
+        android:layout_alignStart="@+id/textView177" />
+
+    <TextView
+        android:id="@+id/textView180"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:text="10 a 150Hz"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/textView179"
+        android:layout_alignBottom="@+id/textView179"
+        android:layout_toRightOf="@+id/textView179"
+        android:layout_toEndOf="@+id/textView179" />
+
+    <TextView
+        android:id="@+id/textView181"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="- Intensidade: "
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView179"
+        android:layout_alignLeft="@+id/textView179"
+        android:layout_alignStart="@+id/textView179" />
+
+    <TextView
+        android:id="@+id/textView182"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView181"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_toEndOf="@+id/textView181"
+        android:layout_toRightOf="@+id/textView181"
+        android:text="0 a 150mA"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView184"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView181"
+        android:layout_alignStart="@+id/textView181"
+        android:layout_below="@+id/textView181"
+        android:layout_marginTop="30dp"
+        android:text="- Tempo ON:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView185"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 a 30 segundos"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/textView184"
+        android:layout_alignBottom="@+id/textView184"
+        android:layout_toRightOf="@+id/textView184"
+        android:layout_toEndOf="@+id/textView184" />
+
+    <TextView
+        android:id="@+id/textView186"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView184"
+        android:layout_alignStart="@+id/textView184"
+        android:layout_below="@+id/textView184"
+        android:layout_marginTop="31dp"
+        android:text="- Tempo OFF:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView187"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 a 30 segundos"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/textView186"
+        android:layout_alignBottom="@+id/textView186"
+        android:layout_toRightOf="@+id/textView186"
+        android:layout_toEndOf="@+id/textView186" />
+
+    <Button
+        android:id="@+id/botaoVoltarRussa_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView182"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView182"
+        android:layout_marginBottom="37dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="voltar" />
+
+</RelativeLayout>

@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import eletrofisio.com.teste11.R;
+import eletrofisio.com.teste11.activity.Aussie.AussieActivity;
 import eletrofisio.com.teste11.activity.Fes.FesActivity;
 import eletrofisio.com.teste11.activity.Interferencial.InterferencialActivity;
 import eletrofisio.com.teste11.activity.Laser.LaserActivity;
@@ -154,6 +155,15 @@ public class AparelhosFragment extends Fragment {
             }
         });
 
+        botaoAussie.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            chamadaAussie(v);
+
+            }
+        });
+
         botaoVoltar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -167,6 +177,13 @@ public class AparelhosFragment extends Fragment {
     private void voltarInicio(View v) {
         Intent intent = new Intent(getActivity(), MainActivity.class);
         startActivity(intent);
+    }
+
+    private void chamadaAussie(View v) {
+
+        Intent intent = new Intent(getActivity(), AussieActivity.class);
+        startActivity(intent);
+
     }
 
     private void chamadaInterferencial(View v) {

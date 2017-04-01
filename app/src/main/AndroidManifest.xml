@@ -57,7 +57,12 @@
         <activity android:name=".activity.OndasCurtas.AplicacaoOndasCurtasActivity" />
         <activity android:name=".activity.OndasCurtas.ContraOndasCurtasActivity" />
         <activity android:name=".activity.OndasCurtas.TempoOndasCurtasActivity" />
-        <activity android:name=".activity.OndasCurtas.EfeitosOndasCurtasActivity"></activity>
+        <activity android:name=".activity.OndasCurtas.EfeitosOndasCurtasActivity" />
+        <activity android:name=".activity.Russa.IndicRussaActivity" />
+        <activity android:name=".activity.Russa.ParamRussaActivity" />
+        <activity android:name=".activity.Russa.ContraRussaActivity" />
+        <activity android:name=".activity.Russa.TiposRussaActivity" />
+        <activity android:name=".activity.Russa.ModosRussaActivity"></activity>
     </application>
 
 </manifest>
