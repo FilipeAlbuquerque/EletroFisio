@@ -51,9 +51,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="indicações"
-        android:layout_above="@+id/btContra_Aussie"
+        android:layout_below="@+id/textView214"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="17dp" />
+        android:layout_marginTop="18dp" />
 
     <Button
         android:id="@+id/btContra_Aussie"
@@ -61,10 +61,10 @@
         android:layout_height="wrap_content"
         android:background="@drawable/fundo_caixa_texto"
         android:text="contra-indicações"
+        android:layout_marginBottom="30dp"
         android:layout_above="@+id/bt_Voltar_Aussie"
-        android:layout_alignLeft="@+id/bt_Voltar_Aussie"
-        android:layout_alignStart="@+id/bt_Voltar_Aussie"
-        android:layout_marginBottom="41dp" />
+        android:layout_alignRight="@+id/bt_Voltar_Aussie"
+        android:layout_alignEnd="@+id/bt_Voltar_Aussie" />
 
     <Button
         android:id="@+id/bt_Voltar_Aussie"

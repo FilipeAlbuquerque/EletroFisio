@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="eletrofisio.com.teste11.activity.Interferencial.ContraInterferencialActivity">
+
+    <TextView
+        android:id="@+id/textView227"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Contra-indicações da Interferencial"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView228"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="61dp"
+        android:text="- Febre;"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView227"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView229"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView228"
+        android:layout_alignStart="@+id/textView228"
+        android:layout_below="@+id/textView228"
+        android:layout_marginTop="32dp"
+        android:text="- Tumores;"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView230"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView229"
+        android:layout_alignStart="@+id/textView229"
+        android:layout_below="@+id/textView229"
+        android:layout_marginTop="26dp"
+        android:text="- Trombose;"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView231"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView230"
+        android:layout_alignStart="@+id/textView230"
+        android:layout_below="@+id/textView230"
+        android:layout_marginTop="27dp"
+        android:text="- Infecção local;"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView232"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView231"
+        android:layout_alignStart="@+id/textView231"
+        android:layout_below="@+id/textView231"
+        android:layout_marginTop="29dp"
+        android:text="- Tuberculose óssea;"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView233"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView232"
+        android:layout_alignStart="@+id/textView232"
+        android:layout_below="@+id/textView232"
+        android:layout_marginTop="36dp"
+        android:text="- Área de marcapasso;"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView234"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView233"
+        android:layout_alignStart="@+id/textView233"
+        android:layout_below="@+id/textView233"
+        android:layout_marginTop="25dp"
+        android:text="- Região anterior do pescoço;"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/botaoVoltar_Interfe_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="18dp"
+        android:layout_toEndOf="@+id/textView231"
+        android:layout_toRightOf="@+id/textView231"
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="voltar" />
+</RelativeLayout>

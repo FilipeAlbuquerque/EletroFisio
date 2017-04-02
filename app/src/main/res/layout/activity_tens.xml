@@ -14,7 +14,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/container"
-        android:orientation="vertical"></LinearLayout>
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="7dp"
+        android:layout_marginStart="7dp"></LinearLayout>
     
     <TextView
         android:text="TENS"
@@ -89,8 +94,7 @@
         android:layout_alignTop="@+id/botaoIndicacoes"
         android:id="@+id/botaoContraIndicacoes"
         android:layout_toEndOf="@+id/textView22"
-        android:textSize="14sp"
-        android:layout_toRightOf="@+id/textView22" />
+        android:textSize="14sp" />
 
     <Button
         android:text="Voltar para Inicio"

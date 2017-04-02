@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="eletrofisio.com.teste11.activity.Interferencial.IndicInterferencialActivity">
+
+
+    <TextView
+        android:id="@+id/textView219"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Indicações da corrente Interferencial"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView220"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView219"
+        android:layout_alignStart="@+id/textView219"
+        android:layout_below="@+id/textView219"
+        android:layout_marginTop="42dp"
+        android:text="Analgesia pela Teoria das comportas da Dor; Fibras C e A gama."
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView221"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Contusões musculares;"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/textView220"
+        android:layout_alignStart="@+id/textView220" />
+
+    <TextView
+        android:id="@+id/textView222"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView221"
+        android:layout_alignStart="@+id/textView221"
+        android:layout_below="@+id/textView220"
+        android:layout_marginTop="33dp"
+        android:text="- Entorses;"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView223"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView222"
+        android:layout_alignStart="@+id/textView222"
+        android:layout_below="@+id/textView222"
+        android:layout_marginTop="21dp"
+        android:text="- Luxações;"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView224"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView221"
+        android:layout_alignStart="@+id/textView221"
+        android:layout_below="@+id/textView223"
+        android:layout_marginTop="16dp"
+        android:text="- Contraturas;"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView225"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView221"
+        android:layout_alignStart="@+id/textView221"
+        android:layout_below="@+id/textView221"
+        android:layout_marginTop="24dp"
+        android:text="- Rupturas parciais;"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView226"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView225"
+        android:layout_alignStart="@+id/textView225"
+        android:layout_below="@+id/textView225"
+        android:layout_marginTop="31dp"
+        android:text="- Artroses, Bursites, Tendinites, Mialgias, Neuralgias e Periartrites."
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/botaoVoltar_Interfere_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="voltar" />
+
+</RelativeLayout>
