@@ -2,18 +2,104 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="eletrofisio.com.teste11.fragments.ContraIndicacaoFragment">
+    tools:context="eletrofisio.com.teste11.fragments.IndicacoesFragment">
 
 
     <TextView
-        android:text="CONTRA-INDICAÇÃO"
+        android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="218dp"
-        android:id="@+id/textView2"
-        android:textSize="18sp"
-        android:textStyle="normal|bold"
-        tools:ignore="HardcodedText" />
+        android:layout_marginTop="13dp"
+        android:text="Contra-indicações Gerais"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView237"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView6"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="41dp"
+        android:text="- Gravidez;"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView238"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView237"
+        android:layout_alignStart="@+id/textView237"
+        android:layout_below="@+id/textView237"
+        android:layout_marginTop="21dp"
+        android:text="- Marcapasso;"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView239"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView238"
+        android:layout_alignStart="@+id/textView238"
+        android:layout_below="@+id/textView238"
+        android:layout_marginTop="27dp"
+        android:text="- Seio carotídeo;"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView240"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView239"
+        android:layout_alignStart="@+id/textView239"
+        android:layout_below="@+id/textView239"
+        android:layout_marginTop="23dp"
+        android:text="- Ao redor dos olhos;"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView241"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView240"
+        android:layout_alignStart="@+id/textView240"
+        android:layout_below="@+id/textView240"
+        android:layout_marginTop="24dp"
+        android:text="- Obesidade mórbida;"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView242"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView241"
+        android:layout_alignStart="@+id/textView241"
+        android:layout_below="@+id/textView241"
+        android:layout_marginTop="21dp"
+        android:text="- Implantes metálicos expostos; "
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView243"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView242"
+        android:layout_alignStart="@+id/textView242"
+        android:layout_below="@+id/textView242"
+        android:layout_marginTop="22dp"
+        android:text="- Incapacidades cardíacas graves;"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
 </RelativeLayout>

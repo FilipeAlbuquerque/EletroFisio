@@ -6,13 +6,124 @@
 
 
     <TextView
-        android:text="INDICAÇÕES"
+        android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="242dp"
-        android:id="@+id/textView6"
+        android:layout_marginTop="13dp"
+        android:text="Indicações Gerais"
         android:textSize="24sp"
-        android:textStyle="normal|bold" />
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView237"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView6"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="41dp"
+        android:text="- Redução de edemas;"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView238"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:text="- Reeducação muscular;"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView237"
+        android:layout_alignLeft="@+id/textView237"
+        android:layout_alignStart="@+id/textView237" />
+
+    <TextView
+        android:id="@+id/textView239"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView238"
+        android:layout_alignStart="@+id/textView238"
+        android:layout_below="@+id/textView238"
+        android:layout_marginTop="27dp"
+        android:text="- Fortalecimento muscular;"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView240"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView239"
+        android:layout_alignStart="@+id/textView239"
+        android:layout_below="@+id/textView239"
+        android:layout_marginTop="23dp"
+        android:text="- Consolidação de fraturas;"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView241"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView240"
+        android:layout_alignStart="@+id/textView240"
+        android:layout_below="@+id/textView240"
+        android:layout_marginTop="24dp"
+        android:text="-Inibição de espasmos musculares;  "
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView242"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView241"
+        android:layout_alignStart="@+id/textView241"
+        android:layout_below="@+id/textView241"
+        android:layout_marginTop="21dp"
+        android:text="- Minimização de atrofia por desuso; "
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView243"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView242"
+        android:layout_alignStart="@+id/textView242"
+        android:layout_below="@+id/textView242"
+        android:layout_marginTop="22dp"
+        android:text="- Redução de contraturas articulares;"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView244"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView243"
+        android:layout_alignStart="@+id/textView243"
+        android:layout_below="@+id/textView243"
+        android:layout_marginTop="19dp"
+        android:text="- Controle de dores agudas e crônicas;"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView245"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView244"
+        android:layout_alignStart="@+id/textView244"
+        android:layout_below="@+id/textView244"
+        android:layout_marginTop="16dp"
+        android:text="- Cicatrização de lesões abertas e   fechadas. "
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
 </RelativeLayout>
