@@ -13,10 +13,13 @@ import android.view.MenuItem;
 
 import eletrofisio.com.teste11.R;
 import eletrofisio.com.teste11.fragments.AparelhosFragment;
+import eletrofisio.com.teste11.fragments.ClassificFragment;
 import eletrofisio.com.teste11.fragments.ContraIndicacaoFragment;
+import eletrofisio.com.teste11.fragments.FaseAgudaFragment;
+import eletrofisio.com.teste11.fragments.FaseCronicaFragment;
+import eletrofisio.com.teste11.fragments.FonoforeseFragment;
 import eletrofisio.com.teste11.fragments.IndicacoesFragment;
 import eletrofisio.com.teste11.fragments.InicioFragment;
-import eletrofisio.com.teste11.fragments.ShareFragment;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -25,6 +28,8 @@ public class MainActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
 
 
        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -99,6 +104,8 @@ public class MainActivity extends AppCompatActivity
                     inicioFragment.getTag())
                     .commit();
 
+
+
         } else if (id == R.id.nav_aparelhos) {
 
             //Toast.makeText(this, "Gallery",Toast.LENGTH_LONG ).show();
@@ -108,15 +115,6 @@ public class MainActivity extends AppCompatActivity
                     aparelhosFragment.getTag())
                     .commit();
 
-
-        } else if (id == R.id.nav_share) {
-
-            //Toast.makeText(this, "Share", Toast.LENGTH_LONG).show();
-            ShareFragment shareFragment = ShareFragment.newInstance("some1", "some2");
-            FragmentManager manager = getSupportFragmentManager();
-            manager.beginTransaction().replace(R.id.relativelayout_for_fragment, shareFragment,
-                    shareFragment.getTag())
-                    .commit();
 
         } else if (id == R.id.ic_contra) {
 
@@ -135,8 +133,42 @@ public class MainActivity extends AppCompatActivity
             manager.beginTransaction().replace(R.id.relativelayout_for_fragment, indicacoesFragment,
                     indicacoesFragment.getTag())
                     .commit();
-        }
 
+         }else if (id == R.id.fase_aguda) {
+
+        //Toast.makeText(this, "Contra-Indicações", Toast.LENGTH_LONG).show();
+        FaseAgudaFragment faseAgudaFragment = FaseAgudaFragment.newInstance("some1", "some2");
+        FragmentManager manager = getSupportFragmentManager();
+        manager.beginTransaction().replace(R.id.relativelayout_for_fragment, faseAgudaFragment,
+                faseAgudaFragment.getTag())
+                .commit();
+
+    } else if (id == R.id.fase_cronica) {
+
+            FaseCronicaFragment faseCronicaFragment = FaseCronicaFragment.newInstance("some1", "some2");
+            FragmentManager manager = getSupportFragmentManager();
+            manager.beginTransaction().replace(R.id.relativelayout_for_fragment, faseCronicaFragment,
+                    faseCronicaFragment.getTag())
+                    .commit();
+
+    }else if (id == R.id.id_fonoforese){
+
+            FonoforeseFragment fonoforeseFragment = FonoforeseFragment.newInstance("some1", "some2");
+            FragmentManager manager = getSupportFragmentManager();
+            manager.beginTransaction().replace(R.id.relativelayout_for_fragment, fonoforeseFragment,
+                    fonoforeseFragment.getTag())
+                    .commit();
+
+    }else if (id == R.id.id_classific){
+
+
+            ClassificFragment classificFragment = ClassificFragment.newInstance("some 1", "some 2");
+            FragmentManager manager = getSupportFragmentManager();
+            manager.beginTransaction().replace(R.id.relativelayout_for_fragment, classificFragment,
+                    classificFragment.getTag())
+                    .commit();
+
+        }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

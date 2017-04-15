@@ -2,17 +2,58 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
     tools:context="eletrofisio.com.teste11.fragments.InicioFragment">
 
 
     <TextView
-        android:text="INÍCIO"
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView7"
-        android:textSize="30sp"
-        android:textStyle="normal|bold"
+        android:layout_marginTop="121dp"
+        android:text="Eletrologia: Base de entendimento das ações fisiológicas e terapêuticas na prática da Fisioterapia. "
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="9dp"
+        android:layout_marginStart="9dp" />
+
+    <TextView
+        android:id="@+id/textView236"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eletroterapia: Emprego da corrente elétrica como agente terapêutico. "
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView246"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="218dp" />
+        android:layout_marginTop="23dp"
+        android:text="INÍCIO"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7386244286645800/4848812370"
+        android:layout_marginBottom="128dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+    </com.google.android.gms.ads.AdView>
+
 </RelativeLayout>

@@ -12,11 +12,6 @@
     tools:context="eletrofisio.com.teste11.activity.CadastroActivity">
 
 
-    <RelativeLayout
-
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:ignore="UselessParent">
 
 
         <ImageView
@@ -24,9 +19,9 @@
             android:layout_height="140dp"
             android:id="@+id/imageView2"
             android:background="@drawable/logo"
+            tools:ignore="ContentDescription"
             android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            tools:ignore="ContentDescription" />
+            android:layout_centerHorizontal="true" />
 
         <EditText
             android:layout_width="match_parent"
@@ -99,6 +94,6 @@
             android:layout_below="@+id/button_cadastrar"
             android:layout_centerHorizontal="true" />
 
-    </RelativeLayout>
+
 
 </RelativeLayout>

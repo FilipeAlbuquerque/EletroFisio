@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
     android:id="@+id/activity_fes"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,8 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="eletrofisio.com.teste11.activity.Fes.FesActivity"
-    >
+    tools:context="eletrofisio.com.teste11.activity.Fes.FesActivity">
 
 
     <Button
@@ -69,8 +69,19 @@
         android:background="@drawable/fundo_caixa_texto"
         tools:ignore="HardcodedText"
         android:textStyle="normal|bold"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/botao_indicacoes_fes"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="63dp" />
+        android:layout_marginTop="50dp" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7386244286645800/4848812370">
+
+    </com.google.android.gms.ads.AdView>
 
 </RelativeLayout>

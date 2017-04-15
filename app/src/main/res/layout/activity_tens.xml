@@ -87,14 +87,14 @@
         android:layout_marginBottom="67dp" />
 
     <Button
-        android:text="Contra-Indicações"
+        android:id="@+id/botaoContraIndicacoes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/fundo_caixa_texto"
         android:layout_alignTop="@+id/botaoIndicacoes"
-        android:id="@+id/botaoContraIndicacoes"
         android:layout_toEndOf="@+id/textView22"
-        android:textSize="14sp" />
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="Contra-Indicações"
+        android:textSize="12sp" />
 
     <Button
         android:text="Voltar para Inicio"

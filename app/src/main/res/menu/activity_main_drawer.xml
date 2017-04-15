@@ -26,12 +26,32 @@
 
     <item android:title="Extras">
         <menu>
+
+
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:id="@+id/fase_aguda"
+                android:icon="@drawable/ic_action_emo_cry"
+                android:title="Fase Aguda" />
+
+            <item
+                android:id="@+id/fase_cronica"
+                android:icon="@drawable/ic_action_emo_shame"
+                android:title="Fase Crônica" />
+
+            <item
+                android:id="@+id/id_fonoforese"
+                android:icon="@drawable/ic_action_process_end"
+                android:title="Fonoforese" />
+
+            <item
+                android:id="@+id/id_classific"
+                android:icon="@drawable/ic_action_book"
+                android:title="Classificações">
+
+            </item>
 
         </menu>
+
     </item>
 
 

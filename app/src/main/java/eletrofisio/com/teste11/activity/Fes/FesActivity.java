@@ -6,6 +6,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 import eletrofisio.com.teste11.R;
 import eletrofisio.com.teste11.activity.MainActivity;
 
@@ -21,6 +24,19 @@ public class FesActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fes);
+
+        //Adicionando o banner de anuncios AdMob
+
+        AdView adView = (AdView) findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().
+                addTestDevice(AdRequest.DEVICE_ID_EMULATOR).
+                build();
+        adView.loadAd(adRequest);
+
+
+
+        //Evventos de clique nos botoes
+
 
         parametrosFES = (Button) findViewById(R.id.botao_parametros_fes);
         indicacoesFES = (Button) findViewById(R.id.botao_indicacoes_fes);

@@ -1,0 +1,183 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="eletrofisio.com.teste11.fragments.ClassificFragment">
+
+
+    <TextView
+        android:id="@+id/textView260"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Classificação das correntes"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView261"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:text="Baixa Frequência"
+        android:textColor="?attr/actionModeSplitBackground"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView260"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView262"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView261"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginTop="27dp"
+        android:layout_toLeftOf="@+id/textView261"
+        android:layout_toStartOf="@+id/textView261"
+        android:text="TENS"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView263"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView267"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:layout_toLeftOf="@+id/textView264"
+        android:layout_toStartOf="@+id/textView264"
+        android:text="FES"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView264"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView263"
+        android:layout_centerHorizontal="true"
+        android:text="Galvânica"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView265"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView264"
+        android:layout_alignBottom="@+id/textView264"
+        android:layout_toEndOf="@+id/textView269"
+        android:layout_toRightOf="@+id/textView269"
+        android:text="Farádica"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView267"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView262"
+        android:layout_marginTop="29dp"
+        android:layout_toLeftOf="@+id/textView264"
+        android:layout_toStartOf="@+id/textView264"
+        android:text="Diadinâmicas"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView268"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView269"
+        android:layout_alignEnd="@+id/textView265"
+        android:layout_alignRight="@+id/textView265"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        android:text="Microcorrentes"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView269"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView267"
+        android:layout_marginTop="35dp"
+        android:layout_toEndOf="@+id/textView262"
+        android:layout_toRightOf="@+id/textView262"
+        android:text="Média Frequência"
+        android:textColor="?attr/actionModeSplitBackground"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView270"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView267"
+        android:layout_alignRight="@+id/textView267"
+        android:layout_below="@+id/textView269"
+        android:layout_marginTop="20dp"
+        android:text="Russa"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView271"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView270"
+        android:layout_alignBottom="@+id/textView270"
+        android:layout_alignEnd="@+id/textView261"
+        android:layout_alignRight="@+id/textView261"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:text="Aussie"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView272"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView270"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:text="Interferencial"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView273"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView272"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:text="Alta Frequência"
+        android:textColor="?attr/actionModeSplitBackground"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView274"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView267"
+        android:layout_alignStart="@+id/textView267"
+        android:layout_below="@+id/textView273"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="28dp"
+        android:text="Ondas curtas"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView275"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView274"
+        android:layout_alignBottom="@+id/textView274"
+        android:layout_alignLeft="@+id/textView268"
+        android:layout_alignStart="@+id/textView268"
+        android:text="Microondas"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

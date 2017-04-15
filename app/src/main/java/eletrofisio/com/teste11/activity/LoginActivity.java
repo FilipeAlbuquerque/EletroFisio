@@ -12,8 +12,8 @@ import com.parse.LogInCallback;
 import com.parse.ParseException;
 import com.parse.ParseUser;
 
-import eletrofisio.com.teste11.util.ParseErros;
 import eletrofisio.com.teste11.R;
+import eletrofisio.com.teste11.util.ParseErros;
 
 
 public class LoginActivity extends AppCompatActivity {
@@ -31,7 +31,15 @@ public class LoginActivity extends AppCompatActivity {
         editLoginSenha = (EditText) findViewById(R.id.edit_login_senha);
         botaoLogar = (Button) findViewById(R.id.button_logar);
 
+        /*//Adicionando o banner de anuncios AdMob
 
+        AdView adView = (AdView) findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().
+                addTestDevice(AdRequest.DEVICE_ID_EMULATOR).
+                build();
+        adView.loadAd(adRequest);*/
+
+        //Deslogar usuário
         ParseUser.logOut();
 
         //Verificar se usuario está logado

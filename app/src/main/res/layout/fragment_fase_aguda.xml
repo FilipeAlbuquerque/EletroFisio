@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="eletrofisio.com.teste11.fragments.FaseAgudaFragment">
+
+
+    <TextView
+        android:id="@+id/textView235"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="Sinais de Fase Aguda"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView247"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginTop="25dp"
+        android:text="Dor;"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView235"
+        android:layout_toLeftOf="@+id/textView235"
+        android:layout_toStartOf="@+id/textView235" />
+
+    <TextView
+        android:id="@+id/textView248"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Calor;"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView247"
+        android:layout_alignLeft="@+id/textView247"
+        android:layout_alignStart="@+id/textView247" />
+
+    <TextView
+        android:id="@+id/textView249"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView248"
+        android:layout_alignStart="@+id/textView248"
+        android:layout_below="@+id/textView248"
+        android:layout_marginTop="26dp"
+        android:text="Rubor;"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView250"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Edema (Cacifo negativo)."
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView249"
+        android:layout_alignLeft="@+id/textView249"
+        android:layout_alignStart="@+id/textView249" />
+
+    <TextView
+        android:id="@+id/textView251"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="Importante também observar o tempo de lesão/diagnóstico da patologia em que o paciente se encontra"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView250"
+        android:layout_alignLeft="@+id/textView250"
+        android:layout_alignStart="@+id/textView250" />
+
+    <TextView
+        android:id="@+id/textView252"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:text="Geralmente a fase aguda dura em torna de uma semana e meia."
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView251"
+        android:layout_alignLeft="@+id/textView251"
+        android:layout_alignStart="@+id/textView251" />
+
+</RelativeLayout>
