@@ -13,6 +13,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="28dp"
         android:text="Sinais de Fase Aguda"
+        android:textColor="#013105"
         android:textSize="24sp"
         android:textStyle="bold" />
 
@@ -20,27 +21,29 @@
         android:id="@+id/textView247"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/textView235"
         android:layout_marginEnd="9dp"
         android:layout_marginRight="9dp"
         android:layout_marginTop="25dp"
-        android:text="Dor;"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:layout_below="@+id/textView235"
         android:layout_toLeftOf="@+id/textView235"
-        android:layout_toStartOf="@+id/textView235" />
+        android:layout_toStartOf="@+id/textView235"
+        android:text="Dor;"
+        android:textColor="#013105"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView248"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView247"
+        android:layout_alignStart="@+id/textView247"
+        android:layout_below="@+id/textView247"
         android:layout_marginTop="28dp"
         android:text="Calor;"
+        android:textColor="#013105"
         android:textSize="18sp"
-        android:textStyle="bold"
-        android:layout_below="@+id/textView247"
-        android:layout_alignLeft="@+id/textView247"
-        android:layout_alignStart="@+id/textView247" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView249"
@@ -51,6 +54,7 @@
         android:layout_below="@+id/textView248"
         android:layout_marginTop="26dp"
         android:text="Rubor;"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -58,36 +62,39 @@
         android:id="@+id/textView250"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView249"
+        android:layout_alignStart="@+id/textView249"
+        android:layout_below="@+id/textView249"
         android:layout_marginTop="18dp"
         android:text="Edema (Cacifo negativo)."
+        android:textColor="#013105"
         android:textSize="18sp"
-        android:textStyle="bold"
-        android:layout_below="@+id/textView249"
-        android:layout_alignLeft="@+id/textView249"
-        android:layout_alignStart="@+id/textView249" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView251"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView250"
+        android:layout_alignStart="@+id/textView250"
+        android:layout_below="@+id/textView250"
         android:layout_marginTop="35dp"
         android:text="Importante também observar o tempo de lesão/diagnóstico da patologia em que o paciente se encontra"
+        android:textColor="#013105"
         android:textSize="16sp"
-        android:textStyle="bold"
-        android:layout_below="@+id/textView250"
-        android:layout_alignLeft="@+id/textView250"
-        android:layout_alignStart="@+id/textView250" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView252"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView251"
+        android:layout_alignStart="@+id/textView251"
+        android:layout_below="@+id/textView251"
         android:layout_marginTop="29dp"
         android:text="Geralmente a fase aguda dura em torna de uma semana e meia."
+        android:textColor="#013105"
         android:textSize="16sp"
-        android:textStyle="bold"
-        android:layout_below="@+id/textView251"
-        android:layout_alignLeft="@+id/textView251"
-        android:layout_alignStart="@+id/textView251" />
+        android:textStyle="bold" />
 
 </RelativeLayout>

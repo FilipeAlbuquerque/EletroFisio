@@ -70,9 +70,12 @@ public class InicioFragment extends Fragment {
 
         AdView adView = (AdView) view.findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().
-                addTestDevice(AdRequest.DEVICE_ID_EMULATOR).
                 build();
         adView.loadAd(adRequest);
+
+        //Adicionando o banner em modo de teste (adiciona na linha acima, antes do .build();)
+
+        //addTestDevice(AdRequest.DEVICE_ID_EMULATOR).
 
         return view;
 

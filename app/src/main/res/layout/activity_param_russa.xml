@@ -15,6 +15,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="21dp"
         android:text="Parâmetros da Corrente Russa"
+        android:textColor="#013105"
         android:textSize="24sp"
         android:textStyle="bold" />
 
@@ -22,13 +23,14 @@
         android:id="@+id/textView177"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView176"
+        android:layout_alignStart="@+id/textView176"
+        android:layout_below="@+id/textView176"
         android:layout_marginTop="91dp"
         android:text="- Frequência portadora:"
+        android:textColor="#013105"
         android:textSize="18sp"
-        android:textStyle="bold"
-        android:layout_below="@+id/textView176"
-        android:layout_alignLeft="@+id/textView176"
-        android:layout_alignStart="@+id/textView176" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView178"
@@ -40,6 +42,7 @@
         android:layout_toEndOf="@+id/textView177"
         android:layout_toRightOf="@+id/textView177"
         android:text="2500Hz"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -47,39 +50,42 @@
         android:id="@+id/textView179"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView177"
+        android:layout_alignStart="@+id/textView177"
+        android:layout_below="@+id/textView177"
         android:layout_marginTop="26dp"
         android:text="- Frequência de modulação:"
+        android:textColor="#013105"
         android:textSize="18sp"
-        android:textStyle="bold"
-        android:layout_below="@+id/textView177"
-        android:layout_alignLeft="@+id/textView177"
-        android:layout_alignStart="@+id/textView177" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView180"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="12dp"
-        android:layout_marginStart="12dp"
-        android:text="10 a 150Hz"
-        android:textSize="18sp"
-        android:textStyle="bold"
         android:layout_alignBaseline="@+id/textView179"
         android:layout_alignBottom="@+id/textView179"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_toEndOf="@+id/textView179"
         android:layout_toRightOf="@+id/textView179"
-        android:layout_toEndOf="@+id/textView179" />
+        android:text="10 a 150Hz"
+        android:textColor="#013105"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView181"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView179"
+        android:layout_alignStart="@+id/textView179"
+        android:layout_below="@+id/textView179"
         android:layout_marginTop="28dp"
         android:text="- Intensidade: "
+        android:textColor="#013105"
         android:textSize="18sp"
-        android:textStyle="bold"
-        android:layout_below="@+id/textView179"
-        android:layout_alignLeft="@+id/textView179"
-        android:layout_alignStart="@+id/textView179" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView182"
@@ -91,6 +97,7 @@
         android:layout_toEndOf="@+id/textView181"
         android:layout_toRightOf="@+id/textView181"
         android:text="0 a 150mA"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -103,6 +110,7 @@
         android:layout_below="@+id/textView181"
         android:layout_marginTop="30dp"
         android:text="- Tempo ON:"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -110,13 +118,14 @@
         android:id="@+id/textView185"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="1 a 30 segundos"
-        android:textSize="18sp"
-        android:textStyle="bold"
         android:layout_alignBaseline="@+id/textView184"
         android:layout_alignBottom="@+id/textView184"
+        android:layout_toEndOf="@+id/textView184"
         android:layout_toRightOf="@+id/textView184"
-        android:layout_toEndOf="@+id/textView184" />
+        android:text="1 a 30 segundos"
+        android:textColor="#013105"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView186"
@@ -127,6 +136,7 @@
         android:layout_below="@+id/textView184"
         android:layout_marginTop="31dp"
         android:text="- Tempo OFF:"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -134,13 +144,14 @@
         android:id="@+id/textView187"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="1 a 30 segundos"
-        android:textSize="18sp"
-        android:textStyle="bold"
         android:layout_alignBaseline="@+id/textView186"
         android:layout_alignBottom="@+id/textView186"
+        android:layout_toEndOf="@+id/textView186"
         android:layout_toRightOf="@+id/textView186"
-        android:layout_toEndOf="@+id/textView186" />
+        android:text="1 a 30 segundos"
+        android:textColor="#013105"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/botaoVoltarRussa_3"
@@ -151,6 +162,7 @@
         android:layout_alignStart="@+id/textView182"
         android:layout_marginBottom="37dp"
         android:background="@drawable/fundo_caixa_texto"
-        android:text="voltar" />
+        android:text="voltar"
+        android:textColor="#013105" />
 
 </RelativeLayout>

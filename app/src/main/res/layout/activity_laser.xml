@@ -16,6 +16,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:text="LASER"
+        android:textColor="#013105"
         android:textSize="24sp"
         android:textStyle="normal|bold"
         tools:ignore="HardcodedText" />
@@ -24,68 +25,74 @@
         android:id="@+id/tiposLaser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="tipos"
-        android:layout_marginBottom="42dp"
-        android:background="@drawable/fundo_caixa_texto"
         android:layout_above="@+id/contraIndLaser"
+        android:layout_marginBottom="42dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="33dp"
         android:layout_toLeftOf="@+id/contraIndLaser"
         android:layout_toStartOf="@+id/contraIndLaser"
-        android:layout_marginRight="33dp"
-        android:layout_marginEnd="33dp" />
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="tipos"
+        android:textColor="#013105" />
 
     <Button
         android:id="@+id/dosimetriaLaser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="dosimetria"
-        android:background="@drawable/fundo_caixa_texto"
         android:layout_alignBaseline="@+id/tiposLaser"
         android:layout_alignBottom="@+id/tiposLaser"
         android:layout_alignLeft="@+id/contraIndLaser"
-        android:layout_alignStart="@+id/contraIndLaser" />
+        android:layout_alignStart="@+id/contraIndLaser"
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="dosimetria"
+        android:textColor="#013105" />
 
     <Button
         android:id="@+id/indicacoesLaser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="indicações"
-        android:background="@drawable/fundo_caixa_texto"
         android:layout_alignBaseline="@+id/contraIndLaser"
         android:layout_alignBottom="@+id/contraIndLaser"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
         android:layout_toLeftOf="@+id/textView18"
         android:layout_toStartOf="@+id/textView18"
-        android:layout_marginRight="11dp"
-        android:layout_marginEnd="11dp" />
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="indicações"
+        android:textColor="#013105" />
 
     <Button
         android:id="@+id/contraIndLaser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="contra-indicações"
-        android:background="@drawable/fundo_caixa_texto"
-        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_centerVertical="true"
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="contra-indicações"
+        android:textColor="#013105" />
 
     <Button
         android:id="@+id/cuidadosLaser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="cuidados"
-        android:background="@drawable/fundo_caixa_texto"
-        android:layout_below="@+id/indicacoesLaser"
+        android:layout_alignEnd="@+id/textView18"
         android:layout_alignRight="@+id/textView18"
-        android:layout_alignEnd="@+id/textView18" />
+        android:layout_below="@+id/indicacoesLaser"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="cuidados"
+        android:textColor="#013105" />
 
     <Button
         android:id="@+id/botaoVoltarLaser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="voltar para início"
-        android:background="@drawable/fundo_caixa_texto"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="23dp" />
+        android:layout_marginBottom="23dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="voltar para início"
+        android:textColor="#013105" />
 
 </RelativeLayout>

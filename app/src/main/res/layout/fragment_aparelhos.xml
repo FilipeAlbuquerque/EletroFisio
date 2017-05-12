@@ -14,6 +14,7 @@
         android:layout_marginTop="26dp"
         android:text="APARELHOS"
         android:textAlignment="center"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -21,98 +22,107 @@
         android:id="@+id/botao_tens"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="tens"
         android:layout_above="@+id/botao_ultra_som"
-        android:background="@drawable/fundo_caixa_texto"
+        android:layout_marginBottom="23dp"
         android:layout_toLeftOf="@+id/botaoVoltar"
         android:layout_toStartOf="@+id/botaoVoltar"
-        android:layout_marginBottom="23dp" />
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="tens"
+        android:textColor="#013105" />
 
     <Button
         android:id="@+id/botao_fes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/botao_tens"
-        android:background="@drawable/fundo_caixa_texto"
         android:layout_alignBottom="@+id/botao_tens"
         android:layout_marginLeft="18dp"
         android:layout_marginStart="18dp"
         android:layout_toEndOf="@+id/textView23"
         android:layout_toRightOf="@+id/textView23"
-        android:text="fes" />
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="fes"
+        android:textColor="#013105" />
 
     <Button
         android:id="@+id/botao_ultra_som"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ultra-som"
         android:layout_above="@+id/botaoOndasCurtas"
-        android:background="@drawable/fundo_caixa_texto"
         android:layout_alignLeft="@+id/botao_tens"
         android:layout_alignStart="@+id/botao_tens"
-        android:layout_marginBottom="36dp" />
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="ultra-som"
+        android:textColor="#013105" />
 
     <Button
         android:id="@+id/botaoLaser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/fundo_caixa_texto"
         android:layout_alignLeft="@+id/botao_fes"
         android:layout_alignStart="@+id/botao_fes"
         android:layout_alignTop="@+id/botao_ultra_som"
-        android:text="laser" />
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="laser"
+        android:textColor="#013105" />
 
     <Button
         android:id="@+id/botaoOndasCurtas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ondas curtas"
-        android:background="@drawable/fundo_caixa_texto"
         android:layout_above="@+id/botaoInterferencial"
         android:layout_alignLeft="@+id/botao_ultra_som"
         android:layout_alignStart="@+id/botao_ultra_som"
-        android:layout_marginBottom="25dp" />
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="ondas curtas"
+        android:textColor="#013105" />
 
     <Button
         android:id="@+id/botaoRussa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/fundo_caixa_texto"
         android:layout_alignLeft="@+id/botaoLaser"
         android:layout_alignStart="@+id/botaoLaser"
         android:layout_alignTop="@+id/botaoOndasCurtas"
-        android:text="russa" />
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="russa"
+        android:textColor="#013105" />
 
     <Button
         android:id="@+id/botaoInterferencial"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="interferencial"
         android:layout_above="@+id/botaoVoltar"
-        android:background="@drawable/fundo_caixa_texto"
         android:layout_alignLeft="@+id/botaoOndasCurtas"
         android:layout_alignStart="@+id/botaoOndasCurtas"
-        android:layout_marginBottom="49dp" />
+        android:layout_marginBottom="49dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="interferencial"
+        android:textColor="#013105" />
 
     <Button
         android:id="@+id/botao_aussie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/fundo_caixa_texto"
         android:layout_alignLeft="@+id/botaoRussa"
         android:layout_alignStart="@+id/botaoRussa"
         android:layout_alignTop="@+id/botaoInterferencial"
-        android:text="aussie" />
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="aussie"
+        android:textColor="#013105" />
 
     <Button
         android:id="@+id/botaoVoltar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="voltar para início"
-        android:background="@drawable/fundo_caixa_texto"
-        android:layout_marginBottom="14dp"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="voltar para início"
+        android:textColor="#013105" />
 
 
 </RelativeLayout>

@@ -17,6 +17,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:text="Corrente Interferencial"
+        android:textColor="#013105"
         android:textSize="24sp"
         android:textStyle="bold" />
 
@@ -29,6 +30,7 @@
         android:layout_below="@+id/textView21"
         android:layout_marginTop="47dp"
         android:text="Frequência:"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -41,6 +43,7 @@
         android:layout_below="@+id/textView203"
         android:layout_marginTop="19dp"
         android:text="5Hz mais desconfortável"
+        android:textColor="#013105"
         android:textStyle="bold" />
 
     <TextView
@@ -52,6 +55,7 @@
         android:layout_below="@+id/textView215"
         android:layout_marginTop="19dp"
         android:text="50Hz a 100Hz menos desconfortável"
+        android:textColor="#013105"
         android:textStyle="bold" />
 
     <TextView
@@ -63,6 +67,7 @@
         android:layout_below="@+id/textView216"
         android:layout_marginTop="43dp"
         android:text="Aplicação Bipolar e Tetrapolar"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -74,29 +79,32 @@
         android:layout_alignParentStart="true"
         android:layout_centerVertical="true"
         android:text="Aplicação de 10min a 20min"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="bold" />
 
     <Button
         android:id="@+id/botaoIndic_Interfe"
-        android:background="@drawable/fundo_caixa_texto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="18dp"
-        android:text="Indicações"
         android:layout_above="@+id/botaoContra_Interfe"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="Indicações"
+        android:textColor="#013105" />
 
     <Button
         android:id="@+id/botaoContra_Interfe"
-        android:background="@drawable/fundo_caixa_texto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="contra-indicações"
-        android:layout_marginBottom="68dp"
         android:layout_above="@+id/botaoVoltarInterfe_1"
         android:layout_alignLeft="@+id/botaoVoltarInterfe_1"
-        android:layout_alignStart="@+id/botaoVoltarInterfe_1" />
+        android:layout_alignStart="@+id/botaoVoltarInterfe_1"
+        android:layout_marginBottom="68dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="contra-indicações"
+        android:textColor="#013105" />
 
     <Button
         android:id="@+id/botaoVoltarInterfe_1"
@@ -105,6 +113,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:background="@drawable/fundo_caixa_texto"
-        android:text="voltar para início" />
+        android:text="voltar para início"
+        android:textColor="#013105" />
 
 </RelativeLayout>

@@ -13,6 +13,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="27dp"
         android:text="Classificação das correntes"
+        android:textColor="#013105"
         android:textSize="24sp"
         android:textStyle="bold" />
 
@@ -39,6 +40,7 @@
         android:layout_toLeftOf="@+id/textView261"
         android:layout_toStartOf="@+id/textView261"
         android:text="TENS"
+        android:textSize="16sp"
         android:textStyle="bold" />
 
     <TextView
@@ -51,6 +53,7 @@
         android:layout_toLeftOf="@+id/textView264"
         android:layout_toStartOf="@+id/textView264"
         android:text="FES"
+        android:textSize="16sp"
         android:textStyle="bold" />
 
     <TextView
@@ -60,6 +63,7 @@
         android:layout_alignTop="@+id/textView263"
         android:layout_centerHorizontal="true"
         android:text="Galvânica"
+        android:textSize="16sp"
         android:textStyle="bold" />
 
     <TextView
@@ -71,6 +75,7 @@
         android:layout_toEndOf="@+id/textView269"
         android:layout_toRightOf="@+id/textView269"
         android:text="Farádica"
+        android:textSize="16sp"
         android:textStyle="bold" />
 
     <TextView
@@ -94,6 +99,7 @@
         android:layout_marginEnd="7dp"
         android:layout_marginRight="7dp"
         android:text="Microcorrentes"
+        android:textSize="16sp"
         android:textStyle="bold" />
 
     <TextView
@@ -118,6 +124,7 @@
         android:layout_below="@+id/textView269"
         android:layout_marginTop="20dp"
         android:text="Russa"
+        android:textSize="16sp"
         android:textStyle="bold" />
 
     <TextView
@@ -131,6 +138,7 @@
         android:layout_marginEnd="18dp"
         android:layout_marginRight="18dp"
         android:text="Aussie"
+        android:textSize="16sp"
         android:textStyle="bold" />
 
     <TextView
@@ -141,6 +149,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="12dp"
         android:text="Interferencial"
+        android:textSize="16sp"
         android:textStyle="bold" />
 
     <TextView
@@ -166,6 +175,7 @@
         android:layout_marginStart="11dp"
         android:layout_marginTop="28dp"
         android:text="Ondas curtas"
+        android:textSize="16sp"
         android:textStyle="bold" />
 
     <TextView
@@ -177,6 +187,7 @@
         android:layout_alignLeft="@+id/textView268"
         android:layout_alignStart="@+id/textView268"
         android:text="Microondas"
+        android:textSize="16sp"
         android:textStyle="bold" />
 
 

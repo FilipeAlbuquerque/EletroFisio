@@ -15,6 +15,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
         android:text="Tipos de Laser"
+        android:textColor="#013105"
         android:textSize="24sp"
         android:textStyle="bold" />
 
@@ -22,40 +23,43 @@
         android:id="@+id/textView99"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="77dp"
-        android:text="- Laser de Hélio-Neônio (HeNe);"
-        android:paddingLeft="10dp"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:layout_below="@+id/textView98"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView98"
+        android:layout_marginTop="77dp"
+        android:paddingLeft="10dp"
+        android:text="- Laser de Hélio-Neônio (HeNe);"
+        android:textColor="#013105"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView100"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="41dp"
-        android:text="- Laser de Arsenieto de Gálio (AsGa);"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:paddingLeft="10dp"
-        android:layout_below="@+id/textView99"
         android:layout_alignLeft="@+id/textView99"
-        android:layout_alignStart="@+id/textView99" />
+        android:layout_alignStart="@+id/textView99"
+        android:layout_below="@+id/textView99"
+        android:layout_marginTop="41dp"
+        android:paddingLeft="10dp"
+        android:text="- Laser de Arsenieto de Gálio (AsGa);"
+        android:textColor="#013105"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView101"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="- Laser Arsenieto de Gálio-Aluminio (AsGaAl);"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:layout_below="@+id/textView100"
-        android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView100"
+        android:layout_marginTop="37dp"
         android:paddingLeft="10dp"
-        android:layout_marginTop="37dp" />
+        android:text="- Laser Arsenieto de Gálio-Aluminio (AsGaAl);"
+        android:textColor="#013105"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView102"
@@ -65,23 +69,25 @@
         android:layout_alignStart="@+id/textView101"
         android:layout_below="@+id/textView101"
         android:layout_marginTop="42dp"
-        android:text="- Laser Índio Gálio Alumínio Fósforo (InGaAlP)."
-        android:textSize="18sp"
         android:paddingLeft="10dp"
+        android:text="- Laser Índio Gálio Alumínio Fósforo (InGaAlP)."
+        android:textColor="#013105"
+        android:textSize="18sp"
         android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView103"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
-        android:text="Obs: Atualmente estão sendo usados aparelhos que emitem radiação luminoso com o uso de LEDS "
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:paddingLeft="10dp"
-        android:layout_below="@+id/textView102"
         android:layout_alignLeft="@+id/textView102"
-        android:layout_alignStart="@+id/textView102" />
+        android:layout_alignStart="@+id/textView102"
+        android:layout_below="@+id/textView102"
+        android:layout_marginTop="28dp"
+        android:paddingLeft="10dp"
+        android:text="Obs: Atualmente estão sendo usados aparelhos que emitem radiação luminoso com o uso de LEDS "
+        android:textColor="#013105"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/botaoVoltarLaser"

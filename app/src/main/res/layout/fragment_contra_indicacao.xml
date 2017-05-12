@@ -13,6 +13,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="13dp"
         android:text="Contra-indicações Gerais"
+        android:textColor="#013105"
         android:textSize="24sp"
         android:textStyle="bold" />
 
@@ -27,6 +28,7 @@
         android:layout_marginStart="18dp"
         android:layout_marginTop="41dp"
         android:text="- Gravidez;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -39,6 +41,7 @@
         android:layout_below="@+id/textView237"
         android:layout_marginTop="21dp"
         android:text="- Marcapasso;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -51,6 +54,7 @@
         android:layout_below="@+id/textView238"
         android:layout_marginTop="27dp"
         android:text="- Seio carotídeo;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -63,6 +67,7 @@
         android:layout_below="@+id/textView239"
         android:layout_marginTop="23dp"
         android:text="- Ao redor dos olhos;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -75,6 +80,7 @@
         android:layout_below="@+id/textView240"
         android:layout_marginTop="24dp"
         android:text="- Obesidade mórbida;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -87,6 +93,7 @@
         android:layout_below="@+id/textView241"
         android:layout_marginTop="21dp"
         android:text="- Implantes metálicos expostos; "
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -99,6 +106,7 @@
         android:layout_below="@+id/textView242"
         android:layout_marginTop="22dp"
         android:text="- Incapacidades cardíacas graves;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 

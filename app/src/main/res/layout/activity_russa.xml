@@ -17,61 +17,67 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:text="Corrente Russa"
+        android:textColor="#013105"
         android:textSize="24sp"
         android:textStyle="normal|bold" />
 
     <Button
         android:id="@+id/TiposRussa"
-        android:background="@drawable/fundo_caixa_texto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="123dp"
-        android:text="Tipos de fibras musculares" />
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="Tipos de fibras musculares"
+        android:textColor="#013105" />
 
     <Button
         android:id="@+id/IndiRussa"
         android:layout_width="wrap_content"
-        android:background="@drawable/fundo_caixa_texto"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/textView19"
         android:layout_marginTop="108dp"
-        android:text="indicações" />
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="indicações"
+        android:textColor="#013105" />
 
     <Button
         android:id="@+id/ContraRussa"
         android:layout_width="wrap_content"
-        android:background="@drawable/fundo_caixa_texto"
         android:layout_height="wrap_content"
-        android:text="contra-indicações"
-        android:layout_marginBottom="19dp"
         android:layout_above="@+id/ModosRussa"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="19dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="contra-indicações"
+        android:textColor="#013105" />
 
     <Button
         android:id="@+id/ParamRussa"
         android:layout_width="wrap_content"
-        android:background="@drawable/fundo_caixa_texto"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/IndiRussa"
         android:layout_alignBottom="@+id/IndiRussa"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:text="Parâmetros" />
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="Parâmetros"
+        android:textColor="#013105" />
 
     <Button
         android:id="@+id/ModosRussa"
         android:layout_width="wrap_content"
-        android:background="@drawable/fundo_caixa_texto"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="27dp"
-        android:text="modos da corrente"
         android:layout_above="@+id/TiposRussa"
+        android:layout_alignEnd="@+id/ContraRussa"
         android:layout_alignRight="@+id/ContraRussa"
-        android:layout_alignEnd="@+id/ContraRussa" />
+        android:layout_marginBottom="27dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="modos da corrente"
+        android:textColor="#013105" />
 
     <Button
         android:id="@+id/BtVoltar_Russa1"
@@ -81,5 +87,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="7dp"
         android:background="@drawable/fundo_caixa_texto"
-        android:text="voltar para início" />
+        android:text="voltar para início"
+        android:textColor="#013105" />
 </RelativeLayout>

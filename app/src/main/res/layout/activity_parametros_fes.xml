@@ -11,164 +11,174 @@
     tools:context="eletrofisio.com.teste11.activity.Fes.ParametrosFESActivity">
 
     <TextView
-        android:text="- Em Segundos"
+        android:id="@+id/textView41"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/textView38"
-        android:layout_toRightOf="@+id/textView38"
-        android:layout_toEndOf="@+id/textView38"
-        android:layout_marginLeft="19dp"
-        android:layout_marginStart="19dp"
-        android:id="@+id/textView41"
-        android:textSize="16sp" />
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/textView46"
+        android:text="-  milisegundos"
+        android:textColor="#013105"
+        android:textSize="14sp" />
 
     <TextView
-        android:text="Parâmetros a serem considerados"
+        android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="57dp"
-        android:id="@+id/textView10"
-        android:textStyle="normal|bold"
-        android:textSize="20sp" />
-
-    <TextView
-        android:text="Frequência"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView10"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="85dp"
-        android:id="@+id/textView33"
-        android:textStyle="normal|bold"
-        android:textSize="20sp" />
-
-
-    <TextView
-        android:text=" - Até 250us"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView37"
-        android:textSize="20sp"
-        android:layout_alignBaseline="@+id/textView36"
-        android:layout_alignBottom="@+id/textView36"
-        android:layout_alignRight="@+id/textView35"
-        android:layout_alignEnd="@+id/textView35" />
-
-    <TextView
-        android:text=" - Abaixo de 50hz"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView35"
-        android:textSize="20sp"
-        android:layout_above="@+id/textView36"
-        android:layout_toRightOf="@+id/textView33"
-        android:layout_toEndOf="@+id/textView33"
-        android:layout_marginLeft="19dp"
-        android:layout_marginStart="19dp" />
-
-    <TextView
-        android:text="- Em Segundos"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView39"
-        android:textSize="16sp"
-        android:layout_alignBaseline="@+id/textView40"
-        android:layout_alignBottom="@+id/textView40"
-        android:layout_toLeftOf="@+id/textView41"
-        android:layout_toStartOf="@+id/textView41" />
-
-    <TextView
-        android:text="Tempo de subida (Rise)"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:id="@+id/textView38"
-        android:textStyle="normal|bold"
-        android:textSize="20sp"
-        android:layout_below="@+id/textView36"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <TextView
-        android:text="Largura de Pulso"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:id="@+id/textView36"
-        android:textStyle="normal|bold"
-        android:textSize="20sp"
-        android:layout_below="@+id/textView33"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <TextView
-        android:text="Tempo ON"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:id="@+id/textView40"
-        android:textStyle="normal|bold"
-        android:textSize="20sp"
-        android:layout_below="@+id/textView38"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <TextView
-        android:text="Tempo de Descida (Decay)"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView40"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="30dp"
-        android:id="@+id/textView43"
+        android:text="Parâmetros a serem considerados"
+        android:textColor="#013105"
         android:textSize="20sp"
         android:textStyle="normal|bold" />
 
     <TextView
-        android:text="- Segundos"
+        android:id="@+id/textView33"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView44"
-        android:textSize="16sp"
-        android:layout_alignBaseline="@+id/textView43"
-        android:layout_alignBottom="@+id/textView43"
-        android:layout_toRightOf="@+id/textView43"
-        android:layout_toEndOf="@+id/textView43" />
-
-    <TextView
-        android:text="Tempo OFF"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView43"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="26dp"
-        android:id="@+id/textView45"
-        android:textStyle="normal|bold"
+        android:layout_below="@+id/textView10"
+        android:layout_marginTop="85dp"
+        android:text="Frequência"
+        android:textColor="#013105"
+        android:textSize="20sp"
+        android:textStyle="normal|bold" />
+
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView36"
+        android:layout_alignBottom="@+id/textView36"
+        android:layout_alignEnd="@+id/textView35"
+        android:layout_alignRight="@+id/textView35"
+        android:text=" - Até 250us"
+        android:textColor="#013105"
         android:textSize="20sp" />
 
     <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView36"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_toEndOf="@+id/textView33"
+        android:layout_toRightOf="@+id/textView33"
+        android:text=" - Abaixo de 50hz"
+        android:textColor="#013105"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView40"
+        android:layout_alignBottom="@+id/textView40"
+        android:layout_toLeftOf="@+id/textView41"
+        android:layout_toStartOf="@+id/textView41"
         android:text="- Em Segundos"
+        android:textColor="#013105"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView36"
+        android:layout_marginTop="20dp"
+        android:text="Tempo de subida (Rise)"
+        android:textColor="#013105"
+        android:textSize="20sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView33"
+        android:layout_marginTop="24dp"
+        android:text="Largura de Pulso"
+        android:textColor="#013105"
+        android:textSize="20sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView38"
+        android:layout_marginTop="20dp"
+        android:text="Tempo ON"
+        android:textColor="#013105"
+        android:textSize="20sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView40"
+        android:layout_marginTop="30dp"
+        android:text="Tempo de Descida (Decay)"
+        android:textColor="#013105"
+        android:textSize="20sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- milisegundos"
+        android:textColor="#013105"
+        android:textSize="14sp"
+        android:layout_alignBottom="@+id/textView43"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView43"
+        android:layout_marginTop="26dp"
+        android:text="Tempo OFF"
+        android:textColor="#013105"
+        android:textSize="20sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/textView46"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/textView45"
         android:layout_alignLeft="@+id/textView35"
         android:layout_alignStart="@+id/textView35"
-        android:id="@+id/textView46"
+        android:text="- Em Segundos"
+        android:textColor="#013105"
         android:textSize="16sp" />
 
     <Button
-        android:text="Voltar"
+        android:id="@+id/botao_voltar_fes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/fundo_caixa_texto"
-        android:id="@+id/botao_voltar_fes"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="21dp" />
+        android:layout_marginBottom="21dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="Voltar"
+        android:textColor="#013105" />
 
 </RelativeLayout>

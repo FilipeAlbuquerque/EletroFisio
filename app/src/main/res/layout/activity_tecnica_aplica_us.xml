@@ -14,6 +14,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
         android:text="Técnicas de aplicação do Ultra-som"
+        android:textColor="#013105"
         android:textSize="22sp"
         android:textStyle="bold" />
 
@@ -26,6 +27,7 @@
         android:layout_below="@+id/textView82"
         android:layout_marginTop="58dp"
         android:text="- Contato direto do cabeçote com a pele do paciente;"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -38,6 +40,7 @@
         android:layout_below="@+id/textView83"
         android:layout_marginTop="40dp"
         android:text="- Subaquática;"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -50,6 +53,7 @@
         android:layout_below="@+id/textView84"
         android:layout_marginTop="40dp"
         android:text="- Com bolsas de água;"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -62,6 +66,7 @@
         android:layout_below="@+id/textView85"
         android:layout_marginTop="46dp"
         android:text="- Fonoforese;"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -74,6 +79,7 @@
         android:layout_below="@+id/textView86"
         android:layout_marginTop="38dp"
         android:text="- Reflexo segmentar."
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -85,5 +91,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="62dp"
         android:background="@drawable/fundo_caixa_texto"
-        android:text="voltar" />
+        android:text="voltar"
+        android:textColor="#013105" />
 </RelativeLayout>

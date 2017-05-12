@@ -8,75 +8,77 @@
     android:paddingLeft="64dp"
     android:paddingRight="64dp"
     android:paddingTop="16dp"
-    android:background="@drawable/fundo_degradee"
+
     android:gravity="center_vertical|center_horizontal"
     tools:context="eletrofisio.com.teste11.activity.LoginActivity">
 
 
-
-        <ImageView
-            android:layout_width="140dp"
-            android:layout_height="140dp"
-            android:background="@drawable/logo"
-            android:id="@+id/imageView"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            tools:ignore="ContentDescription" />
-
         <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/fundo_caixa_texto"
-            android:padding="16dp"
-            android:textColor="@android:color/white"
-            android:textColorHint="@android:color/white"
-            android:hint="Digite seu usuário"
             android:id="@+id/edit_login_usuario"
-            android:layout_below="@+id/imageView"
-            android:layout_marginTop="10dp"
-            tools:ignore="HardcodedText"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
-
-        <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_above="@+id/edit_login_senha"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="10dp"
             android:background="@drawable/fundo_caixa_texto"
+            android:hint="Digite seu usuário"
             android:padding="16dp"
-            android:textColor="@android:color/white"
-            android:textColorHint="@android:color/white"
+            android:textColor="@android:color/background_light"
+            android:textColorHint="#013105"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/edit_login_senha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/button_logar"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="9dp"
+            android:background="@drawable/fundo_caixa_texto"
+            android:ems="10"
             android:hint="Digite sua senha"
             android:inputType="textPassword"
-            android:ems="10"
-            android:id="@+id/edit_login_senha"
-            android:layout_below="@+id/edit_login_usuario"
-            android:layout_marginTop="10dp"
+            android:padding="16dp"
+            android:textColor="@android:color/white"
+            android:textColorHint="#013105"
             tools:ignore="HardcodedText" />
 
         <Button
+            android:id="@+id/button_logar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_above="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="30dp"
             android:background="@drawable/fundo_botao"
             android:text="@string/botao_logar"
-            android:id="@+id/button_logar"
-            android:layout_below="@+id/edit_login_senha"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginTop="23dp" />
+            android:textColor="#013105" />
 
         <TextView
+            android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="@string/crie_conta"
-            android:id="@+id/textView"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="83dp"
             android:onClick="abrirCadastroUsuario"
+            android:text="@string/crie_conta"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#013105"
             android:textSize="18sp"
-            android:textStyle="normal|bold"
-            android:layout_below="@+id/button_logar"
-            android:layout_alignRight="@+id/imageView"
-            android:layout_alignEnd="@+id/imageView"
-            android:layout_marginTop="30dp" />
+            android:textStyle="normal|bold" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:srcCompat="@drawable/web_hi_res_512"
+            android:layout_marginTop="21dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
 
 
 </RelativeLayout>

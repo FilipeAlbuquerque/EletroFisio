@@ -13,6 +13,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="13dp"
         android:text="Indicações Gerais"
+        android:textColor="#013105"
         android:textSize="24sp"
         android:textStyle="bold" />
 
@@ -27,6 +28,7 @@
         android:layout_marginStart="18dp"
         android:layout_marginTop="41dp"
         android:text="- Redução de edemas;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -34,13 +36,14 @@
         android:id="@+id/textView238"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView237"
+        android:layout_alignStart="@+id/textView237"
+        android:layout_below="@+id/textView237"
         android:layout_marginTop="21dp"
         android:text="- Reeducação muscular;"
+        android:textColor="#013105"
         android:textSize="16sp"
-        android:textStyle="bold"
-        android:layout_below="@+id/textView237"
-        android:layout_alignLeft="@+id/textView237"
-        android:layout_alignStart="@+id/textView237" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView239"
@@ -51,6 +54,7 @@
         android:layout_below="@+id/textView238"
         android:layout_marginTop="27dp"
         android:text="- Fortalecimento muscular;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -63,6 +67,7 @@
         android:layout_below="@+id/textView239"
         android:layout_marginTop="23dp"
         android:text="- Consolidação de fraturas;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -75,6 +80,7 @@
         android:layout_below="@+id/textView240"
         android:layout_marginTop="24dp"
         android:text="-Inibição de espasmos musculares;  "
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -87,6 +93,7 @@
         android:layout_below="@+id/textView241"
         android:layout_marginTop="21dp"
         android:text="- Minimização de atrofia por desuso; "
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -99,6 +106,7 @@
         android:layout_below="@+id/textView242"
         android:layout_marginTop="22dp"
         android:text="- Redução de contraturas articulares;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -111,6 +119,7 @@
         android:layout_below="@+id/textView243"
         android:layout_marginTop="19dp"
         android:text="- Controle de dores agudas e crônicas;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -123,6 +132,7 @@
         android:layout_below="@+id/textView244"
         android:layout_marginTop="16dp"
         android:text="- Cicatrização de lesões abertas e   fechadas. "
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 

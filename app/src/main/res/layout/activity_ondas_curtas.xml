@@ -16,20 +16,22 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:text="Ondas Curtas"
+        android:textColor="#013105"
         android:textSize="24sp"
         android:textStyle="normal|bold" />
 
     <Button
         android:id="@+id/btIndicacoes_OndasCurtas"
-        android:background="@drawable/fundo_caixa_texto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="90dp"
-        android:text="Indicações"
-        android:textStyle="bold"
-        android:layout_below="@+id/textView20"
+        android:layout_alignEnd="@+id/bt_Aplicacao_OndasCurtas"
         android:layout_alignRight="@+id/bt_Aplicacao_OndasCurtas"
-        android:layout_alignEnd="@+id/bt_Aplicacao_OndasCurtas" />
+        android:layout_below="@+id/textView20"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="Indicações"
+        android:textColor="#013105"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/bt_Contra_OndasCurtas"
@@ -41,6 +43,7 @@
         android:layout_alignParentRight="true"
         android:background="@drawable/fundo_caixa_texto"
         android:text="Contra-Indicações"
+        android:textColor="#013105"
         android:textStyle="bold" />
 
     <Button
@@ -54,11 +57,11 @@
         android:layout_marginRight="25dp"
         android:background="@drawable/fundo_caixa_texto"
         android:text="Precauções"
+        android:textColor="#013105"
         android:textStyle="bold" />
 
     <Button
         android:id="@+id/bt_Aplicacao_OndasCurtas"
-        android:background="@drawable/fundo_caixa_texto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -67,20 +70,23 @@
         android:layout_marginLeft="7dp"
         android:layout_marginStart="7dp"
         android:layout_marginTop="21dp"
+        android:background="@drawable/fundo_caixa_texto"
         android:text="Téc. Aplicação"
+        android:textColor="#013105"
         android:textStyle="bold" />
 
     <Button
         android:id="@+id/bt_Tempo_OndasCurtas"
-        android:background="@drawable/fundo_caixa_texto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tempo Tratamento"
-        android:textStyle="bold"
-        android:layout_below="@+id/bt_Aplicacao_OndasCurtas"
         android:layout_alignLeft="@+id/textView20"
         android:layout_alignStart="@+id/textView20"
-        android:layout_marginTop="26dp" />
+        android:layout_below="@+id/bt_Aplicacao_OndasCurtas"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="Tempo Tratamento"
+        android:textColor="#013105"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/bt_Efeitos_OndasCurtas"
@@ -92,6 +98,7 @@
         android:layout_marginTop="19dp"
         android:background="@drawable/fundo_caixa_texto"
         android:text="Efeitos Fisiológicos"
+        android:textColor="#013105"
         android:textStyle="bold" />
 
     <Button
@@ -103,5 +110,6 @@
         android:layout_marginBottom="18dp"
         android:background="@drawable/fundo_caixa_texto"
         android:text="voltar para início"
+        android:textColor="#013105"
         android:textStyle="bold" />
 </RelativeLayout>

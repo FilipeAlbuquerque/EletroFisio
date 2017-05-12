@@ -14,6 +14,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="27dp"
         android:text="Precauções em Ondas Curtas"
+        android:textColor="#013105"
         android:textSize="24sp"
         android:textStyle="bold" />
 
@@ -26,6 +27,7 @@
         android:layout_below="@+id/textView129"
         android:layout_marginTop="50dp"
         android:text="- Evitar macas ou cadeiras metálicas;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -38,6 +40,7 @@
         android:layout_below="@+id/textView131"
         android:layout_marginTop="32dp"
         android:text="- Entre cabos e pacientes deve-se colocar uma toalha;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -50,6 +53,7 @@
         android:layout_below="@+id/textView132"
         android:layout_marginTop="27dp"
         android:text="- Remover objetos metálicos próximos;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -62,6 +66,7 @@
         android:layout_below="@+id/textView133"
         android:layout_marginTop="25dp"
         android:text="- Períodos menstruais (Em casos de Hemorragias);"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -74,6 +79,7 @@
         android:layout_below="@+id/textView134"
         android:layout_marginTop="30dp"
         android:text="- Paciente não deve se movimentar durante tratamento;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -86,6 +92,7 @@
         android:layout_below="@+id/textView135"
         android:layout_marginTop="30dp"
         android:text="- Transtornos cardíacos;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -97,5 +104,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="16dp"
         android:background="@drawable/fundo_caixa_texto"
-        android:text="voltar" />
+        android:text="voltar"
+        android:textColor="#013105" />
 </RelativeLayout>

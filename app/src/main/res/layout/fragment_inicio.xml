@@ -10,28 +10,30 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="9dp"
+        android:layout_marginStart="9dp"
         android:layout_marginTop="121dp"
         android:text="Eletrologia: Base de entendimento das ações fisiológicas e terapêuticas na prática da Fisioterapia. "
         android:textAllCaps="false"
+        android:textColor="#013105"
         android:textSize="18sp"
-        android:textStyle="bold"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="9dp"
-        android:layout_marginStart="9dp" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView236"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Eletroterapia: Emprego da corrente elétrica como agente terapêutico. "
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:layout_marginTop="30dp"
-        android:layout_below="@+id/textView2"
         android:layout_alignLeft="@+id/textView2"
-        android:layout_alignStart="@+id/textView2" />
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="30dp"
+        android:text="Eletroterapia: Emprego da corrente elétrica como agente terapêutico. "
+        android:textColor="#013105"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView246"
@@ -41,6 +43,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="23dp"
         android:text="INÍCIO"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -50,9 +53,9 @@
         android:layout_height="wrap_content"
         ads:adSize="BANNER"
         ads:adUnitId="ca-app-pub-7386244286645800/4848812370"
-        android:layout_marginBottom="128dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true">
+        android:layout_below="@+id/textView236"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp">
 
     </com.google.android.gms.ads.AdView>
 

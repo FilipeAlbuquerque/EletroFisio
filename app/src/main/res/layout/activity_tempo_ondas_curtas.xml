@@ -15,6 +15,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
         android:text="Tempo de aplicação do Ondas Curtas"
+        android:textColor="#013105"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -27,6 +28,7 @@
         android:layout_below="@+id/textView154"
         android:layout_marginTop="80dp"
         android:text="FASE AGUDA:"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -37,6 +39,7 @@
         android:layout_alignBottom="@+id/textView155"
         android:layout_centerHorizontal="true"
         android:text="10 a 15min"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -49,6 +52,7 @@
         android:layout_below="@+id/textView155"
         android:layout_marginTop="66dp"
         android:text="FASE SUB-AGUDA:"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -62,6 +66,7 @@
         android:layout_toEndOf="@+id/textView157"
         android:layout_toRightOf="@+id/textView157"
         android:text="15 a 20min"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -74,6 +79,7 @@
         android:layout_below="@+id/textView157"
         android:layout_marginTop="71dp"
         android:text="FASE CRÔNICA:"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -81,15 +87,16 @@
         android:id="@+id/textView160"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="20 a 30min"
-        android:textSize="18sp"
-        android:textStyle="bold"
         android:layout_alignBaseline="@+id/textView159"
         android:layout_alignBottom="@+id/textView159"
-        android:layout_toRightOf="@+id/textView159"
-        android:layout_toEndOf="@+id/textView159"
         android:layout_marginLeft="10dp"
-        android:layout_marginStart="10dp" />
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/textView159"
+        android:layout_toRightOf="@+id/textView159"
+        android:text="20 a 30min"
+        android:textColor="#013105"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/botao_voltar_OC_3"
@@ -100,5 +107,6 @@
         android:layout_alignStart="@+id/textView156"
         android:layout_marginBottom="37dp"
         android:background="@drawable/fundo_caixa_texto"
-        android:text="voltar" />
+        android:text="voltar"
+        android:textColor="#013105" />
 </RelativeLayout>

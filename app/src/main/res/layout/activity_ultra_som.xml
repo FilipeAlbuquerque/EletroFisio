@@ -8,6 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+
     tools:context="eletrofisio.com.teste11.activity.UltraSom.UltraSomActivity">
 
     <TextView
@@ -17,6 +18,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:text="Ultra-som"
+        android:textColor="#024b12"
         android:textSize="24sp"
         android:textStyle="normal|bold"
         tools:ignore="HardcodedText" />
@@ -30,6 +32,7 @@
         android:layout_below="@+id/textView17"
         android:layout_marginTop="49dp"
         android:text="Modo Pulsado"
+        android:textColor="#013105"
         android:textSize="14sp"
         android:textStyle="normal|bold" />
 
@@ -43,6 +46,7 @@
         android:layout_toEndOf="@+id/textView53"
         android:layout_toRightOf="@+id/textView53"
         android:text="- Fase Aguda"
+        android:textColor="#013105"
         android:textSize="14sp"
         android:textStyle="normal|bold" />
 
@@ -55,6 +59,7 @@
         android:layout_below="@+id/textView53"
         android:layout_marginTop="20dp"
         android:text="Modo Contínuo"
+        android:textColor="#013105"
         android:textSize="14sp"
         android:textStyle="normal|bold" />
 
@@ -66,6 +71,7 @@
         android:layout_alignLeft="@+id/textView54"
         android:layout_alignStart="@+id/textView54"
         android:text="- Fase Crônica"
+        android:textColor="#013105"
         android:textSize="14sp"
         android:textStyle="normal|bold" />
 
@@ -85,24 +91,25 @@
         android:id="@+id/textView59"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="- Efeito Térmico"
-        android:textColor="#6f0000"
-        android:textSize="14sp"
-        android:textStyle="normal|bold"
         android:layout_alignBaseline="@+id/textView57"
         android:layout_alignBottom="@+id/textView57"
+        android:layout_alignEnd="@+id/textView58"
         android:layout_alignRight="@+id/textView58"
-        android:layout_alignEnd="@+id/textView58" />
+        android:text="- Efeito Térmico"
+        android:textColor="#013105"
+        android:textSize="14sp"
+        android:textStyle="normal|bold" />
 
     <TextView
-        android:text="1MHz"
+        android:id="@+id/textView60"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView55"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView55"
         android:layout_marginTop="44dp"
-        android:id="@+id/textView60"
+        android:text="1MHz"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="normal|bold" />
 
@@ -117,19 +124,20 @@
         android:layout_toEndOf="@+id/textView60"
         android:layout_toRightOf="@+id/textView60"
         android:text="- 3cm a 4cm de profundidade da onda."
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="#013105"
         android:textSize="14sp"
         android:textStyle="normal|bold" />
 
     <TextView
-        android:text="3MHz"
+        android:id="@+id/textView62"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView60"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView60"
         android:layout_marginTop="22dp"
-        android:id="@+id/textView62"
+        android:text="3MHz"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="normal|bold" />
 
@@ -141,7 +149,7 @@
         android:layout_alignStart="@+id/textView61"
         android:layout_alignTop="@+id/textView62"
         android:text="- 1cm a 2cm de profundidade da onda."
-        android:textColor="#630101"
+        android:textColor="#013105"
         android:textSize="14sp"
         android:textStyle="normal|bold" />
 

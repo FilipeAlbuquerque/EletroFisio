@@ -13,6 +13,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="27dp"
         android:text="FONOFORESE"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -27,6 +28,7 @@
         android:layout_marginStart="21dp"
         android:layout_marginTop="92dp"
         android:text="Administração de medicamento através do uso do Ultra-som."
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -39,6 +41,7 @@
         android:layout_below="@+id/textView256"
         android:layout_marginTop="30dp"
         android:text="A habilidade do ultra-som em incrementar a penetração de agentes farmacológicos ativos através da pele."
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -51,6 +54,7 @@
         android:layout_below="@+id/textView258"
         android:layout_marginTop="24dp"
         android:text=" Trata-se de uma eficiente alternativa de transporte de substâncias além da utilização medicamentosa via oral, ou injeções intradérmicas."
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 </RelativeLayout>
