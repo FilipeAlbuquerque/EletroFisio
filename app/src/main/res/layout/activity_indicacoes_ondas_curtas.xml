@@ -15,6 +15,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
         android:text="Indicações da Ondas Curtas"
+        android:textColor="#013105"
         android:textSize="24sp"
         android:textStyle="bold" />
 
@@ -29,6 +30,7 @@
         android:layout_marginStart="14dp"
         android:layout_marginTop="95dp"
         android:text="- Afcções Traumáticas;"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -41,6 +43,7 @@
         android:layout_below="@+id/textView125"
         android:layout_marginTop="34dp"
         android:text="- Afcções musculares;"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -53,6 +56,7 @@
         android:layout_below="@+id/textView126"
         android:layout_marginTop="40dp"
         android:text="- Afcções Reumatológicas;"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -65,6 +69,7 @@
         android:layout_below="@+id/textView127"
         android:layout_marginTop="32dp"
         android:text="- Afcções otorrinolaringológicas;"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -77,6 +82,7 @@
         android:layout_below="@+id/textView128"
         android:layout_marginTop="40dp"
         android:text="- Afcções Ginecológicas;"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -89,6 +95,7 @@
         android:layout_alignRight="@+id/textView130"
         android:layout_marginBottom="27dp"
         android:background="@drawable/fundo_caixa_texto"
-        android:text="voltar" />
+        android:text="voltar"
+        android:textColor="#013105" />
 
 </RelativeLayout>

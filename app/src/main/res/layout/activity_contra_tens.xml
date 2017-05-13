@@ -11,95 +11,103 @@
     tools:context="eletrofisio.com.teste11.activity.TENS.IndicacoesTensActivity">
 
     <TextView
-        android:text="Contra-Indicações da TENS"
+        android:id="@+id/textView26"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="48dp"
-        android:id="@+id/textView26"
-        android:textStyle="normal|bold"
-        android:textSize="24sp" />
+        android:text="Contra-Indicações da TENS"
+        android:textColor="#013105"
+        android:textSize="24sp"
+        android:textStyle="normal|bold" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="82dp"
         android:id="@+id/textView27"
-        android:textAllCaps="false"
-        android:text="- Pacientes com dor não diagnosticada;"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
         android:layout_below="@+id/textView26"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
+        android:layout_marginTop="82dp"
+        android:text="- Pacientes com dor não diagnosticada;"
+        android:textAllCaps="false"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="normal|bold" />
 
     <TextView
-        android:text="- Pacientes com alterações sensitivas;"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
         android:id="@+id/textView29"
-        android:textSize="18sp"
-        android:textStyle="normal|bold"
-        android:layout_below="@+id/textView28"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <TextView
-        android:text="- Sobre região de marcapasso;"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView29"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="14dp"
-        android:id="@+id/textView31"
+        android:layout_below="@+id/textView28"
+        android:layout_marginTop="20dp"
+        android:text="- Pacientes com alterações sensitivas;"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="normal|bold" />
 
     <TextView
-        android:text="- Região anterior do pescoço;"
+        android:id="@+id/textView31"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="17dp"
-        android:id="@+id/textView32"
-        android:textSize="18sp"
-        android:textStyle="normal|bold"
-        android:layout_below="@+id/textView31"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView29"
+        android:layout_marginTop="14dp"
+        android:text="- Sobre região de marcapasso;"
+        android:textColor="#013105"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
 
     <TextView
-        android:text="- Pacientes com baixa compreensão;"
+        android:id="@+id/textView32"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="17dp"
-        android:id="@+id/textView28"
-        android:textSize="18sp"
-        android:textStyle="normal|bold"
-        android:layout_below="@+id/textView27"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView31"
+        android:layout_marginTop="17dp"
+        android:text="- Região anterior do pescoço;"
+        android:textColor="#013105"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView27"
+        android:layout_marginTop="17dp"
+        android:text="- Pacientes com baixa compreensão;"
+        android:textColor="#013105"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
 
     <Button
         android:text="voltar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/bt_voltar_tens"
+        android:background="@drawable/fundo_botao"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="58dp" />
 
     <TextView
-        android:text="- Sobre útero gravídico."
+        android:id="@+id/textView30"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView32"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView32"
         android:layout_marginTop="22dp"
-        android:id="@+id/textView30"
+        android:text="- Sobre útero gravídico."
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="normal|bold" />
 </RelativeLayout>

@@ -15,6 +15,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="28dp"
         android:text="Técnicas de Aplicação do Ondas Curtas"
+        android:textColor="#013105"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -22,15 +23,16 @@
         android:id="@+id/textView139"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView138"
+        android:layout_alignStart="@+id/textView138"
+        android:layout_below="@+id/textView138"
         android:layout_marginLeft="23dp"
         android:layout_marginStart="23dp"
         android:layout_marginTop="80dp"
         android:text="- Transversal"
+        android:textColor="#013105"
         android:textSize="18sp"
-        android:textStyle="bold"
-        android:layout_below="@+id/textView138"
-        android:layout_alignLeft="@+id/textView138"
-        android:layout_alignStart="@+id/textView138" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView140"
@@ -40,6 +42,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="12dp"
         android:text="Eletrodos entre articulação ou membro."
+        android:textColor="#013105"
         android:textSize="14sp"
         android:textStyle="bold" />
 
@@ -52,6 +55,7 @@
         android:layout_below="@+id/textView140"
         android:layout_marginTop="36dp"
         android:text="- Longitudinal"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -64,6 +68,7 @@
         android:layout_below="@+id/textView141"
         android:layout_marginTop="21dp"
         android:text="Eletrodo em origem e inserção de um membro ou segmento do corpo."
+        android:textColor="#013105"
         android:textStyle="bold" />
 
     <TextView
@@ -75,6 +80,7 @@
         android:layout_below="@+id/textView142"
         android:layout_marginTop="42dp"
         android:text="- Co-Planar"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -82,21 +88,24 @@
         android:id="@+id/textView144"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView138"
+        android:layout_alignRight="@+id/textView138"
+        android:layout_below="@+id/textView143"
         android:layout_marginTop="16dp"
         android:text="Eletrodos posicionados no mesmo plano no corpo"
-        android:textStyle="bold"
-        android:layout_below="@+id/textView143"
-        android:layout_alignRight="@+id/textView138"
-        android:layout_alignEnd="@+id/textView138" />
+        android:textColor="#013105"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/botaoVoltar_ondas_Curtas_"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="20dp"
-        android:layout_toEndOf="@+id/textView139"
-        android:layout_toRightOf="@+id/textView139"
+        android:layout_marginBottom="57dp"
         android:background="@drawable/fundo_caixa_texto"
-        android:text="voltar" />
+        android:text="voltar"
+        android:textColor="#013105"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/textView139"
+        android:layout_toEndOf="@+id/textView139" />
 </RelativeLayout>

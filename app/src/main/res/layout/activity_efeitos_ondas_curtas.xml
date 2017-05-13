@@ -14,6 +14,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="24dp"
         android:text="Efeitos Fisiológicos da Ondas Curtas"
+        android:textColor="#013105"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -26,6 +27,7 @@
         android:layout_below="@+id/textView161"
         android:layout_marginTop="89dp"
         android:text="- Acelera reabsorção de edema/hematoma;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -33,13 +35,14 @@
         android:id="@+id/textView163"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView162"
+        android:layout_alignStart="@+id/textView162"
+        android:layout_below="@+id/textView162"
         android:layout_marginTop="18dp"
         android:text="- Acelera consolidação de fratura;"
+        android:textColor="#013105"
         android:textSize="16sp"
-        android:textStyle="bold"
-        android:layout_below="@+id/textView162"
-        android:layout_alignLeft="@+id/textView162"
-        android:layout_alignStart="@+id/textView162" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView164"
@@ -50,6 +53,7 @@
         android:layout_below="@+id/textView163"
         android:layout_marginTop="21dp"
         android:text="- Estimula circulação periférica;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -62,6 +66,7 @@
         android:layout_below="@+id/textView164"
         android:layout_marginTop="19dp"
         android:text="- Alívio da dor aguda;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -74,6 +79,7 @@
         android:layout_below="@+id/textView165"
         android:layout_marginTop="22dp"
         android:text="- Antiinflamatório;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -86,6 +92,7 @@
         android:layout_below="@+id/textView166"
         android:layout_marginTop="21dp"
         android:text="- Aumenta regeneração nervosa;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -98,6 +105,7 @@
         android:layout_below="@+id/textView167"
         android:layout_marginTop="24dp"
         android:text="- Acelera cura de feridas (regeneração tecidual)."
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -109,5 +117,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="20dp"
         android:background="@drawable/fundo_caixa_texto"
-        android:text="voltar" />
+        android:text="voltar"
+        android:textColor="#013105" />
 </RelativeLayout>

@@ -7,7 +7,6 @@
     tools:context="eletrofisio.com.teste11.activity.Aussie.IndicAussieActivity">
 
 
-
     <TextView
         android:id="@+id/textView169"
         android:layout_width="wrap_content"
@@ -16,6 +15,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:text="Indicações da Corrente Aussie"
+        android:textColor="#013105"
         android:textSize="24sp"
         android:textStyle="bold" />
 
@@ -28,6 +28,7 @@
         android:layout_below="@+id/textView169"
         android:layout_marginTop="69dp"
         android:text="- Fortalecimento muscular;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -40,6 +41,7 @@
         android:layout_below="@+id/textView170"
         android:layout_marginTop="35dp"
         android:text="- Relaxamento muscular;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -52,6 +54,7 @@
         android:layout_below="@+id/textView171"
         android:layout_marginTop="30dp"
         android:text="- Drenagem de edemas;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -63,6 +66,7 @@
         android:layout_alignStart="@+id/textView172"
         android:layout_centerVertical="true"
         android:text="- Controle da dor aguda e crônica; *"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -70,13 +74,14 @@
         android:id="@+id/textView174"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView173"
+        android:layout_alignStart="@+id/textView173"
+        android:layout_below="@+id/textView173"
         android:layout_marginTop="28dp"
         android:text="- Recuperação de tônus muscular;"
+        android:textColor="#013105"
         android:textSize="16sp"
-        android:textStyle="bold"
-        android:layout_below="@+id/textView173"
-        android:layout_alignLeft="@+id/textView173"
-        android:layout_alignStart="@+id/textView173" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView175"
@@ -87,6 +92,7 @@
         android:layout_below="@+id/textView174"
         android:layout_marginTop="30dp"
         android:text="- Fortalecimento de esfincter externo;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -98,7 +104,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="24dp"
         android:background="@drawable/fundo_caixa_texto"
-        android:text="voltar" />
+        android:text="voltar"
+        android:textColor="#013105" />
 
 
 </RelativeLayout>

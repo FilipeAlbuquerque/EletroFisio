@@ -14,6 +14,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="19dp"
         android:text="Dosimetria do Ultra-som"
+        android:textColor="#013105"
         android:textSize="22sp"
         android:textStyle="bold" />
 
@@ -28,6 +29,7 @@
         android:layout_marginStart="21dp"
         android:layout_marginTop="98dp"
         android:text="Modo Contínuo"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -35,49 +37,53 @@
         android:id="@+id/textView73"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="- 0,3W/cm² a 0,7W/cm²"
-        android:textSize="18sp"
-        android:textStyle="bold"
         android:layout_alignBaseline="@+id/textView72"
         android:layout_alignBottom="@+id/textView72"
+        android:layout_toEndOf="@+id/textView72"
         android:layout_toRightOf="@+id/textView72"
-        android:layout_toEndOf="@+id/textView72" />
+        android:text="- 0,3W/cm² a 0,7W/cm²"
+        android:textColor="#013105"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView74"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView72"
+        android:layout_alignStart="@+id/textView72"
+        android:layout_below="@+id/textView72"
         android:layout_marginTop="41dp"
         android:text="Modo Pulsado"
+        android:textColor="#013105"
         android:textSize="18sp"
-        android:textStyle="bold"
-        android:layout_below="@+id/textView72"
-        android:layout_alignLeft="@+id/textView72"
-        android:layout_alignStart="@+id/textView72" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView75"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="- 0,7W/cm² a  1,2W/cm²"
-        android:textSize="18sp"
-        android:textStyle="bold"
         android:layout_alignBaseline="@+id/textView74"
         android:layout_alignBottom="@+id/textView74"
+        android:layout_toEndOf="@+id/textView74"
         android:layout_toRightOf="@+id/textView74"
-        android:layout_toEndOf="@+id/textView74" />
+        android:text="- 0,7W/cm² a  1,2W/cm²"
+        android:textColor="#013105"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView76"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView74"
+        android:layout_alignStart="@+id/textView74"
+        android:layout_below="@+id/textView74"
         android:layout_marginTop="30dp"
         android:text="Tempo mínimo de 3 minutos."
+        android:textColor="#013105"
         android:textSize="16sp"
-        android:textStyle="bold"
-        android:layout_below="@+id/textView74"
-        android:layout_alignLeft="@+id/textView74"
-        android:layout_alignStart="@+id/textView74" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView77"
@@ -88,6 +94,7 @@
         android:layout_below="@+id/textView76"
         android:layout_marginTop="32dp"
         android:text="Tempo máximo de 15 minutos."
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -102,5 +109,5 @@
         android:background="@drawable/fundo_caixa_texto"
         android:text="voltar"
 
-        />
+        android:textColor="#013105" />
 </RelativeLayout>

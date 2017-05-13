@@ -15,6 +15,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
         android:text="Contra-indicações da Ondas Curtas"
+        android:textColor="#013105"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -27,6 +28,7 @@
         android:layout_below="@+id/textView137"
         android:layout_marginTop="49dp"
         android:text="- Gestantes;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -39,6 +41,7 @@
         android:layout_below="@+id/textView145"
         android:layout_marginTop="18dp"
         android:text="- Marca-passo;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -51,6 +54,7 @@
         android:layout_below="@+id/textView146"
         android:layout_marginTop="19dp"
         android:text="- Paciente febril;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -63,6 +67,7 @@
         android:layout_below="@+id/textView147"
         android:layout_marginTop="22dp"
         android:text="- Tumores malignos;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -75,6 +80,7 @@
         android:layout_below="@+id/textView148"
         android:layout_marginTop="22dp"
         android:text="- Tuberculose;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -87,6 +93,7 @@
         android:layout_below="@+id/textView149"
         android:layout_marginTop="23dp"
         android:text="- Insuficiência cardíaca;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -99,6 +106,7 @@
         android:layout_below="@+id/textView150"
         android:layout_marginTop="21dp"
         android:text="- Tromboses/Aterosclerose;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -111,6 +119,7 @@
         android:layout_below="@+id/textView151"
         android:layout_marginTop="19dp"
         android:text="- Doenças infecciosas;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -123,6 +132,7 @@
         android:layout_below="@+id/textView152"
         android:layout_marginTop="17dp"
         android:text="- Implantes metálicos; *"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -134,5 +144,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="32dp"
         android:background="@drawable/fundo_caixa_texto"
-        android:text="voltar" />
+        android:text="voltar"
+        android:textColor="#013105"
+        android:textStyle="bold" />
 </RelativeLayout>

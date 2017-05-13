@@ -15,6 +15,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="21dp"
         android:text="Contra-Indicações da Corrente Russa"
+        android:textColor="#013105"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -22,61 +23,66 @@
         android:id="@+id/textView188"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView183"
+        android:layout_alignStart="@+id/textView183"
+        android:layout_below="@+id/textView183"
         android:layout_marginTop="74dp"
         android:text="- Fraturas não consolidadas;"
+        android:textColor="#013105"
         android:textSize="18sp"
-        android:textStyle="bold"
-        android:layout_below="@+id/textView183"
-        android:layout_alignLeft="@+id/textView183"
-        android:layout_alignStart="@+id/textView183" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView189"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView188"
+        android:layout_alignStart="@+id/textView188"
+        android:layout_below="@+id/textView188"
         android:layout_marginTop="24dp"
         android:text="- Lesões musculares, tendinosas e ligamentares;"
+        android:textColor="#013105"
         android:textSize="18sp"
-        android:textStyle="bold"
-        android:layout_below="@+id/textView188"
-        android:layout_alignLeft="@+id/textView188"
-        android:layout_alignStart="@+id/textView188" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView190"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView189"
+        android:layout_alignStart="@+id/textView189"
+        android:layout_below="@+id/textView189"
         android:layout_marginTop="29dp"
         android:text="- Inflamações articulares em fase aguda;"
+        android:textColor="#013105"
         android:textSize="18sp"
-        android:textStyle="bold"
-        android:layout_below="@+id/textView189"
-        android:layout_alignLeft="@+id/textView189"
-        android:layout_alignStart="@+id/textView189" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView191"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView190"
+        android:layout_alignStart="@+id/textView190"
+        android:layout_below="@+id/textView190"
         android:layout_marginTop="24dp"
         android:text="- Miopatias com denervação;"
+        android:textColor="#013105"
         android:textSize="18sp"
-        android:textStyle="bold"
-        android:layout_below="@+id/textView190"
-        android:layout_alignLeft="@+id/textView190"
-        android:layout_alignStart="@+id/textView190" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView192"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView191"
+        android:layout_alignStart="@+id/textView191"
+        android:layout_below="@+id/textView191"
         android:layout_marginTop="26dp"
         android:text="- Espasticidade (exceto em casos para treinos funcionais);"
+        android:textColor="#013105"
         android:textSize="18sp"
-        android:textStyle="bold"
-        android:layout_below="@+id/textView191"
-        android:layout_alignLeft="@+id/textView191"
-        android:layout_alignStart="@+id/textView191" />
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/botaoVoltarRussa_4"
@@ -86,6 +92,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="30dp"
         android:background="@drawable/fundo_caixa_texto"
-        android:text="voltar" />
+        android:text="voltar"
+        android:textColor="#013105" />
 
 </RelativeLayout>

@@ -14,6 +14,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
         android:text="Contra-indicações do Laser"
+        android:textColor="#013105"
         android:textSize="24sp"
         android:textStyle="bold" />
 
@@ -28,6 +29,7 @@
         android:layout_marginStart="25dp"
         android:layout_marginTop="74dp"
         android:text="- Irradiação sobre massas neoplásicas  e carcinoma;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -40,6 +42,7 @@
         android:layout_below="@+id/textView115"
         android:layout_marginTop="26dp"
         android:text="- Irradiação direta sobre a retina;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -47,13 +50,14 @@
         android:id="@+id/textView117"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView116"
+        android:layout_alignStart="@+id/textView116"
+        android:layout_below="@+id/textView116"
         android:layout_marginTop="27dp"
         android:text="- “Irradiação sobre focos de infecção bacteriana”;"
+        android:textColor="#013105"
         android:textSize="16sp"
-        android:textStyle="bold"
-        android:layout_below="@+id/textView116"
-        android:layout_alignLeft="@+id/textView116"
-        android:layout_alignStart="@+id/textView116" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView118"
@@ -64,6 +68,7 @@
         android:layout_below="@+id/textView117"
         android:layout_marginTop="35dp"
         android:text="- Áreas de hemorragia. "
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -75,5 +80,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="47dp"
         android:background="@drawable/fundo_caixa_texto"
-        android:text="voltar" />
+        android:text="voltar"
+        android:textColor="#013105"
+        android:textStyle="bold" />
 </RelativeLayout>

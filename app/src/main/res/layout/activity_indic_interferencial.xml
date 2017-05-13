@@ -11,10 +11,12 @@
         android:id="@+id/textView219"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="34dp"
         android:text="Indicações da corrente Interferencial"
+        android:textColor="#013105"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -27,6 +29,7 @@
         android:layout_below="@+id/textView219"
         android:layout_marginTop="42dp"
         android:text="Analgesia pela Teoria das comportas da Dor; Fibras C e A gama."
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -34,12 +37,13 @@
         android:id="@+id/textView221"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="- Contusões musculares;"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        android:layout_centerVertical="true"
         android:layout_alignLeft="@+id/textView220"
-        android:layout_alignStart="@+id/textView220" />
+        android:layout_alignStart="@+id/textView220"
+        android:layout_centerVertical="true"
+        android:text="- Contusões musculares;"
+        android:textColor="#013105"
+        android:textSize="16sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView222"
@@ -50,6 +54,7 @@
         android:layout_below="@+id/textView220"
         android:layout_marginTop="33dp"
         android:text="- Entorses;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -62,6 +67,7 @@
         android:layout_below="@+id/textView222"
         android:layout_marginTop="21dp"
         android:text="- Luxações;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -74,6 +80,7 @@
         android:layout_below="@+id/textView223"
         android:layout_marginTop="16dp"
         android:text="- Contraturas;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -86,6 +93,7 @@
         android:layout_below="@+id/textView221"
         android:layout_marginTop="24dp"
         android:text="- Rupturas parciais;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -98,6 +106,7 @@
         android:layout_below="@+id/textView225"
         android:layout_marginTop="31dp"
         android:text="- Artroses, Bursites, Tendinites, Mialgias, Neuralgias e Periartrites."
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -109,6 +118,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="21dp"
         android:background="@drawable/fundo_caixa_texto"
-        android:text="voltar" />
+        android:text="voltar"
+        android:textColor="#013105" />
 
 </RelativeLayout>

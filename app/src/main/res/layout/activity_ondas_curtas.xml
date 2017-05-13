@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_ondas_curtas"
     android:layout_width="match_parent"
@@ -112,4 +113,13 @@
         android:text="voltar para início"
         android:textColor="#013105"
         android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/teste5"
+        android:layout_alignTop="@+id/bt_Contra_OndasCurtas"
+        android:layout_alignLeft="@+id/bt_Aplicacao_OndasCurtas"
+        android:layout_alignStart="@+id/bt_Aplicacao_OndasCurtas" />
 </RelativeLayout>

@@ -105,5 +105,6 @@
         android:layout_marginBottom="16dp"
         android:background="@drawable/fundo_caixa_texto"
         android:text="voltar"
-        android:textColor="#013105" />
+        android:textColor="#013105"
+        android:textStyle="bold" />
 </RelativeLayout>

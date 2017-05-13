@@ -11,94 +11,103 @@
     tools:context="eletrofisio.com.teste11.activity.Fes.IndicacoesFESActivity">
 
     <TextView
-        android:text="CONTRA-INDICAÇÕES"
+        android:id="@+id/textView42"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="55dp"
-        android:id="@+id/textView42"
-        android:textStyle="normal|bold"
+        android:text="CONTRA-INDICAÇÕES"
+        android:textColor="#013105"
         android:textSize="24sp"
+        android:textStyle="normal|bold"
         tools:ignore="HardcodedText" />
 
     <TextView
-        android:text="- Lesões nervosas periféricas;"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView42"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="51dp"
         android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView42"
+        android:layout_marginTop="51dp"
+        android:text="- Lesões nervosas periféricas;"
+        android:textColor="#013105"
         android:textSize="20sp"
         android:textStyle="normal|bold" />
 
     <TextView
-        android:text="- Espasticidade grave;"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
         android:id="@+id/textView49"
-        android:textStyle="normal|bold"
-        android:textSize="20sp" />
-
-    <TextView
-        android:text="- Eixo do marcapasso;"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView49"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="28dp"
-        android:id="@+id/textView50"
+        android:layout_centerVertical="true"
+        android:text="- Espasticidade grave;"
+        android:textColor="#013105"
         android:textSize="20sp"
         android:textStyle="normal|bold" />
 
     <TextView
-        android:text="- Inflamações articulares em fase aguda;"
+        android:id="@+id/textView50"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView48"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView49"
+        android:layout_marginTop="28dp"
+        android:text="- Eixo do marcapasso;"
+        android:textColor="#013105"
         android:textSize="20sp"
-        android:textStyle="normal|bold"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_above="@+id/textView49"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="28dp" />
+        android:layout_marginBottom="28dp"
+        android:text="- Inflamações articulares em fase aguda;"
+        android:textColor="#013105"
+        android:textSize="20sp"
+        android:textStyle="normal|bold" />
 
     <TextView
-        android:text="- Miopatias que impedem a contração muscular;"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView50"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="25dp"
         android:id="@+id/textView51"
-        android:textStyle="normal|bold"
-        android:textSize="20sp" />
-
-    <TextView
-        android:text="- Denervação."
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView51"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="32dp"
+        android:layout_below="@+id/textView50"
+        android:layout_marginTop="25dp"
+        android:text="- Miopatias que impedem a contração muscular;"
+        android:textColor="#013105"
+        android:textSize="20sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
         android:id="@+id/textView52"
-        android:textStyle="normal|bold"
-        android:textSize="20sp" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView51"
+        android:layout_marginTop="32dp"
+        android:text="- Denervação."
+        android:textColor="#013105"
+        android:textSize="20sp"
+        android:textStyle="normal|bold" />
 
     <Button
-        android:text="voltar"
+        android:id="@+id/botaovoltar_fes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/fundo_caixa_texto"
-        android:id="@+id/botaovoltar_fes"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="voltar"
+        android:textColor="#013105"
+        android:textStyle="bold" />
 </RelativeLayout>

@@ -12,46 +12,47 @@
 
 
     <TextView
-        android:text="TENS Acupuntural"
+        android:id="@+id/id_tensConv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/id_tensConv"
-        android:textSize="30sp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:textStyle="normal|bold|italic"
-        android:textAllCaps="false"
+        android:text="TENS Acupuntural"
         android:textAlignment="center"
-        tools:ignore="HardcodedText"
-        android:textColor="@android:color/background_dark" />
+        android:textAllCaps="false"
+        android:textColor="#013105"
+        android:textSize="30sp"
+        android:textStyle="normal|bold|italic"
+        tools:ignore="HardcodedText" />
 
     <TextView
-        android:text="- 1 a 4Hz"
+        android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView9"
-        android:textSize="18sp"
-        tools:ignore="HardcodedText"
         android:layout_alignBaseline="@+id/textView8"
         android:layout_alignBottom="@+id/textView8"
-        android:layout_toRightOf="@+id/textView8"
-        android:layout_toEndOf="@+id/textView8"
         android:layout_marginLeft="16dp"
-        android:layout_marginStart="16dp" />
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@+id/textView8"
+        android:layout_toRightOf="@+id/textView8"
+        android:text="- 1 a 4Hz"
+        android:textColor="#013105"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
 
     <TextView
-        android:text="Fase Crônica"
+        android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView12"
-        android:textSize="24sp"
-        android:textStyle="normal|bold"
-        android:layout_marginTop="35dp"
-        tools:ignore="HardcodedText"
-        android:layout_below="@+id/id_tensConv"
         android:layout_alignLeft="@+id/textView4"
         android:layout_alignStart="@+id/textView4"
-        android:textColor="@android:color/background_dark" />
+        android:layout_below="@+id/id_tensConv"
+        android:layout_marginTop="35dp"
+        android:text="Fase Crônica"
+        android:textColor="#013105"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textView11"
@@ -62,148 +63,161 @@
         android:layout_below="@+id/textView12"
         android:layout_marginTop="11dp"
         android:text="Analgesia pela ativação de aferentes cutâneos A-delta"
-        android:textColor="@android:color/background_dark"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="normal|bold"
         tools:ignore="HardcodedText" />
 
     <TextView
-        android:text="Largura de Pulso"
+        android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView8"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView8"
         android:layout_marginTop="26dp"
-        android:id="@+id/textView13"
+        android:text="Largura de Pulso"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="normal|bold"
         tools:ignore="HardcodedText" />
 
     <TextView
-        android:text="- 150 a 250Hz"
+        android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView14"
-        android:textSize="18sp"
         android:layout_alignBaseline="@+id/textView13"
         android:layout_alignBottom="@+id/textView13"
-        android:layout_toRightOf="@+id/textView13"
-        android:layout_toEndOf="@+id/textView13"
         android:layout_marginLeft="12dp"
         android:layout_marginStart="12dp"
+        android:layout_toEndOf="@+id/textView13"
+        android:layout_toRightOf="@+id/textView13"
+        android:text="- 150 a 250Hz"
+        android:textColor="#013105"
+        android:textSize="18sp"
         tools:ignore="HardcodedText" />
 
     <TextView
-        android:text="Frequencia"
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView3"
-        android:textSize="18sp"
-        android:textStyle="normal|bold"
-        tools:ignore="HardcodedText"
         android:layout_alignBaseline="@+id/textView4"
         android:layout_alignBottom="@+id/textView4"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <TextView
-        android:text="Frequencia Otimizada"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView8"
+        android:layout_alignParentStart="true"
+        android:text="Frequencia"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="normal|bold"
-        tools:ignore="HardcodedText"
-        android:layout_below="@+id/textView4"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="17dp" />
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="17dp"
+        android:text="Frequencia Otimizada"
+
+        android:textColor="#013105"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        tools:ignore="HardcodedText" />
 
     <Button
-        android:text="Voltar para Inicio"
+        android:id="@+id/botao_voltar2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
-        android:layout_marginBottom="12dp"
-        android:id="@+id/botao_voltar2"
-        tools:ignore="HardcodedText"
+        android:background="@drawable/fundo_botao"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="12dp"
+        android:text="Voltar para Inicio"
+        android:textColor="#013105"
+        tools:ignore="HardcodedText" />
 
     <Button
-        android:text="Voltar"
-        android:layout_width="match_parent"
-
-        android:layout_height="wrap_content"
         android:id="@+id/botao_voltar1"
-        tools:ignore="HardcodedText"
+        android:layout_width="match_parent"
+        android:background="@drawable/fundo_botao"
+        android:layout_height="wrap_content"
         android:layout_above="@+id/botao_voltar2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="12dp" />
+        android:layout_marginBottom="12dp"
+        android:text="Voltar"
+        android:textColor="#013105"
+        tools:ignore="HardcodedText" />
 
     <TextView
-        android:text="- Menor do que 10hz"
+        android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView4"
+        android:layout_marginTop="34dp"
+        android:text="- Menor do que 10hz"
+        android:textColor="#013105"
         android:textSize="18sp"
         tools:ignore="HardcodedText"
-        android:layout_marginTop="33dp"
         android:layout_below="@+id/textView11"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignRight="@+id/textView16"
+        android:layout_alignEnd="@+id/textView16" />
 
     <TextView
-        android:text="Efeito Analgésico"
+        android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView13"
         android:layout_marginTop="20dp"
-        android:id="@+id/textView15"
+        android:text="Efeito Analgésico"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="normal|bold"
-        tools:ignore="HardcodedText"
-        android:layout_below="@+id/textView13"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        tools:ignore="HardcodedText" />
 
     <TextView
-        android:text="- 2 a 6horas *"
+        android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView16"
-        android:textSize="18sp"
-        tools:ignore="HardcodedText"
         android:layout_alignBaseline="@+id/textView15"
         android:layout_alignBottom="@+id/textView15"
         android:layout_alignLeft="@+id/textView14"
         android:layout_alignStart="@+id/textView14"
         android:layout_marginLeft="13dp"
-        android:layout_marginStart="13dp" />
+        android:layout_marginStart="13dp"
+        android:text="- 2 a 6horas *"
+        android:textColor="#013105"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
 
     <TextView
-        android:text="Início Analgesia"
+        android:id="@+id/textView24"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView24"
-        android:layout_below="@+id/textView15"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView15"
         android:layout_marginTop="26dp"
+        android:text="Início Analgesia"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="normal|bold" />
 
     <TextView
-        android:text="- 30min a 1h"
+        android:id="@+id/textView25"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView25"
-        android:textSize="18sp"
         android:layout_alignBaseline="@+id/textView24"
         android:layout_alignBottom="@+id/textView24"
+        android:layout_toEndOf="@+id/textView13"
         android:layout_toRightOf="@+id/textView13"
-        android:layout_toEndOf="@+id/textView13" />
+        android:text="- 30min a 1h"
+        android:textColor="#013105"
+        android:textSize="18sp" />
 
 
 </RelativeLayout>

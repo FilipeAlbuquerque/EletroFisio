@@ -9,7 +9,7 @@
     <application
         android:name=".StarterApplication"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_logo_eletrofisio"
+        android:icon="@mipmap/ic_launcher"
         android:label="EletroFisio"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">

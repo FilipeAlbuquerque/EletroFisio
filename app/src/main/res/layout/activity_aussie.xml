@@ -15,6 +15,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="27dp"
         android:text="Corrente Aussie"
+        android:textColor="#013105"
         android:textSize="24sp"
         android:textStyle="bold" />
 
@@ -28,6 +29,7 @@
         android:layout_marginTop="67dp"
         android:text="É uma nova geração de corrente elétrica para estimulação com vantagens sobre os tradicionais métodos de estimulação (Russa, Interferencial, TENS e FES)"
         android:textAlignment="center"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -42,26 +44,29 @@
         android:layout_marginStart="14dp"
         android:layout_marginTop="44dp"
         android:text="Duas frequências portadoras: 1KHz e 4KHz"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
     <Button
         android:id="@+id/botaoIndic_Aussie"
-        android:background="@drawable/fundo_caixa_texto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/fundo_caixa_texto"
         android:text="indicações"
-        android:layout_below="@+id/textView214"
+        android:textColor="#013105"
+        android:layout_above="@+id/btContra_Aussie"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="18dp" />
+        android:layout_marginBottom="21dp" />
 
     <Button
         android:id="@+id/btContra_Aussie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="19dp"
         android:background="@drawable/fundo_caixa_texto"
         android:text="contra-indicações"
-        android:layout_marginBottom="30dp"
+        android:textColor="#013105"
         android:layout_above="@+id/bt_Voltar_Aussie"
         android:layout_alignRight="@+id/bt_Voltar_Aussie"
         android:layout_alignEnd="@+id/bt_Voltar_Aussie" />
@@ -74,7 +79,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="14dp"
         android:background="@drawable/fundo_caixa_texto"
-        android:text="voltar para início" />
+        android:text="voltar para início"
+        android:textColor="#013105" />
 
     <TextView
         android:id="@+id/textView214"
@@ -85,6 +91,7 @@
         android:layout_below="@+id/textView213"
         android:layout_marginTop="41dp"
         android:text="Modo de utilização e modulação semelhante a Corrente Russa"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 

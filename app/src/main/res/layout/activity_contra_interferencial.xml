@@ -14,6 +14,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
         android:text="Contra-indicações da Interferencial"
+        android:textColor="#013105"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -21,15 +22,16 @@
         android:id="@+id/textView228"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView227"
         android:layout_marginLeft="13dp"
         android:layout_marginStart="13dp"
-        android:layout_marginTop="61dp"
+        android:layout_marginTop="71dp"
         android:text="- Febre;"
+        android:textColor="#013105"
         android:textSize="18sp"
-        android:textStyle="bold"
-        android:layout_below="@+id/textView227"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView229"
@@ -38,8 +40,9 @@
         android:layout_alignLeft="@+id/textView228"
         android:layout_alignStart="@+id/textView228"
         android:layout_below="@+id/textView228"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="18dp"
         android:text="- Tumores;"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -50,8 +53,9 @@
         android:layout_alignLeft="@+id/textView229"
         android:layout_alignStart="@+id/textView229"
         android:layout_below="@+id/textView229"
-        android:layout_marginTop="26dp"
+        android:layout_marginTop="14dp"
         android:text="- Trombose;"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -62,8 +66,9 @@
         android:layout_alignLeft="@+id/textView230"
         android:layout_alignStart="@+id/textView230"
         android:layout_below="@+id/textView230"
-        android:layout_marginTop="27dp"
+        android:layout_marginTop="15dp"
         android:text="- Infecção local;"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -74,8 +79,9 @@
         android:layout_alignLeft="@+id/textView231"
         android:layout_alignStart="@+id/textView231"
         android:layout_below="@+id/textView231"
-        android:layout_marginTop="29dp"
+        android:layout_marginTop="20dp"
         android:text="- Tuberculose óssea;"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -86,8 +92,9 @@
         android:layout_alignLeft="@+id/textView232"
         android:layout_alignStart="@+id/textView232"
         android:layout_below="@+id/textView232"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="20dp"
         android:text="- Área de marcapasso;"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -98,8 +105,9 @@
         android:layout_alignLeft="@+id/textView233"
         android:layout_alignStart="@+id/textView233"
         android:layout_below="@+id/textView233"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="18dp"
         android:text="- Região anterior do pescoço;"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -108,9 +116,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="18dp"
+        android:layout_marginBottom="53dp"
         android:layout_toEndOf="@+id/textView231"
         android:layout_toRightOf="@+id/textView231"
         android:background="@drawable/fundo_caixa_texto"
-        android:text="voltar" />
+        android:text="voltar"
+        android:textStyle="bold" />
 </RelativeLayout>

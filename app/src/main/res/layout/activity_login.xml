@@ -55,7 +55,8 @@
             android:layout_marginBottom="30dp"
             android:background="@drawable/fundo_botao"
             android:text="@string/botao_logar"
-            android:textColor="#013105" />
+            android:textColor="#013105"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView"

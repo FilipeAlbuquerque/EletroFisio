@@ -14,6 +14,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="29dp"
         android:text="Efeitos Terapêuticos do Ultra-som"
+        android:textColor="#013105"
         android:textSize="22sp"
         android:textStyle="bold" />
 
@@ -26,6 +27,7 @@
         android:layout_below="@+id/textView69"
         android:layout_marginTop="79dp"
         android:text="- Anti-inflamatório;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -38,6 +40,7 @@
         android:layout_below="@+id/textView70"
         android:layout_marginTop="38dp"
         android:text="- Analgésico;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -45,13 +48,14 @@
         android:id="@+id/textView79"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView78"
+        android:layout_alignStart="@+id/textView78"
+        android:layout_below="@+id/textView78"
         android:layout_marginTop="33dp"
         android:text="- Regeneração tissular e reparo de tecidos;"
+        android:textColor="#013105"
         android:textSize="16sp"
-        android:textStyle="bold"
-        android:layout_below="@+id/textView78"
-        android:layout_alignLeft="@+id/textView78"
-        android:layout_alignStart="@+id/textView78" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView80"
@@ -62,6 +66,7 @@
         android:layout_below="@+id/textView79"
         android:layout_marginTop="43dp"
         android:text="- Relaxamento muscular;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -74,6 +79,7 @@
         android:layout_below="@+id/textView80"
         android:layout_marginTop="43dp"
         android:text="- Regeneração Óssea."
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -81,9 +87,10 @@
         android:id="@+id/botaoVoltarUS"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="65dp"
-        android:text="voltar"
-        android:background="@drawable/fundo_caixa_texto"
         android:layout_below="@+id/textView81"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="voltar"
+        android:textColor="#013105" />
 </RelativeLayout>

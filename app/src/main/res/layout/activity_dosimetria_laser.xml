@@ -15,6 +15,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="27dp"
         android:text="Dosimetria do Laser"
+        android:textColor="#013105"
         android:textSize="24sp"
         android:textStyle="bold" />
 
@@ -29,6 +30,7 @@
         android:layout_marginStart="18dp"
         android:layout_marginTop="114dp"
         android:text="- Ação antinflamatória ..........1 a 3 J/cm2"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -43,6 +45,7 @@
         android:layout_below="@+id/textView104"
         android:layout_marginTop="40dp"
         android:text="- Ação circulatória ............... 1 a 3 J/cm2 "
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -57,6 +60,7 @@
         android:layout_below="@+id/textView105"
         android:layout_marginTop="39dp"
         android:text="- Ação antálgica .................. 2 a 4 J/cm2 "
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -69,6 +73,7 @@
         android:layout_below="@+id/textView106"
         android:layout_marginTop="39dp"
         android:text="- Ação regenerativa ..............3 a 6 J/ cm2 "
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -80,5 +85,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="61dp"
         android:background="@drawable/fundo_caixa_texto"
-        android:text="voltar" />
+        android:text="voltar"
+        android:textColor="#013105" />
 </RelativeLayout>

@@ -71,7 +71,8 @@
             android:layout_marginTop="21dp"
             android:background="@drawable/fundo_botao"
             android:text="@string/botao_cadastro"
-            android:textColorHint="#013105" />
+            android:textColorHint="#013105"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/text_faca_login"

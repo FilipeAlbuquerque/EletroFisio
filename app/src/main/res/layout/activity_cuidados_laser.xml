@@ -15,6 +15,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:text="Cuidados e precauções do Laser"
+        android:textColor="#013105"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -29,6 +30,7 @@
         android:layout_marginStart="18dp"
         android:layout_marginTop="80dp"
         android:text="- A irradiação sobre glândulas;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -41,6 +43,7 @@
         android:layout_below="@+id/textView121"
         android:layout_marginTop="46dp"
         android:text="- Paciente fazendo uso de corticoesteróides;"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -53,6 +56,7 @@
         android:layout_below="@+id/textView122"
         android:layout_marginTop="50dp"
         android:text="- Nas aplicações em mamas (Observar nódulos);"
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
@@ -65,16 +69,18 @@
         android:layout_below="@+id/textView123"
         android:layout_marginTop="42dp"
         android:text="- Paciente e terapeuta protegidos com óculos de proteção visual; "
+        android:textColor="#013105"
         android:textSize="16sp"
         android:textStyle="bold" />
 
     <Button
         android:id="@+id/botaoVoltar_laser"
-        android:background="@drawable/fundo_caixa_texto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="28dp"
-        android:text="voltar" />
+        android:background="@drawable/fundo_caixa_texto"
+        android:text="voltar"
+        android:textColor="#013105" />
 </RelativeLayout>

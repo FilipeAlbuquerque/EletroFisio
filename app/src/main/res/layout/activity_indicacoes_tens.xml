@@ -11,86 +11,94 @@
     tools:context="eletrofisio.com.teste11.activity.TENS.IndicacoesTensActivity">
 
     <TextView
-        android:text="Indicações da TENS"
+        android:id="@+id/textView26"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="48dp"
-        android:id="@+id/textView26"
-        android:textStyle="normal|bold"
-        android:textSize="24sp" />
+        android:text="Indicações da TENS"
+        android:textColor="#013105"
+        android:textSize="24sp"
+        android:textStyle="normal|bold" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="82dp"
         android:id="@+id/textView27"
-        android:textAllCaps="false"
-        android:text="- Dores agudas e crônicas de causa diagnosticada;"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
         android:layout_below="@+id/textView26"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
+        android:layout_marginTop="82dp"
+        android:text="- Dores agudas e crônicas de causa diagnosticada;"
+        android:textAllCaps="false"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="normal|bold" />
 
     <TextView
-        android:text="- Parto;"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
         android:id="@+id/textView29"
-        android:textSize="18sp"
-        android:textStyle="normal|bold"
-        android:layout_below="@+id/textView28"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <TextView
-        android:text="- Dores Fantasmas;"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView29"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="14dp"
-        android:id="@+id/textView31"
+        android:layout_below="@+id/textView28"
+        android:layout_marginTop="20dp"
+        android:text="- Parto;"
+        android:textColor="#013105"
         android:textSize="18sp"
         android:textStyle="normal|bold" />
 
     <TextView
-        android:text="- Dores Viscerais."
+        android:id="@+id/textView31"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="17dp"
-        android:id="@+id/textView32"
-        android:textSize="18sp"
-        android:textStyle="normal|bold"
-        android:layout_below="@+id/textView31"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView29"
+        android:layout_marginTop="14dp"
+        android:text="- Dores Fantasmas;"
+        android:textColor="#013105"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
 
     <TextView
-        android:text="- Pós-Operatório;"
+        android:id="@+id/textView32"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="17dp"
-        android:id="@+id/textView28"
-        android:textSize="18sp"
-        android:textStyle="normal|bold"
-        android:layout_below="@+id/textView27"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView31"
+        android:layout_marginTop="17dp"
+        android:text="- Dores Viscerais."
+        android:textColor="#013105"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView27"
+        android:layout_marginTop="17dp"
+        android:text="- Pós-Operatório;"
+        android:textColor="#013105"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
 
     <Button
-        android:text="voltar"
+        android:id="@+id/bt_voltar_tens"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView26"
+        android:layout_alignStart="@+id/textView26"
+        android:layout_below="@+id/textView32"
         android:layout_marginLeft="51dp"
         android:layout_marginStart="51dp"
+        android:background="@drawable/fundo_botao"
         android:layout_marginTop="64dp"
-        android:id="@+id/bt_voltar_tens"
-        android:layout_below="@+id/textView32"
-        android:layout_alignLeft="@+id/textView26"
-        android:layout_alignStart="@+id/textView26" />
+        android:text="voltar"
+        android:textColor="#013105" />
 </RelativeLayout>
