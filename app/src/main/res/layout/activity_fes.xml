@@ -23,6 +23,7 @@
         android:background="@drawable/fundo_caixa_texto"
         android:text="Parâmetros"
         android:textColor="#013105"
+        android:padding="5dp"
         android:textSize="18sp"
         android:textStyle="normal|bold" />
 
@@ -35,6 +36,7 @@
         android:layout_toStartOf="@+id/botao_parametros_fes"
         android:background="@drawable/fundo_caixa_texto"
         android:text="Indicações"
+        android:padding="5dp"
         android:textColor="#013105"
         android:textStyle="normal|bold" />
 
@@ -71,6 +73,7 @@
         android:textColor="#013105"
         android:textStyle="normal|bold"
         tools:ignore="HardcodedText"
+        android:padding="5dp"
         android:layout_above="@+id/adView"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="63dp" />

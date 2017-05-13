@@ -55,6 +55,7 @@
         android:background="@drawable/fundo_caixa_texto"
         android:text="indicações"
         android:textColor="#013105"
+        android:padding="5dp"
         android:layout_above="@+id/btContra_Aussie"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="21dp" />
@@ -62,6 +63,7 @@
     <Button
         android:id="@+id/btContra_Aussie"
         android:layout_width="wrap_content"
+        android:padding="5dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="19dp"
         android:background="@drawable/fundo_caixa_texto"
@@ -75,6 +77,7 @@
         android:id="@+id/bt_Voltar_Aussie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:padding="5dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="14dp"

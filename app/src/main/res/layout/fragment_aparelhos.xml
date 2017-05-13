@@ -59,6 +59,7 @@
         android:layout_marginBottom="36dp"
         android:background="@drawable/fundo_caixa_texto"
         android:text="ultra-som"
+        android:padding="5dp"
         android:textColor="#013105"
         android:textStyle="bold" />
 
@@ -84,6 +85,7 @@
         android:layout_marginBottom="30dp"
         android:background="@drawable/fundo_caixa_texto"
         android:text="ondas curtas"
+        android:padding="5dp"
         android:textColor="#013105"
         android:textStyle="bold" />
 
@@ -96,6 +98,7 @@
         android:layout_alignTop="@+id/botaoOndasCurtas"
         android:background="@drawable/fundo_caixa_texto"
         android:text="russa"
+        android:padding="5dp"
         android:textColor="#013105"
         android:textStyle="bold" />
 
@@ -109,6 +112,7 @@
         android:layout_marginBottom="49dp"
         android:background="@drawable/fundo_caixa_texto"
         android:text="interferencial"
+        android:padding="5dp"
         android:textColor="#013105"
         android:textStyle="bold" />
 
@@ -133,6 +137,7 @@
         android:layout_marginBottom="14dp"
         android:background="@drawable/fundo_caixa_texto"
         android:text="voltar para início"
+        android:padding="5dp"
         android:textColor="#013105"
         android:textStyle="bold" />
 

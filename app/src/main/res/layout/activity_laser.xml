@@ -5,6 +5,7 @@
     android:id="@+id/activity_laser"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -26,64 +27,68 @@
         android:id="@+id/tiposLaser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/contraIndLaser"
-        android:layout_marginBottom="42dp"
-        android:layout_marginEnd="33dp"
-        android:layout_marginRight="33dp"
-        android:layout_toLeftOf="@+id/contraIndLaser"
-        android:layout_toStartOf="@+id/contraIndLaser"
         android:background="@drawable/fundo_caixa_texto"
         android:text="tipos"
-        android:textColor="#013105" />
+        android:padding="5dp"
+        android:textColor="#013105"
+
+        android:layout_alignTop="@+id/imageView9"
+        android:layout_alignLeft="@+id/indicacoesLaser"
+        android:layout_alignStart="@+id/indicacoesLaser" />
 
     <Button
         android:id="@+id/dosimetriaLaser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/tiposLaser"
-        android:layout_alignBottom="@+id/tiposLaser"
-        android:layout_alignLeft="@+id/contraIndLaser"
-        android:layout_alignStart="@+id/contraIndLaser"
+
         android:background="@drawable/fundo_caixa_texto"
         android:text="dosimetria"
-        android:textColor="#013105" />
+        android:textColor="#013105"
+
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_alignTop="@+id/imageView9"
+        android:layout_toRightOf="@+id/textView18"
+        android:layout_toEndOf="@+id/textView18" />
 
     <Button
         android:id="@+id/indicacoesLaser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/contraIndLaser"
-        android:layout_alignBottom="@+id/contraIndLaser"
-        android:layout_marginEnd="11dp"
-        android:layout_marginRight="11dp"
-        android:layout_toLeftOf="@+id/textView18"
-        android:layout_toStartOf="@+id/textView18"
         android:background="@drawable/fundo_caixa_texto"
         android:text="indicações"
-        android:textColor="#013105" />
+        android:textColor="#013105"
+        android:padding="5dp"
+        android:layout_alignTop="@+id/cuidadosLaser"
+        android:layout_toLeftOf="@+id/textView18"
+        android:layout_toStartOf="@+id/textView18"
+        android:layout_marginRight="18dp"
+        android:layout_marginEnd="18dp" />
 
     <Button
         android:id="@+id/contraIndLaser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_centerVertical="true"
         android:background="@drawable/fundo_caixa_texto"
         android:text="contra-indicações"
-        android:textColor="#013105" />
+        android:textColor="#013105"
+        android:padding="5dp"
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/imageView9"
+        android:layout_alignRight="@+id/botaoVoltarLaser"
+        android:layout_alignEnd="@+id/botaoVoltarLaser" />
 
     <Button
         android:id="@+id/cuidadosLaser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/textView18"
-        android:layout_alignRight="@+id/textView18"
-        android:layout_below="@+id/indicacoesLaser"
-        android:layout_marginTop="24dp"
         android:background="@drawable/fundo_caixa_texto"
         android:text="cuidados"
-        android:textColor="#013105" />
+        android:textColor="#013105"
+        android:layout_marginBottom="54dp"
+        android:layout_above="@+id/contraIndLaser"
+        android:layout_alignLeft="@+id/dosimetriaLaser"
+        android:layout_alignStart="@+id/dosimetriaLaser" />
 
     <Button
         android:id="@+id/botaoVoltarLaser"
@@ -91,18 +96,17 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="23dp"
         android:background="@drawable/fundo_caixa_texto"
         android:text="voltar para início"
-        android:textColor="#013105" />
+        android:textColor="#013105"
+        android:padding="5dp"/>
 
     <ImageView
         android:id="@+id/imageView9"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/teste5"
-        android:layout_alignTop="@+id/tiposLaser"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="13dp" />
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

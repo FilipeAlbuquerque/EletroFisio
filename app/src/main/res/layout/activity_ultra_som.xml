@@ -104,14 +104,14 @@
         android:id="@+id/textView60"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/textView55"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="15dp"
         android:text="1MHz"
         android:textColor="#013105"
         android:textSize="16sp"
-        android:textStyle="normal|bold" />
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/textView55"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:id="@+id/textView61"
@@ -157,58 +157,70 @@
         android:text="Efeitos Terapêuticos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/bt_efeitos_ultrasom"
-        android:layout_alignParentLeft="true"
+
+
         android:background="@drawable/fundo_caixa_texto"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="27dp"
+
+        android:padding="5dp"
         android:id="@+id/bt_terapeutica_ultrasom"
-        android:textStyle="normal|bold" />
+        android:textStyle="normal|bold"
+        android:layout_marginBottom="11dp"
+        android:layout_above="@+id/botaoVoltarUltrassom"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:text="Téc. Aplicação"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/fundo_caixa_texto"
-        android:layout_alignTop="@+id/bt_terapeutica_ultrasom"
+
         android:id="@+id/bt_tecnica_ultrassom"
         android:textStyle="normal|bold"
-        android:layout_toRightOf="@+id/textView54"
-        android:layout_toEndOf="@+id/textView54" />
+        android:padding="5dp"
+        android:layout_alignTop="@+id/bt_dosimetria_ultrasom"
+        android:layout_alignRight="@+id/textView63"
+        android:layout_alignEnd="@+id/textView63" />
 
     <Button
         android:text="Efeitos Fisiológicos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/fundo_caixa_texto"
-        android:layout_marginTop="20dp"
+
         android:id="@+id/bt_efeitos_ultrasom"
         android:textStyle="normal|bold"
-        android:layout_below="@+id/textView63"
-        android:layout_alignRight="@+id/textView63"
-        android:layout_alignEnd="@+id/textView63" />
+        android:padding="5dp"
+        android:layout_alignBottom="@+id/bt_terapeutica_ultrasom"
+        android:layout_alignRight="@+id/botaoVoltarUltrassom"
+        android:layout_alignEnd="@+id/botaoVoltarUltrassom"
+        android:layout_marginBottom="60dp" />
 
     <Button
         android:text="Voltar para Início"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:background="@drawable/fundo_caixa_texto"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="13dp"
+        android:padding="5dp"
         android:id="@+id/botaoVoltarUltrassom"
-        android:textStyle="normal|bold" />
+        android:textStyle="normal|bold"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/textView53"
+        android:layout_toEndOf="@+id/textView53" />
 
     <Button
         android:text="Exemplo Prático"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/bt_terapeutica_ultrasom"
+
         android:background="@drawable/fundo_caixa_texto"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="17dp"
+
+        android:padding="5dp"
         android:id="@+id/bt_exemplo_ultrassom"
-        android:textStyle="normal|bold" />
+        android:textStyle="normal|bold"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/bt_tecnica_ultrassom"
+        android:layout_alignLeft="@+id/botaoVoltarUltrassom"
+        android:layout_alignStart="@+id/botaoVoltarUltrassom" />
 
     <Button
         android:text="Dosimetria"
@@ -217,8 +229,10 @@
         android:background="@drawable/fundo_caixa_texto"
         android:id="@+id/bt_dosimetria_ultrasom"
         android:textStyle="normal|bold"
-        android:layout_above="@+id/bt_terapeutica_ultrasom"
-        android:layout_toLeftOf="@+id/botaoVoltarUltrassom"
-        android:layout_toStartOf="@+id/botaoVoltarUltrassom" />
+        android:padding="5dp"
+
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/textView62"
+        android:layout_toEndOf="@+id/textView62" />
 
 </RelativeLayout>
