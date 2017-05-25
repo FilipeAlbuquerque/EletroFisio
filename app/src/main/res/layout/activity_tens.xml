@@ -5,11 +5,12 @@
     android:id="@+id/activity_tens"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
 
+    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".activity.TENS.TensActivity">
 
     <LinearLayout
@@ -37,100 +38,100 @@
         android:textStyle="normal|bold" />
 
     <Button
-        android:text="Convencional"
+        android:id="@+id/botaoConvencional"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/fundo_caixa_texto"
-        android:id="@+id/botaoConvencional"
-        android:padding="5dp"
         android:layout_alignBaseline="@+id/botaoBreveIntensa"
         android:layout_alignBottom="@+id/botaoBreveIntensa"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:background="@drawable/fundo_caixa_texto"
+        android:padding="5dp"
+        android:text="Convencional" />
 
     <Button
-        android:text="Breve/Intensa"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="5dp"
-        android:background="@drawable/fundo_caixa_texto"
         android:id="@+id/botaoBreveIntensa"
-        android:layout_below="@+id/textView22"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="54dp" />
-
-    <Button
-        android:text="BURST"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView22"
+        android:layout_marginTop="54dp"
         android:background="@drawable/fundo_caixa_texto"
-        android:id="@+id/botaoBurst"
         android:padding="5dp"
-        android:layout_below="@+id/botaoConvencional"
+        android:text="Breve/Intensa" />
+
+    <Button
+        android:id="@+id/botaoBurst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="79dp" />
+        android:layout_below="@+id/botaoConvencional"
+        android:layout_marginTop="79dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:padding="5dp"
+        android:text="BURST" />
 
     <Button
-        android:text="Acupuntural"
+        android:id="@+id/botaoAcupuntural"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/botaoAcupuntural"
-        android:padding="5dp"
-        android:background="@drawable/fundo_caixa_texto"
         android:layout_alignBaseline="@+id/botaoBurst"
         android:layout_alignBottom="@+id/botaoBurst"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:background="@drawable/fundo_caixa_texto"
+        android:padding="5dp"
+        android:text="Acupuntural" />
 
 
     <Button
-        android:text="Indicações"
+        android:id="@+id/botaoIndicacoes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/fundo_caixa_texto"
-        android:id="@+id/botaoIndicacoes"
-        android:padding="5dp"
         android:layout_above="@+id/id_botaoVoltar"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="67dp" />
+        android:layout_marginBottom="67dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:padding="5dp"
+        android:text="Indicações" />
 
     <Button
         android:id="@+id/botaoContraIndicacoes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="5dp"
-        android:background="@drawable/fundo_caixa_texto"
-        android:text="Contra-Indicações"
-        android:textSize="12sp"
         android:layout_alignBaseline="@+id/botaoIndicacoes"
         android:layout_alignBottom="@+id/botaoIndicacoes"
+        android:layout_toEndOf="@+id/textView22"
         android:layout_toRightOf="@+id/textView22"
-        android:layout_toEndOf="@+id/textView22" />
+        android:background="@drawable/fundo_caixa_texto"
+        android:padding="5dp"
+        android:text="Contra-Indicações"
+        android:textSize="12sp" />
 
     <Button
-        android:text="Voltar para Inicio"
+        android:id="@+id/id_botaoVoltar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/fundo_caixa_texto"
-        android:layout_marginBottom="23dp"
-        android:id="@+id/id_botaoVoltar"
-        android:padding="5dp"
-        tools:ignore="HardcodedText"
         android:layout_alignParentBottom="true"
+        android:layout_marginBottom="23dp"
+        android:layout_toEndOf="@+id/botaoConvencional"
         android:layout_toRightOf="@+id/botaoConvencional"
-        android:layout_toEndOf="@+id/botaoConvencional" />
+        android:background="@drawable/fundo_caixa_texto"
+        android:padding="5dp"
+        android:text="Voltar para Inicio"
+        tools:ignore="HardcodedText" />
 
     <ImageView
         android:id="@+id/imageView11"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="14dp"
-        app:srcCompat="@drawable/teste5"
-        android:layout_below="@+id/botaoConvencional"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/botaoConvencional"
+        android:layout_marginTop="14dp"
+        app:srcCompat="@drawable/teste5" />
 
 </RelativeLayout>
