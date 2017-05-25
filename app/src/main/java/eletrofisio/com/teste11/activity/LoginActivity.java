@@ -40,7 +40,7 @@ public class LoginActivity extends AppCompatActivity {
         adView.loadAd(adRequest);*/
 
         //Deslogar usuário
-        ParseUser.logOut();
+        //ParseUser.logOut();
 
         //Verificar se usuario está logado
         verificarUsuarioLogado();

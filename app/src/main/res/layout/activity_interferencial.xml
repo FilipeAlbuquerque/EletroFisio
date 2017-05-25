@@ -89,35 +89,36 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="5dp"
-        android:layout_above="@+id/botaoContra_Interfe"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="18dp"
         android:background="@drawable/fundo_caixa_texto"
         android:text="Indicações"
-        android:textColor="#013105" />
+        android:textColor="#013105"
+        android:layout_marginBottom="25dp"
+        android:layout_above="@+id/botaoContra_Interfe"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:id="@+id/botaoContra_Interfe"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="5dp"
-        android:layout_above="@+id/botaoVoltarInterfe_1"
-        android:layout_alignLeft="@+id/botaoVoltarInterfe_1"
-        android:layout_alignStart="@+id/botaoVoltarInterfe_1"
-        android:layout_marginBottom="68dp"
         android:background="@drawable/fundo_caixa_texto"
         android:text="contra-indicações"
-        android:textColor="#013105" />
+        android:textColor="#013105"
+
+        android:layout_above="@+id/botaoVoltarInterfe_1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="29dp" />
 
     <Button
         android:id="@+id/botaoVoltarInterfe_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:padding="5dp"
-        android:layout_centerHorizontal="true"
         android:background="@drawable/fundo_caixa_texto"
         android:text="voltar para início"
-        android:textColor="#013105" />
+        android:textColor="#013105"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/botaoContra_Interfe"
+        android:layout_alignEnd="@+id/botaoContra_Interfe" />
 
 </RelativeLayout>

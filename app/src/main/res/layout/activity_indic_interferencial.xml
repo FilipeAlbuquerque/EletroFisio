@@ -11,65 +11,65 @@
         android:id="@+id/textView219"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="34dp"
+        android:layout_marginTop="35dp"
         android:text="Indicações da corrente Interferencial"
         android:textColor="#013105"
         android:textSize="20sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:id="@+id/textView220"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView219"
-        android:layout_alignStart="@+id/textView219"
-        android:layout_below="@+id/textView219"
-        android:layout_marginTop="42dp"
+        android:layout_marginTop="82dp"
         android:text="Analgesia pela Teoria das comportas da Dor; Fibras C e A gama."
         android:textColor="#013105"
         android:textSize="16sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:layout_below="@+id/textView219"
+        android:layout_alignLeft="@+id/textView219"
+        android:layout_alignStart="@+id/textView219" />
 
     <TextView
         android:id="@+id/textView221"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView220"
-        android:layout_alignStart="@+id/textView220"
-        android:layout_centerVertical="true"
         android:text="- Contusões musculares;"
         android:textColor="#013105"
         android:textSize="16sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/textView224"
+        android:layout_alignLeft="@+id/textView220"
+        android:layout_alignStart="@+id/textView220" />
 
     <TextView
         android:id="@+id/textView222"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView221"
-        android:layout_alignStart="@+id/textView221"
-        android:layout_below="@+id/textView220"
-        android:layout_marginTop="33dp"
+        android:layout_marginTop="24dp"
         android:text="- Entorses;"
         android:textColor="#013105"
         android:textSize="16sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:layout_below="@+id/textView220"
+        android:layout_alignLeft="@+id/textView220"
+        android:layout_alignStart="@+id/textView220" />
 
     <TextView
         android:id="@+id/textView223"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView222"
-        android:layout_alignStart="@+id/textView222"
-        android:layout_below="@+id/textView222"
-        android:layout_marginTop="21dp"
+        android:layout_marginTop="15dp"
         android:text="- Luxações;"
         android:textColor="#013105"
         android:textSize="16sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:layout_below="@+id/textView222"
+        android:layout_alignLeft="@+id/textView222"
+        android:layout_alignStart="@+id/textView222" />
 
     <TextView
         android:id="@+id/textView224"
@@ -88,37 +88,37 @@
         android:id="@+id/textView225"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView221"
-        android:layout_alignStart="@+id/textView221"
-        android:layout_below="@+id/textView221"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="15dp"
         android:text="- Rupturas parciais;"
         android:textColor="#013105"
         android:textSize="16sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:layout_below="@+id/textView221"
+        android:layout_alignLeft="@+id/textView221"
+        android:layout_alignStart="@+id/textView221" />
 
     <TextView
         android:id="@+id/textView226"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView225"
-        android:layout_alignStart="@+id/textView225"
-        android:layout_below="@+id/textView225"
-        android:layout_marginTop="31dp"
+        android:layout_marginTop="14dp"
         android:text="- Artroses, Bursites, Tendinites, Mialgias, Neuralgias e Periartrites."
         android:textColor="#013105"
         android:textSize="16sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:layout_below="@+id/textView225"
+        android:layout_alignLeft="@+id/textView225"
+        android:layout_alignStart="@+id/textView225" />
 
     <Button
         android:id="@+id/botaoVoltar_Interfere_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="21dp"
+        android:layout_marginBottom="53dp"
         android:background="@drawable/fundo_caixa_texto"
         android:text="voltar"
-        android:textColor="#013105" />
+        android:textColor="#013105"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

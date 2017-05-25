@@ -177,9 +177,12 @@
         android:id="@+id/bt_tecnica_ultrassom"
         android:textStyle="normal|bold"
         android:padding="5dp"
-        android:layout_alignTop="@+id/bt_dosimetria_ultrasom"
+        android:layout_alignBaseline="@+id/bt_dosimetria_ultrasom"
+        android:layout_alignBottom="@+id/bt_dosimetria_ultrasom"
         android:layout_alignRight="@+id/textView63"
-        android:layout_alignEnd="@+id/textView63" />
+        android:layout_alignEnd="@+id/textView63"
+        android:layout_marginRight="9dp"
+        android:layout_marginEnd="9dp" />
 
     <Button
         android:text="Efeitos Fisiológicos"
@@ -190,10 +193,9 @@
         android:id="@+id/bt_efeitos_ultrasom"
         android:textStyle="normal|bold"
         android:padding="5dp"
-        android:layout_alignBottom="@+id/bt_terapeutica_ultrasom"
-        android:layout_alignRight="@+id/botaoVoltarUltrassom"
-        android:layout_alignEnd="@+id/botaoVoltarUltrassom"
-        android:layout_marginBottom="60dp" />
+        android:layout_marginBottom="12dp"
+        android:layout_above="@+id/bt_terapeutica_ultrasom"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:text="Voltar para Início"

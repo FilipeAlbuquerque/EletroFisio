@@ -24,7 +24,7 @@
             android:background="@drawable/fundo_caixa_texto"
             android:hint="Digite seu usuário"
             android:padding="16dp"
-            android:textColor="@android:color/white"
+            android:textColor="?attr/colorPrimaryDark"
             android:textColorHighlight="#013105"
             android:textColorHint="#013105"
             tools:ignore="HardcodedText" />
@@ -40,7 +40,7 @@
             android:background="@drawable/fundo_caixa_texto"
             android:hint="Digite seu email"
             android:padding="16dp"
-            android:textColor="@android:color/white"
+            android:textColor="?attr/colorPrimaryDark"
             android:textColorHint="#013105"
             tools:ignore="HardcodedText,TextFields" />
 
@@ -57,7 +57,7 @@
             android:hint="Digite sua senha"
             android:inputType="textPassword"
             android:padding="16dp"
-            android:textColor="@android:color/white"
+            android:textColor="?attr/colorPrimaryDark"
             android:textColorHint="#013105"
             tools:ignore="HardcodedText" />
 
@@ -71,6 +71,7 @@
             android:layout_marginTop="21dp"
             android:background="@drawable/fundo_botao"
             android:text="@string/botao_cadastro"
+            android:textColor="@color/colorPrimaryDark"
             android:textColorHint="#013105"
             android:textStyle="bold" />
 
